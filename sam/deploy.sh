@@ -5,6 +5,8 @@ REGION=us-east-1
 S3_BUCKET=us-east-1-sam-bucket
 TEMPLATE=template.yaml
 
+BRANCH=$(git rev-parse --abbrev-ref HEAD)
+
 if [[ "$BRANCH" != "master" ]]; then
   echo 'Not on [master] branch - Aborting';
   exit 1;
