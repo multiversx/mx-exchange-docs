@@ -32,6 +32,11 @@ Resources:
       DistributionConfig:
         Enabled: true
         PriceClass: PriceClass_100
+        CustomErrorResponses:
+          - ErrorCode: 404
+            ErrorCachingMinTTL: 60
+            ResponseCode: 200
+            ResponsePagePath: "/index.html"
         Aliases:
           - docs.maiar.exchange
         Origins:
@@ -42,14 +47,15 @@ Resources:
               HTTPSPort: "443"
               OriginProtocolPolicy: http-only
         ViewerCertificate:
-          AcmCertificateArn: "arn:aws:acm:us-east-1:777241893292:certificate/4fc48d4f-75c1-4bb9-983f-0c49b1fc44e1"
+          AcmCertificateArn: "arn:aws:acm:us-east-1:777241893292:certificate/125b7a46-32b0-4bb1-98af-db25ef0c3542"
           MinimumProtocolVersion: TLSv1
           SslSupportMethod: sni-only
         DefaultCacheBehavior:
           MaxTTL: 60
           DefaultTTL: 60
-          Compress: true
           ForwardedValues:
             QueryString: false
+            Headers:
+              - CloudFront-Viewer-Country
           ViewerProtocolPolicy: redirect-to-https
           TargetOriginId: s3-static-site
