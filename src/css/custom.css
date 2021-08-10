@@ -7,13 +7,18 @@
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #25c2a0;
-  --ifm-color-primary-dark: rgb(33, 175, 144);
-  --ifm-color-primary-darker: rgb(31, 165, 136);
-  --ifm-color-primary-darkest: rgb(26, 136, 112);
-  --ifm-color-primary-light: rgb(70, 203, 174);
-  --ifm-color-primary-lighter: rgb(102, 212, 189);
-  --ifm-color-primary-lightest: rgb(146, 224, 208);
+  --ifm-color-primary: #1f43f6;
+  --ifm-color-primary-dark: #0a30f0;
+  --ifm-color-primary-darker: #092de2;
+  --ifm-color-primary-darkest: #0725ba;
+  --ifm-color-primary-light: #3a59f7;
+  --ifm-color-primary-lighter: #4765f8;
+  --ifm-color-primary-lightest: #6f86f9;
+  --ifm-color-secondary: #9ba5b4;
+  --ifm-footer-background-color: #fff;
+  --ifm-footer-color: #9ba5b4;
+  --ifm-footer-padding-vertical: 3rem;
+  --ifm-footer-link-hover-color: #fff;
   --ifm-code-font-size: 95%;
 }
 
@@ -24,6 +29,34 @@
   padding: 0 var(--ifm-pre-padding);
 }
 
-html[data-theme='dark'] .docusaurus-highlight-code-line {
-  background-color: rgba(0, 0, 0, 0.3);
+.navbar__title {
+  color: #9ba5b4;
+  margin-bottom: 2px;
+  font-size: 1rem;
+  font-weight: 200;
+  border-left: 1px solid #9ba5b4;
+  padding-left: 0.7rem;
+}
+.footer {
+  font-weight: 300;
+  font-size: 14px;
+}
+.footer--dark {
+  --ifm-footer-background-color: #303846;
+  --ifm-footer-color: #fff;
+}
+.footer__title {
+  font-weight: 400;
+}
+.footer__link-item:hover {
+  text-decoration: none;
+}
+.footer__copyright {
+  margin-top: 3rem;
+}
+html[data-theme="dark"] .docusaurus-highlight-code-line {
+  background-color: #18191a;
+}
+html[data-theme="dark"] .navbar__brand img {
+  filter: invert(100%);
 }

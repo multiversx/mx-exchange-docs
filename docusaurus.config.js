@@ -1,83 +1,106 @@
-const lightCodeTheme = require('prism-react-renderer/themes/github');
-const darkCodeTheme = require('prism-react-renderer/themes/dracula');
+const lightCodeTheme = require("prism-react-renderer/themes/github");
+const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
-  url: 'https://your-docusaurus-test-site.com',
-  baseUrl: '/',
-  onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  title: "Docs",
+  tagline: "Maiar Exchange Docs",
+  url: "https://docs.maiar.exchange",
+  baseUrl: "/",
+  onBrokenLinks: "throw",
+  onBrokenMarkdownLinks: "warn",
+  favicon: "img/favicon.ico",
+  organizationName: "Elrond Network", // Usually your GitHub org/user name.
+  projectName: "docs.maiar.exchange", // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: 'My Site',
+      title: "Exchange Docs",
       logo: {
-        alt: 'My Site Logo',
-        src: 'img/logo.svg',
+        alt: "Maiar",
+        src: "img/logo.svg",
       },
       items: [
         {
-          type: 'doc',
-          docId: 'intro',
-          position: 'left',
-          label: 'Tutorial',
-        },
-        {to: '/blog', label: 'Blog', position: 'left'},
-        {
-          href: 'https://github.com/facebook/docusaurus',
-          label: 'GitHub',
-          position: 'right',
+          type: "doc",
+          docId: "intro",
+          position: "left",
+          label: "Intro",
         },
       ],
     },
     footer: {
-      style: 'dark',
+      style: "dark",
       links: [
         {
-          title: 'Docs',
+          title: "Docs",
           items: [
             {
-              label: 'Tutorial',
-              to: '/docs/intro',
+              label: "What Is Maiar DEX?",
+              to: "/docs/intro",
+            },
+            {
+              label: "Liquidity Pools",
+              to: "/docs/liquidity-pools",
+            },
+            {
+              label: "What Is Maiar DEX?",
+              to: "/docs/token-swaps",
+            },
+            {
+              label: "Yield Farming",
+              to: "/docs/yield-farming",
             },
           ],
         },
         {
-          title: 'Community',
+          title: "Architecture",
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              label: "Router Smart Contract",
+              to: "/docs/maiar-dex-architecture/pair-smart-contract",
             },
             {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
+              label: "Pair Smart Contract",
+              to: "/docs/maiar-dex-architecture/router-smart-contract",
             },
             {
-              label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
+              label: "Farms",
+              to: "/docs/maiar-dex-architecture/farms",
             },
           ],
         },
         {
-          title: 'More',
+          title: "Exchange",
           items: [
             {
-              label: 'Blog',
-              to: '/blog',
+              label: "Swap",
+              href: "https://devnet.maiar.exchange/swap",
             },
             {
-              label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              label: "Liquidity",
+              href: "https://devnet.maiar.exchange/liquidity",
+            },
+            {
+              label: "Farms",
+              href: "https://devnet.maiar.exchange/farms",
+            },
+          ],
+        },
+        {
+          title: "More",
+          items: [
+            {
+              label: "Blog",
+              href: "https://elrond.com/blog/maiar-exchange/",
+            },
+            {
+              label: "FAQ",
+              href: "https://elrond.com/blog/maiar-exchange-mex-tokenomics/",
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `© ${new Date().getFullYear()} Elrond Network. Made with ❤️ by the Elrond team.`,
     },
     prism: {
       theme: lightCodeTheme,
@@ -86,22 +109,22 @@ module.exports = {
   },
   presets: [
     [
-      '@docusaurus/preset-classic',
+      "@docusaurus/preset-classic",
       {
         docs: {
-          sidebarPath: require.resolve('./sidebars.js'),
+          sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/',
+            "https://github.com/facebook/docusaurus/edit/master/website/",
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/blog/',
+            "https://github.com/facebook/docusaurus/edit/master/website/blog/",
         },
         theme: {
-          customCss: require.resolve('./src/css/custom.css'),
+          customCss: require.resolve("./src/css/custom.css"),
         },
       },
     ],

@@ -1,0 +1,30 @@
+{
+  "short_name": "Maiar · Launchpad",
+  "name": "Maiar · Launchpad",
+  "dir": "ltr",
+  "lang": "en",
+  "icons": [
+    {
+      "src": "apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "favicon-256x256.png",
+      "sizes": "256x256",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "favicon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ],
+  "start_url": ".",
+  "display": "minimal-ui",
+  "theme_color": "#e7ebf7",
+  "background_color": "#e7ebf7"
+}
