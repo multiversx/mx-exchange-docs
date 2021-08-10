@@ -15,11 +15,18 @@
   --ifm-color-primary-lighter: #4765f8;
   --ifm-color-primary-lightest: #6f86f9;
   --ifm-color-secondary: #9ba5b4;
+
+  --ifm-navbar-link-color: #9ba5b4;
+
   --ifm-footer-background-color: #fff;
   --ifm-footer-color: #9ba5b4;
   --ifm-footer-padding-vertical: 3rem;
   --ifm-footer-link-hover-color: #fff;
+
   --ifm-code-font-size: 95%;
+  --ifm-font-weight-semibold: 400;
+
+  --ifm-heading-font-weight: 500;
 }
 
 .docusaurus-highlight-code-line {
@@ -29,14 +36,32 @@
   padding: 0 var(--ifm-pre-padding);
 }
 
+.navbar {
+  border-bottom: 1px solid var(--ifm-toc-border-color) !important;
+  box-shadow: 0 0.125rem 0.625rem rgba(27, 70, 194, 0.12);
+}
 .navbar__title {
   color: #9ba5b4;
-  margin-bottom: 2px;
+  margin-bottom: 1px;
   font-size: 1rem;
   font-weight: 200;
   border-left: 1px solid #9ba5b4;
   padding-left: 0.7rem;
 }
+
+.h1Heading_node_modules-\@docusaurus-theme-classic-lib-next-theme-Heading-styles-module {
+  font-size: 2.5rem !important;
+}
+
+@media (min-width: 1200px) {
+  .menu {
+    padding-top: 2.5rem !important;
+  }
+  article div:first-child {
+    padding-top: 1rem;
+  }
+}
+
 .footer {
   font-weight: 300;
   font-size: 14px;
@@ -53,6 +78,9 @@
 }
 .footer__copyright {
   margin-top: 3rem;
+  font-size: 12px;
+  font-weight: 300rem;
+  color: var(--ifm-color-secondary);
 }
 html[data-theme="dark"] .docusaurus-highlight-code-line {
   background-color: #18191a;

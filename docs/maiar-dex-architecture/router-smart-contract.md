@@ -1,5 +1,5 @@
 ---
-sidebar_position: 1
+sidebar_position: 2
 ---
 
 # Router Smart Contract
@@ -13,5 +13,6 @@ Router SC provides a series of view functions which will be used extensively on 
 Besides the above mentioned functionality for the Factory Module the two most important aspects for this are the ability to create and upgrade a Pair Smart Contract. As described above, the Router SC is an interface between the user and the Factory Module. Deploying a new Pair SC results in a new address provided by the metachain for two associated tokens. The address is added to the Factory Module storage and can be queried by the user. Performing this action requires the need for the Pair SC bytecode.
 
 The Router smart contract will also call several functions to issue and set roles for the ESDT tokens given by the Pair Smart contract:
-Issue ESDT token - will issue a new ESDT token for the given Pair contract
-SetLocalRoles - set local burn and local mint roles for the given Pair contract - this gives the possibility for the Pair contract to be able to mint and burn tokens locally.
+
+1. Issue ESDT token - will issue a new ESDT token for the given Pair contract
+2. SetLocalRoles - set local burn and local mint roles for the given Pair contract - this gives the possibility for the Pair contract to be able to mint and burn tokens locally.

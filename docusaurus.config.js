@@ -19,14 +19,28 @@ module.exports = {
         alt: "Maiar",
         src: "img/logo.svg",
       },
-      items: [
-        {
-          type: "doc",
-          docId: "intro",
-          position: "left",
-          label: "Intro",
-        },
-      ],
+      // items: [
+      //   {
+      //     type: "doc",
+      //     docId: "intro",
+      //     label: "Intro",
+      //   },
+      //   {
+      //     type: "doc",
+      //     docId: "liquidity-pools",
+      //     label: "Liquidity Pools",
+      //   },
+      //   {
+      //     type: "doc",
+      //     docId: "token-swaps",
+      //     label: "Token Swaps",
+      //   },
+      //   {
+      //     type: "doc",
+      //     docId: "yield-farming",
+      //     label: "Yield Farming",
+      //   },
+      // ],
     },
     footer: {
       style: "dark",
@@ -36,19 +50,19 @@ module.exports = {
           items: [
             {
               label: "What Is Maiar DEX?",
-              to: "/docs/intro",
+              to: "/intro",
+            },
+            {
+              label: "Token Swaps",
+              to: "/token-swaps",
             },
             {
               label: "Liquidity Pools",
-              to: "/docs/liquidity-pools",
-            },
-            {
-              label: "What Is Maiar DEX?",
-              to: "/docs/token-swaps",
+              to: "/liquidity-pools",
             },
             {
               label: "Yield Farming",
-              to: "/docs/yield-farming",
+              to: "/yield-farming",
             },
           ],
         },
@@ -57,15 +71,15 @@ module.exports = {
           items: [
             {
               label: "Router Smart Contract",
-              to: "/docs/maiar-dex-architecture/pair-smart-contract",
+              to: "/maiar-dex-architecture/router-smart-contract",
             },
             {
               label: "Pair Smart Contract",
-              to: "/docs/maiar-dex-architecture/router-smart-contract",
+              to: "/maiar-dex-architecture/pair-smart-contract",
             },
             {
               label: "Farms",
-              to: "/docs/maiar-dex-architecture/farms",
+              to: "/maiar-dex-architecture/farms",
             },
           ],
         },
@@ -113,15 +127,7 @@ module.exports = {
       {
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
-          // Please change this to your repo.
-          editUrl:
-            "https://github.com/facebook/docusaurus/edit/master/website/",
-        },
-        blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          editUrl:
-            "https://github.com/facebook/docusaurus/edit/master/website/blog/",
+          routeBasePath: "/",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),

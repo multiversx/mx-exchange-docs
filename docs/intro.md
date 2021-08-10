@@ -1,5 +1,7 @@
 ---
 sidebar_position: 1
+id: intro
+slug: /
 ---
 
 # What Is Maiar DEX?
