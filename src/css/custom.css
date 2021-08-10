@@ -53,6 +53,11 @@
   font-size: 2.5rem !important;
 }
 
+.react-toggle-track-check span,
+.react-toggle-track-x span {
+  filter: brightness(1000%);
+}
+
 .footer {
   font-weight: 300;
   font-size: 14px;

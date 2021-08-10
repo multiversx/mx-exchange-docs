@@ -105,6 +105,19 @@ module.exports = {
       theme: lightCodeTheme,
       darkTheme: darkCodeTheme,
     },
+    colorMode: {
+      defaultMode: "light",
+      disableSwitch: false,
+      respectPrefersColorScheme: true,
+      switchConfig: {
+        darkIcon: "🌙",
+        lightIcon: "\u2600",
+        // React inline style object
+        // see https://reactjs.org/docs/dom-elements.html#style
+        darkIconStyle: { marginLeft: "2px" },
+        lightIconStyle: { marginLeft: "1px" },
+      },
+    },
   },
   presets: [
     [
