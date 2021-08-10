@@ -35,7 +35,7 @@ module.exports = {
           items: [
             {
               label: "What Is Maiar DEX?",
-              to: "/intro",
+              to: "/",
             },
             {
               label: "Token Swaps",
