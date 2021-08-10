@@ -3,14 +3,14 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-  title: "Docs",
+  title: "Maiar Exchange Docs",
   tagline: "Maiar Exchange Docs",
   url: "https://docs.maiar.exchange",
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
-  organizationName: "Elrond Network", // Usually your GitHub org/user name.
+  organizationName: "ElrondNetwork", // Usually your GitHub org/user name.
   projectName: "docs.maiar.exchange", // Usually your repo name.
   themeConfig: {
     navbar: {
@@ -19,28 +19,13 @@ module.exports = {
         alt: "Maiar",
         src: "img/logo.svg",
       },
-      // items: [
-      //   {
-      //     type: "doc",
-      //     docId: "intro",
-      //     label: "Intro",
-      //   },
-      //   {
-      //     type: "doc",
-      //     docId: "liquidity-pools",
-      //     label: "Liquidity Pools",
-      //   },
-      //   {
-      //     type: "doc",
-      //     docId: "token-swaps",
-      //     label: "Token Swaps",
-      //   },
-      //   {
-      //     type: "doc",
-      //     docId: "yield-farming",
-      //     label: "Yield Farming",
-      //   },
-      // ],
+      items: [
+        {
+          type: "doc",
+          docId: "intro",
+          label: "Docs",
+        },
+      ],
     },
     footer: {
       style: "dark",

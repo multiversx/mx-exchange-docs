@@ -53,15 +53,6 @@
   font-size: 2.5rem !important;
 }
 
-@media (min-width: 1200px) {
-  .menu {
-    padding-top: 2.5rem !important;
-  }
-  article div:first-child {
-    padding-top: 1rem;
-  }
-}
-
 .footer {
   font-weight: 300;
   font-size: 14px;
@@ -87,4 +78,19 @@ html[data-theme="dark"] .docusaurus-highlight-code-line {
 }
 html[data-theme="dark"] .navbar__brand img {
   filter: invert(100%);
+}
+
+@media (min-width: 1200px) {
+  .menu {
+    padding-top: 2.5rem !important;
+  }
+  article div:first-child {
+    padding-top: 1rem;
+  }
+}
+
+@media (min-width: 996px) {
+  .navbar__link {
+    display: none;
+  }
 }
