@@ -27,7 +27,7 @@ Well, a number of things:
 
 **NFT LP Tokens**: trade, collateralize - Providing liquidity on the Maiar Exchange gives you LP tokens, like most AMM DEXes. Uniquely in the space, the Maiar Exchage LP tokens are tradeable. This means you can provide liquidity, then sell your position, or take a loan against it (use LP tokens as collateral). Awesome and a DeFi first, because of Elrond’s unique ESDT (Elrond Standard Digital Token) architecture.
 
-**Maiar App**: onboarding, 2FA - You can use Elrond’s (Maiar app)[https://getmaiar.com/app] to login and sign transactions on the Maiar Exchange. As secure as a Ledger hardware wallet, as convenient as Face ID + tapping on the screen.
+**Maiar App**: onboarding, 2FA - You can use Elrond’s [Maiar app](https://getmaiar.com/app) to login and sign transactions on the Maiar Exchange. As secure as a Ledger hardware wallet, as convenient as Face ID + tapping on the screen.
 
 Additionally, Maiar is super easy to use - it automatically and securely creates a wallet in seconds, using just a phone number (not shared, only a hash of it is used one time for wallet creation). ~500k users use Maiar, and it was just launched in February ~ 6 months ago.
 

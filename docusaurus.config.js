@@ -118,7 +118,7 @@ module.exports = {
             },
             {
               label: "FAQ",
-              href: "https://elrond.com/blog/maiar-exchange-mex-tokenomics/",
+              href: "/faq",
             },
           ],
         },
