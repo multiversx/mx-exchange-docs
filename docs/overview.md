@@ -23,7 +23,7 @@ It's a DEX AMM running on the Elrond Network. It is built by the same team that 
 
 Well, a number of things:
 
-**State Sharding** - The Elrond blockchain is the first live blockchain with state sharding. Other chains with similar architectures, such as Ethereum 2.0, are still in development or are yet to enable state sharding. Anyone who wants to understand sharded DeFi should pay attention to Elrond DeFi.
+**State Sharding**: The Elrond blockchain is the first live blockchain with state sharding. Other chains with similar architectures, such as Ethereum 2.0, are still in development or are yet to enable state sharding. Anyone who wants to understand sharded DeFi should pay attention to Elrond DeFi.
 
 **NFT LP Tokens**: trade, collateralize - Providing liquidity on the Maiar Exchange gives you LP tokens, like most AMM DEXes. Uniquely in the space, the Maiar Exchage LP tokens are tradeable. This means you can provide liquidity, then sell your position, or take a loan against it (use LP tokens as collateral). Awesome and a DeFi first, because of Elrond’s unique ESDT (Elrond Standard Digital Token) architecture.
 
