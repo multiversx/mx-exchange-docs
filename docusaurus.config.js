@@ -22,7 +22,7 @@ module.exports = {
       items: [
         {
           type: "doc",
-          docId: "intro",
+          docId: "overview",
           label: "Docs",
         },
       ],
@@ -38,7 +38,7 @@ module.exports = {
               to: "/",
             },
             {
-              label: "Token Swaps",
+              label: "Swaps",
               to: "/token-swaps",
             },
             {
@@ -46,8 +46,8 @@ module.exports = {
               to: "/liquidity-pools",
             },
             {
-              label: "Yield Farming",
-              to: "/yield-farming",
+              label: "Farming",
+              to: "/farming",
             },
           ],
         },

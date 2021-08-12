@@ -1,8 +1,8 @@
 ---
-sidebar_position: 8
+sidebar_position: 3
 ---
 
-# Testing guideline
+# How to test
 
 ## Before you start testing, here’s what you need to know:
 
