@@ -29,7 +29,7 @@ sidebar_position: 3
 1. Go to [devnet-wallet.elrond.com](https://devnet-wallet.elrond.com)
 2. Log in with your Maiar App, or Web wallet
 3. Click on the Faucet button and request test xEGLD
-4. Go to [devnet.maiar.com](https://devnet.maiar.com)
+4. Go to [devnet.maiar.exchange](https://devnet.maiar.exchange)
 5. Login using the same Maiar App or Web Wallet as in Step 2
 
 ### Step 2: Start testing the liquidity flows and provide feedback
