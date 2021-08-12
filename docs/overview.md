@@ -4,7 +4,7 @@ id: overview
 slug: /
 ---
 
-# The Maiar Exchange overview
+# Welcome to Maiar DEX ⚡
 
 ![img](/docs/maiar-exchange-overview.png)
 
