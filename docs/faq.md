@@ -20,9 +20,9 @@ You can use a Swap to trade one token for another, based on the available token 
 
 Liquidity Pools are smart contracts that hold the reserve of the two tokens for a particular Swap pair. Liquidity can be deposited in token amounts that are equal in USD value. The exchange automatically calculates this ratio based on the amount typed in by the user.
 
-There is no limit to the amount of tokens that can be deposited in a liquidity pool - the more, the better. The proportion between the token amounts is always x * y = k - read the docs for an in-depth explanation.
+There is no limit to the amount of tokens that can be deposited in a liquidity pool - the more, the better. The proportion between the token amounts is always x \* y = k - read the docs for an in-depth explanation.
 
-## How to Add/Remove Liquidity 
+## How to Add/Remove Liquidity
 
 You can add tokens to the available liquidity pools by selecting the corresponding pair, i.e. TKN1/TKN2. You can only add amounts of TKN1 and TKN2 that are equal in USD value.
 
@@ -65,13 +65,27 @@ LKMEX tokens always have the same value as MEX, but a different utility.
 Utility:
 
 - Staking LKMEX in the MEX Staking Farm for rewards
-- Add liquidity to MEX pools*
+- Add liquidity to MEX pools\*
 
-*The deposited LKMEX are locked in a special smart contract that deposits the equivalent amount of unlocked MEX on the user’s behalf. The unlocked MEX comes from a dedicated MEX Liquidity Reserve.
+\*The deposited LKMEX are locked in a special smart contract that deposits the equivalent amount of unlocked MEX on the user’s behalf. The unlocked MEX comes from a dedicated MEX Liquidity Reserve.
 
 **Each month (every 30 epochs) a new Locked MEX (LKMEX) is created that will start to be unlocked after 1 year (16.66% per month for the next 6 months).**
 
 This means there are multiple Locked MEX tokens, each with different unlock schedules. There can be Locked MEX #10 which unlocks in October 2022, and Locked MEX 12 which unlocks in December 2022. Locked MEX #10 and Locked MEX #12 will always have the same value as the spot value of MEX, but they will be gradually unlocked according to the schedule.
+
+## What is the LKMEX time lock mechanism?
+
+LKMEX tokens start unlocking 1 year after their creation, 16.66% each month, meaning it is fully unlocked after 18 months.
+
+To keep the locking schedule simplified, LKMEX is always locked on the 1st of each month. This means that if you earn LKMEX on different days in March, for example, you will always get LKMEX tokens with the 01 March lock schedule.
+
+## How are Locked MEX tokens merged?
+
+Locked MEX rewards are issued as tokens with a lock schedule that starts exactly when the first locked rewards become available. This results in a number of rewards with different locked schedules.
+
+To keep things simple, they are periodically and automatically consolidated into a single type of locked token, with a single unlock schedule, which is always set to the 1st of that month.
+
+For example, if you stake LP tokens on 01 March, 13 March and 27 March, you will get 3 types of tokens, with unlock schedules starting on 01 March, 13 March and 27 March. They will be consolidated so the unlock schedule for all of them is set to 01 March.
 
 ## How many MEX tokens are there?
 
@@ -81,17 +95,19 @@ The MEX supply for Year 1 after launch will be 7,531,200,000 MEX tokens. The MEX
 
 Security is a top priority. A portion of the MEX supply has been set aside for funding periodic and exhaustive security audits, as well as future bounty programs, for all the Maiar Exchange components, from smart contracts to front-end components.
 
-## What is the LKMEX time lock mechanism?
-
-LKMEX tokens start unlocking 1 year after their creation, 16.66% each month, meaning it is fully unlocked after 18 months.
-
-To keep the locking schedule simplified, LKMEX is always locked on the 1st of each month. This means that if you earn LKMEX on different days in March, for example, you will always get LKMEX tokens with the 01 March lock schedule.
-
 ## What is Wrapped EGLD?
 
 The Maiar Exchange Smart Contracts work with ESDT tokens. EGLD is the native coin of the Elrond Network and needs to be wrapped as an ESDT token to work in Maiar Exchange.
 
 Wrapped EGLD is used for each action that requires EGLD, such as swapping EGLD for another token, or depositing EGLD in a liquidity pool. The wrapping and unwrapping actions are automated by the interface.
+
+## What is the purpose of the 1% penalty for withdrawing less than 72h after a liquidity deposit?
+
+This penalty is in place to encourage long term liquidity providing and deter liquidity manipulation. 1% is small enough to enable flexibility for regular liquidity providers and large enough to defend against repeated deposits and withdrawals, which would have a negative impact on the stability of the liquidity pool.
+
+Any action of depositing liquidity, such as adding more liquidity (consolidation) or staking rewards in the MEX farm (compounding) resets the enter moment to the current epoch. The penalty then extends for the duration of the next 3 epochs.
+
+1 epoch = 24 hours. An epoch starts each day at ~14:30 UTC
 
 ## What is the Impermanent Loss (IL)?
 

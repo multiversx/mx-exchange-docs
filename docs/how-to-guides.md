@@ -10,9 +10,9 @@ sidebar_position: 7
 
 - Ledger - use your Ledger hardware wallet to connect. You will be prompted to confirm actions taken on the exchange on your device.
 
-- Elrond Web wallet - you can login using a .JSON file + password. You will be prompted to login for every action. 
+- Elrond Web wallet - you can login using a .JSON file + password. You will be prompted to login for every action.
 
-Tip: As a neat trick, you can save the password in your browser. We however recommend one of the 2FA options mentioned above - Maiar or Ledger.
+_Tip: As a neat trick, you can save the password in your browser. We however recommend one of the 2FA options mentioned above - Maiar or Ledger._
 
 ## How to Swap
 
@@ -27,7 +27,7 @@ Tip: As a neat trick, you can save the password in your browser. We however reco
 9. You will be asked to confirm 2 transactions (wrap EGLD, swap token), as per your login method -> confirm
 10. The 2 transactions will be sent and your new balances will be automatically updated, pending the transactions’ execution
 
-## How to Add/Remove Liquidity 
+## How to Add/Remove Liquidity
 
 1. Log into the Maiar Exchange
 2. Select “Liquidity” from the top menu
@@ -36,7 +36,7 @@ Tip: As a neat trick, you can save the password in your browser. We however reco
 5. Enter the amount of tokens to add
 6. Select slippage (0.1% by default)
 7. Click on continue
-8. You will be asked to confirm 4 transactions*, as per your login method -> confirm
+8. You will be asked to confirm 4 transactions\*, as per your login method -> confirm
 
 The 4 transactions will be sent and your new balances will be automatically updated, pending the transactions’ execution
 
