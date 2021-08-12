@@ -6,6 +6,8 @@ sidebar_position: 5
 
 ## Login
 
+<img src="/docs/how-to-login.png" width="500" />
+
 - Maiar Login - scan a QR code with your Maiar App and connect your Maiar wallet to the exchange. Your Maiar app will then be used to sign all your actions on the exchange.
 
 - Ledger - use your Ledger hardware wallet to connect. You will be prompted to confirm actions taken on the exchange on your device.
@@ -15,6 +17,8 @@ sidebar_position: 5
 _Tip: As a neat trick, you can save the password in your browser. We however recommend one of the 2FA options mentioned above - Maiar or Ledger._
 
 ## Swap
+
+<img src="/docs/how-to-swap.png" width="500" />
 
 1. Log into the Maiar Exchange
 2. Select “Swap” from the top menu
@@ -28,6 +32,8 @@ _Tip: As a neat trick, you can save the password in your browser. We however rec
 10. The 2 transactions will be sent and your new balances will be automatically updated, pending the transactions’ execution
 
 ## Add Liquidity
+
+<img src="/docs/how-to-add-liquidity.png" width="500" />
 
 1. Log into the Maiar Exchange
 2. Select “Liquidity” from the top menu
@@ -60,6 +66,8 @@ Tip: you can add LKMEX tokens to the EGLD/MEX liquidity pool. Your LKMEX will be
 Tip: you need LP Tokens to be able to remove liquidity. If your “My Liquidity” is empty, remove the LP tokens from the farm first.
 
 ## MEX Farm
+
+![img](/docs/mex-farm.png)
 
 ### Staking:
 
