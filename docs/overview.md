@@ -25,15 +25,15 @@ Well, a number of things:
 
 **State Sharding** - The Elrond blockchain is the first live blockchain with state sharding. Other chains with similar architectures, such as Ethereum 2.0, are still in development or are yet to enable state sharding. Anyone who wants to understand sharded DeFi should pay attention to Elrond DeFi.
 
-**NFT LP Tokens**: trade, collateral - Providing liquidity on the Maiar Exchange gives you LP tokens, like any other AMM DEX. Uniquely in the space, the Maiar Exchage LP tokens are tradeable. This mean you can provide liquidity, then sell your position, or take a loan against it (use LP tokens as collateral). Awesome and a DeFi first, because of Elrond's unique ESDT (Elrond Standard Digital Token) architecture
+**NFT LP Tokens**: trade, collateralize - Providing liquidity on the Maiar Exchange gives you LP tokens, like most AMM DEXes. Uniquely in the space, the Maiar Exchage LP tokens are tradeable. This means you can provide liquidity, then sell your position, or take a loan against it (use LP tokens as collateral). Awesome and a DeFi first, because of Elrond’s unique ESDT (Elrond Standard Digital Token) architecture.
 
-**Maiar App**: onboarding, 2FA - You can use Elrond's Maiar app to login and sign transactions on the Maiar Exchange. As secure as a Ledger hardware wallet, as convenient as Face ID + tapping on the screen.
+**Maiar App**: onboarding, 2FA - You can use Elrond’s (Maiar app)[https://getmaiar.com/app] to login and sign transactions on the Maiar Exchange. As secure as a Ledger hardware wallet, as convenient as Face ID + tapping on the screen.
 
-Plus, Maiar is super easy to use - it automatically and securely creates a wallet in seconds, using just a phone number (not shared, only a hash of it is used one time for wallet creation). ~500k users use Maiar, and it was just launched in February ~ 6 months ago.
+Additionally, Maiar is super easy to use - it automatically and securely creates a wallet in seconds, using just a phone number (not shared, only a hash of it is used one time for wallet creation). ~500k users use Maiar, and it was just launched in February ~ 6 months ago.
 
 ## Why is the Maiar Exchange important?
 
-The Elrond ecosystem has 200+ partners. Once the Maiar Exchange launches, their tokens will be able to have liquidity. This means their community will be able to buy their tokens. This will generate adoption for the Maiar Exchange, volume, and generate more transactions on the Elrond blockchain, increasing demand for EGLD in the process.
+The Elrond ecosystem has 200+ partners. Once the Maiar Exchange launches, their tokens will be able to have liquidity. This means their community will be able to trade their tokens. This will generate adoption for the Maiar Exchange, volume, and generate more transactions on the Elrond blockchain, increasing demand for EGLD in the process.
 
 ## When will Maiar Exchange launch?
 
