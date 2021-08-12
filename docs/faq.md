@@ -91,7 +91,7 @@ For LKMEX distributed to EGLD holders during the pre-launch snapshot periods, th
 
 For LKMEX earned as “locked rewards”:
 
-- The first 16% are unlocked after 390 epochs, 16% unlocked every 30 epochs after that
+- The first 16.66% are unlocked after 390 epochs, 16.66% unlocked every 30 epochs after that
 
 To reduce complexity, LKMEX tokens issued over the course of one month will have the same unlock schedule.
 
