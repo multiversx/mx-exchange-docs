@@ -37,8 +37,7 @@ The Elrond ecosystem has 200+ partners. Once the Maiar Exchange launches, their 
 
 ## When will Maiar Exchange launch?
 
-Probably end of next month. Currently in private testing mode with select community members, the Maiar Exchange will soon go in public testing, with an incentivized test event.
-It will then launch shortly after, to the ~500k Maiar app users and 650k+ mainnet accounts, with 6s block times and $0.001 USD tx fees / $0.04 USD per SC interaction
+Once the Chaos testing phase and Battle of Yields phases end.
 
 ## What is MEX?
 
