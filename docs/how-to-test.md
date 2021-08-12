@@ -2,7 +2,7 @@
 sidebar_position: 3
 ---
 
-# How to test
+# How To Test
 
 ## Before you start testing, here’s what you need to know:
 
