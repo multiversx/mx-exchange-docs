@@ -69,23 +69,44 @@ Utility:
 
 \*The deposited LKMEX are locked in a special smart contract that deposits the equivalent amount of unlocked MEX on the user’s behalf. The unlocked MEX comes from a dedicated MEX Liquidity Reserve.
 
-**Each month (every 30 epochs) a new Locked MEX (LKMEX) is created that will start to be unlocked after 1 year (16.66% per month for the next 6 months).**
+**Each month (every 30 epochs) a new Locked MEX (LKMEX) is created that will start to be unlocked after 1 year (12 x 30 epochs) - 16.66% per month (30 epochs) for the next 6 months.**
 
-This means there are multiple Locked MEX tokens, each with different unlock schedules. There can be Locked MEX #10 which unlocks in October 2022, and Locked MEX 12 which unlocks in December 2022. Locked MEX #10 and Locked MEX #12 will always have the same value as the spot value of MEX, but they will be gradually unlocked according to the schedule.
+This means there are multiple Locked MEX tokens, each with different unlock schedules. There can be Locked MEX #10 which unlocks in October 2022, and Locked MEX 11 which unlocks in November 2022. Locked MEX #10 and Locked MEX #11 will always have the same value as the spot value of MEX, but they will be gradually unlocked according to a different schedule.
 
-## What is the LKMEX time lock mechanism?
+To keep things simple, these tokens are periodically merged, without affecting the unlock schedule or amounts.
 
-LKMEX tokens start unlocking 1 year after their creation, 16.66% each month, meaning it is fully unlocked after 18 months.
+## What is the LKMEX time lock mechanism and unlock schedule?
 
-To keep the locking schedule simplified, LKMEX is always locked on the 1st of each month. This means that if you earn LKMEX on different days in March, for example, you will always get LKMEX tokens with the 01 March lock schedule.
+The Maiar Exchange chronology begins on the day of its deployment. That is day 1 and all lock mechanisms evolve around this date.
+
+This means the LKMEX time lock mechanism begins on the day of the Maiar Exchange deployment.
+
+The Elrond blockchain chronology revolves around epochs of 24 hours. 1 month is thus considered to be 30 epochs. 1 month is 30 epochs. 1 year is 12 x 30 = 360 epochs.
+
+The LKMEX lock mechanism starts as soon as they become available, so before they are claimed.
+
+For LKMEX distributed to EGLD holders during the pre-launch snapshot periods, the unlock schedule is as follows:
+
+10% unlocked at launch
+15% unlocked every 30 epochs after 1 year
+
+For LKMEX earned as “locked rewards”:
+The first 16% are unlocked after 390 epochs
+16% unlocked every 30 epochs after that
+
+To reduce complexity, LKMEX tokens issued over the course of one month will have the same unlock schedule.
+
+For example, assuming the Exchange is deployed on the 01 of the month:
+
+LKMEX tokens issued on 01 March, 13 March and 27 March, will all be locked with 01 March as the starting schedule.
 
 ## How are Locked MEX tokens merged?
 
-Locked MEX rewards are issued as tokens with a lock schedule that starts exactly when the first locked rewards become available. This results in a number of rewards with different locked schedules.
+Over time, Maiar Exchange users will accumulate multiple different LKMEX tokens, one for each month. To make things easier for them, the Exchange will periodically and automatically consolidate these tokens, without changing their unlock schedule.
 
-To keep things simple, they are periodically and automatically consolidated into a single type of locked token, with a single unlock schedule, which is always set to the 1st of that month.
+This has the benefit of allowing users to manage their LKMEX easier and with less gas cost.
 
-For example, if you stake LP tokens on 01 March, 13 March and 27 March, you will get 3 types of tokens, with unlock schedules starting on 01 March, 13 March and 27 March. They will be consolidated so the unlock schedule for all of them is set to 01 March.
+For example, instead of 10 different tokens, each with 10 different unlock schedules, you get 1 token, with 10 different unlock schedules. The unlock schedules remain the same and unlocked MEX will be released towards the user as planned.
 
 ## How many MEX tokens are there?
 
