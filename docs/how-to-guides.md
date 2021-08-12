@@ -104,6 +104,8 @@ You can either harvest the rewards individually, all at once, or directly reinve
 
 ## LP Token Farms
 
+![img](/docs/lp-tokens.png)
+
 ### Staking
 
 1. Press “Stake”

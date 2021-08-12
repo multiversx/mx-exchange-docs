@@ -6,6 +6,8 @@ slug: /
 
 # The Maiar Exchange overview
 
+![img](/docs/maiar-exchange-overview.png)
+
 ## What is the Maiar Exchange?
 
 It's a DEX AMM running on the Elrond Network. It is built by the same team that has built the Elrond protocol. You could call it the "official" DEX. There can be any number of DEX-es built on Elrond, but the team wanted to build the first one, because it is special.

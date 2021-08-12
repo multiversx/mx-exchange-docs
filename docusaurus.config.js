@@ -4,7 +4,8 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
   title: "Maiar Exchange Docs",
-  tagline: "Maiar Exchange Docs",
+  tagline:
+    "Internet-scale DeFi: the scalable financial engine of the new internet economy. Powered by the Elrond Network.",
   url: "https://docs.maiar.exchange",
   baseUrl: "/",
   onBrokenLinks: "throw",
@@ -12,6 +13,8 @@ module.exports = {
   favicon: "img/favicon.ico",
   organizationName: "ElrondNetwork", // Usually your GitHub org/user name.
   projectName: "docs.maiar.exchange", // Usually your repo name.
+  // ogImage: "img/share.png",
+  // twitterImage: "img/share.png",
   themeConfig: {
     navbar: {
       title: "Exchange Docs",
