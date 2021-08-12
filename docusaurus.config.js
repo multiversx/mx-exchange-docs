@@ -17,6 +17,26 @@ module.exports = {
   // twitterImage: "img/share.png",
   themeConfig: {
     image: "img/share.png",
+    metadatas: [
+      {
+        name: "twitter:title",
+        content: "Maiar Exchange Docs",
+      },
+      {
+        name: "twitter:description",
+        content:
+          "Internet-scale DeFi: the scalable financial engine of the new internet economy. Powered by the Elrond Network.",
+      },
+      {
+        name: "og:title",
+        content: "Maiar Exchange Docs",
+      },
+      {
+        name: "og:description",
+        content:
+          "Internet-scale DeFi: the scalable financial engine of the new internet economy. Powered by the Elrond Network.",
+      },
+    ],
     navbar: {
       title: "Exchange Docs",
       logo: {
