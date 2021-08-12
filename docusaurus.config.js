@@ -16,6 +16,7 @@ module.exports = {
   // ogImage: "img/share.png",
   // twitterImage: "img/share.png",
   themeConfig: {
+    image: "img/share.png",
     navbar: {
       title: "Exchange Docs",
       logo: {
