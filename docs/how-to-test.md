@@ -4,25 +4,35 @@ sidebar_position: 3
 
 # How To Test
 
-## Before you start testing, here’s what you need to know:
+## Here’s what you need to know before you begin.
 
-1. Your mainnet funds are safe and not used at all in the testing process. If you log in with your existing Maiar App or Ledger, for example, you will see the same address as on the mainnet.
-   The difference is that this is a completely different blockchain, so there is no connection to your mainnet holdings.
-   If this topic is not clear to you and you want to have peace of mind, we understand - this stuff is hard. Simply create a new wallet.
+1. Your mainnet funds are safe and not used at all in the testing process. If you log in with your existing Maiar App or Ledger, for example, you will see the same address as on the mainnet. The difference is that this is a completely different blockchain, so there is no connection to your mainnet holdings. If this topic is not clear to you and you want to have peace of mind, we understand - this stuff is hard. Simply create a new wallet.
+
 2. The Maiar Exchange test platform uses the public devnet blockchain. This means that xEGLD, MEX, BUSD, and other tokens, have no real value there.
+
 3. Some of the values displayed - such as MEX price or APR for farms - are not an indication of the real live platform values - this is just a test.
+
 4. The platform can be slow, unresponsive, or even break. This is exactly what we want to test, so every time you manage to break it, you’ll have done a great job! Please also let us know what happened, so we can fix it.
+
 5. There is no real MEX to be claimed, remember, this is a test.
 
-## Here’s what you need to do to start testing:
+## Time to start testing.
 
-1. Go to [https://devnet-wallet.elrond.com](https://devnet-wallet.elrond.com)
-2. Login with your Maiar App, Ledger, or Web wallet
+<div style={{textAlign: 'center'}}>
+
+![img](/docs/flow.gif)
+
+</div>
+
+### Step 1: Login and claim your test EGLD
+
+1. Go to https://devnet-wallet.elrond.com
+2. Log in with your Maiar App, or Web wallet
 3. Click on the Faucet button and request test xEGLD
-4. Go to [https://devnet.maiar.exchange](https://devnet.maiar.exchange)
-5. Login using the same Maiar App, Ledger, or Web Wallet as in Step 2
+4. Go to https://devnet.maiar.com
+5. Login using the same Maiar App or Web Wallet as in Step 2
 
-Now that you are in, we suggest the following flow:
+### Step 2: Start testing the liquidity flows and provide feedback
 
 1. Swap some xEGLD for MEX & BUSD
 2. Add liquidity in the EGLD/MEX and EGLD/BUSD pools
