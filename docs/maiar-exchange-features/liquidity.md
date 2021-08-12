@@ -6,7 +6,11 @@ sidebar_position: 3
 
 The liquidity pools emerged as an innovative and automated way of solving the liquidity challenge on DEXs. They replace the traditional order book model used by centralized crypto exchanges by using Automated Market Makers (AMM).
 
+<div style={{textAlign: 'center'}}>
+
 ![img](/docs/liquidity-pools.png)
+
+</div>
 
 Liquidity providers are incentivized for their contribution with rewards. When they make a deposit, they receive a new token representing their stake, called a liquidity pool token or LP token.
 

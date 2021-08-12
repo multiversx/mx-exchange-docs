@@ -6,7 +6,11 @@ sidebar_position: 5
 
 ## Login
 
+<div style={{textAlign: 'center'}}>
+
 <img src="/docs/how-to-login.png" width="500" />
+
+</div>
 
 - Maiar Login - scan a QR code with your Maiar App and connect your Maiar wallet to the exchange. Your Maiar app will then be used to sign all your actions on the exchange.
 
@@ -18,7 +22,11 @@ _Tip: As a neat trick, you can save the password in your browser. We however rec
 
 ## Swap
 
+<div style={{textAlign: 'center'}}>
+
 <img src="/docs/how-to-swap.png" width="500" />
+
+</div>
 
 1. Log into the Maiar Exchange
 2. Select “Swap” from the top menu
@@ -33,7 +41,11 @@ _Tip: As a neat trick, you can save the password in your browser. We however rec
 
 ## Add Liquidity
 
+<div style={{textAlign: 'center'}}>
+
 <img src="/docs/how-to-add-liquidity.png" width="500" />
+
+</div>
 
 1. Log into the Maiar Exchange
 2. Select “Liquidity” from the top menu
@@ -67,7 +79,11 @@ Tip: you need LP Tokens to be able to remove liquidity. If your “My Liquidity�
 
 ## MEX Farm
 
+<div style={{textAlign: 'center'}}>
+
 ![img](/docs/mex-farm.png)
+
+</div>
 
 ### Staking:
 
@@ -104,7 +120,11 @@ You can either harvest the rewards individually, all at once, or directly reinve
 
 ## LP Token Farms
 
+<div style={{textAlign: 'center'}}>
+
 ![img](/docs/lp-tokens.png)
+
+</div>
 
 ### Staking
 

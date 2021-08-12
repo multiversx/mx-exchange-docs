@@ -17,7 +17,11 @@ An AMM relies on a mathematical formula to price assets. Instead of using an ord
 
 This formula can vary with each protocol. For example, Maiar DEX uses x \* y = k, where x is the amount of one token in the liquidity pool, and y is the amount of the other. In this formula, k is a fixed constant, meaning the pool’s total liquidity always has to remain the same.
 
+<div style={{textAlign: 'center'}}>
+
 ![img](/docs/apples-pears.png)
+
+</div>
 
 The performance of existing AMM platforms could be significantly improved by rebuilding them on vastly more scalable architectures. By reimagining an Automated Market Maker on top of a highly scalable architecture that is high bandwidth, low latency, and inexpensive, the performance of the swap processes can be drastically improved.
 
