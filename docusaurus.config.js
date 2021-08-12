@@ -31,23 +31,23 @@ module.exports = {
       style: "dark",
       links: [
         {
-          title: "Docs",
+          title: "Features",
           items: [
             {
-              label: "What Is Maiar DEX?",
-              to: "/",
+              label: "Overview",
+              to: "/maiar-exchange-features/overview",
             },
             {
               label: "Swaps",
-              to: "/token-swaps",
+              to: "/maiar-exchange-features/swaps",
             },
             {
-              label: "Liquidity Pools",
-              to: "/liquidity-pools",
+              label: "Liquidity",
+              to: "/maiar-exchange-features/liquidity",
             },
             {
-              label: "Farming",
-              to: "/farming",
+              label: "Farms",
+              to: "/maiar-exchange-features/farms",
             },
           ],
         },
