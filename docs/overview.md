@@ -8,6 +8,13 @@ slug: /
 
 ![img](/docs/maiar-exchange-overview.png)
 
+## Quick notes:
+
+- 🛠️ Current status: The Maiar DEX is in community testing, join us!
+- 🙌 Feedback super appreciated: [feedback form](https://docs.google.com/forms/u/1/d/1y6FJSr2sNu55sBAJML9ejLCwMr3_k2muB4jxbDyZ1mY)
+- 💡 Official website: [devnet.maiar.exchange](https://devnet.maiar.exchange)
+- 👉 [Get started guide](/how-to-test)
+
 ## What is the Maiar Exchange?
 
 It's a DEX AMM running on the Elrond Network. It is built by the same team that has built the Elrond protocol. You could call it the "official" DEX. There can be any number of DEX-es built on Elrond, but the team wanted to build the first one, because it is special.
