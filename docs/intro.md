@@ -6,7 +6,7 @@ slug: /
 
 # What Is the Maiar DEX?
 
-The Maiar Decentralized Exchange (DEX) is the Automated Market Maker (AMM), rearchitecting some of the key elements to build a product that can leverage the entire performance of the Elrond architecture, to offer global, near-instant, inexpensive transactions between an expanding suite of assets.
+The Maiar Decentralized Exchange (DEX) is the Automated Market Maker (AMM), rearchitecting some of the key elements to build a product that can leverage the entire performance of the Elrond architecture, to offer global, near-instant, inexpensive transactions among an expanding suite of assets.
 
 ![img](/docs/maiar-exchange.png)
 
