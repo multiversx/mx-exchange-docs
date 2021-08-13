@@ -11,7 +11,7 @@ The Maiar Decentralized Exchange (DEX) is the Automated Market Maker (AMM), rear
 
 The Maiar DEX will feature an Automated Market Maker (AMM) application, enabling seamless p2p exchange (actually a peer-to-contract: P2C) of native Elrond tokens without the need of maintaining an order book.
 
-You could think of an Automated Market Maker as a bot that’s always willing to quote you a price between two assets. These swaps happen against assets that are pooled to provide liquidity. You can also provide liquidity in these pools and be rewarded based on their utilization. This allows essentially anyone to become a market maker on an exchange and earn fees for providing liquidity.
+You could think of an Automated Market Maker as a bot that’s always willing to quote you a price between two assets. These swaps instantaneously happen against assets that are pooled to provide liquidity. You can also provide liquidity in these pools and be rewarded based on their utilization. This allows essentially anyone to become a market maker on an exchange and earn fees for providing liquidity.
 
 An AMM relies on a mathematical formula to price assets. Instead of using an order book like a traditional exchange, assets are priced according to a pricing algorithm.
 

@@ -12,7 +12,7 @@ sidebar_position: 3
 
 3. Some of the values displayed - such as MEX price or APR for farms - are not an indication of the real live platform values - this is just a test.
 
-4. The platform can be slow, unresponsive, or even break. This is exactly what we want to test, so every time you manage to break it, you’ll have done a great job! Please also let us know what happened, so we can fix it.
+4. The platform can be slow, unresponsive, or even break. This is exactly what we want to test, so every time you manage to break it, you’ll have done a great job! Please also [let us know what happened](https://forms.gle/4bj8LdksgUctaucp6), so we can fix it.
 
 5. There is no real MEX to be claimed, remember, this is a test.
 

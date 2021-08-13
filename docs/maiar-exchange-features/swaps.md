@@ -13,5 +13,3 @@ Users can trade or swap an amount of tokens for an automated computed amount fro
 </div>
 
 There is a **0.3%** fee for swapping tokens. A part of this fee, 0.25% is split by liquidity providers proportional to their contribution to liquidity reserves. The contract will buy MEX from the EGLD/MEX pool using the remaining 0.05% and burn it.
-
-This is done via the following algorithm: whenever someone trades on the exchange, the trader pays a 0.3% fee, part of this is added to the liquidity pool.

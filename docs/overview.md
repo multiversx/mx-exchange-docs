@@ -10,14 +10,14 @@ slug: /
 
 ## Quick notes:
 
-- 🛠️ Current status: The Maiar DEX is in community testing, join us!
-- 🙌 Feedback super appreciated: [feedback form](https://docs.google.com/forms/u/1/d/1y6FJSr2sNu55sBAJML9ejLCwMr3_k2muB4jxbDyZ1mY)
-- 💡 Official website: [devnet.maiar.exchange](https://devnet.maiar.exchange)
-- 👉 [Get started guide](/how-to-test)
+🛠️ Current status: The Maiar DEX is in community testing, join us!  
+🙌 Feedback super appreciated: [feedback form](https://docs.google.com/forms/u/1/d/1y6FJSr2sNu55sBAJML9ejLCwMr3_k2muB4jxbDyZ1mY)  
+💡 Official website: [devnet.maiar.exchange](https://devnet.maiar.exchange)  
+👉 [Get started guide](/how-to-test)
 
 ## What is the Maiar Exchange?
 
-It's a DEX AMM running on the Elrond Network. It is built by the same team that has built the Elrond protocol. You could call it the "official" DEX. There can be any number of DEX-es built on Elrond, but the team wanted to build the first one, because it is special.
+It's a DEX AMM running on the Elrond Network. It is built by the same team that has built the Elrond blockchain. You could call it the "official" DEX. There can be any number of DEX-es built on Elrond, but the team wanted to build the first one, because it is special.
 
 ## What's special about the Maiar Exchange?
 
@@ -25,7 +25,7 @@ Well, a number of things:
 
 **State Sharding**: The Elrond blockchain is the first live blockchain with state sharding. Other chains with similar architectures, such as Ethereum 2.0, are still in development or are yet to enable state sharding. Anyone who wants to understand sharded DeFi should pay attention to Elrond DeFi.
 
-**NFT LP Tokens**: trade, collateralize - Providing liquidity on the Maiar Exchange gives you LP tokens, like most AMM DEXes. Uniquely in the space, the Maiar Exchage LP tokens are tradeable. This means you can provide liquidity, then sell your position, or take a loan against it (use LP tokens as collateral). Awesome and a DeFi first, because of Elrond’s unique ESDT (Elrond Standard Digital Token) architecture.
+**SFTs LP Tokens**: trade, collateralize - Providing liquidity on the Maiar Exchange gives you LP tokens, like most AMM DEXes. Uniquely in the space, the Maiar Exchage LP tokens are tradeable. This means you can provide liquidity, then sell your position, or take a loan against it (use LP tokens as collateral). Awesome and a DeFi first, because of Elrond’s unique ESDT (Elrond Standard Digital Token) architecture.
 
 **Maiar App**: onboarding, 2FA - You can use Elrond’s [Maiar app](https://getmaiar.com/app) to login and sign transactions on the Maiar Exchange. As secure as a Ledger hardware wallet, as convenient as Face ID + tapping on the screen.
 
