@@ -15,7 +15,7 @@ You could think of an Automated Market Maker as a bot that’s always willing to
 
 An AMM relies on a mathematical formula to price assets. Instead of using an order book like a traditional exchange, assets are priced according to a pricing algorithm.
 
-This formula can vary with each protocol. For example, Maiar DEX uses x \* y = k, where x is the amount of one token in the liquidity pool, and y is the amount of the other. In this formula, k is a fixed constant, meaning the pool’s total liquidity always has to remain the same.
+This formula can vary with each protocol. For examaple, Maiar DEX uses the industry standard "x\*y=k" constant product AMM model, which has proven its reliability in existing implementations, and has been [formally modelled and verified](https://github.com/runtimeverification/verified-smart-contracts/blob/master/uniswap/README.md). In this formula, k is a fixed constant, meaning the pool’s total liquidity always has to remain the same.
 
 <div style={{textAlign: 'center'}}>
 
