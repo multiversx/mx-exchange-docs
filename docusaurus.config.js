@@ -114,7 +114,7 @@ module.exports = {
           items: [
             {
               label: "Blog",
-              href: "https://elrond.com/blog/maiar-exchange/",
+              href: "https://elrond.com/blog/maiar-dex-public-test/",
             },
             {
               label: "FAQ",
