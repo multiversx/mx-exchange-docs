@@ -10,11 +10,8 @@ slug: /
 
 ## Quick notes:
 
-🛠️ Current status: The Maiar DEX is in community testing, join us!  
-🙌 Feedback super appreciated: [feedback form](https://docs.google.com/forms/u/1/d/1y6FJSr2sNu55sBAJML9ejLCwMr3_k2muB4jxbDyZ1mY)  
-💡 Official website: [devnet.maiar.exchange](https://devnet.maiar.exchange)  
-👉 [Get started guide](/how-to-test)
-
+🛠️ The Maiar Exchange will be launched in November!  
+💡 Official website: [maiar.exchange](https://maiar.exchange)  
 ## What is the Maiar Exchange?
 
 It's a DEX AMM running on the Elrond Network. It is built by the same team that has built the Elrond blockchain. You could call it the "official" DEX. There can be any number of DEX-es built on Elrond, but the team wanted to build the first one, because it is special.
@@ -37,7 +34,7 @@ The Elrond ecosystem has 200+ partners. With the launch of the Maiar Exchange, t
 
 ## When will Maiar Exchange launch?
 
-Once the Chaos testing phase and Battle of Yields phases end.
+The Maiar Exchange will launch in November.
 
 ## What is MEX?
 

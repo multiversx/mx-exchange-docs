@@ -10,7 +10,7 @@ The Maiar Exchange is a DEX (Decentralized Exchange) with AMM (Automated Market 
 
 ## How do I connect my wallet to Maiar Exchange?
 
-You can connect your wallet to the Maiar Exchange in three different ways: Maiar App, Ledger hardware wallet, keystore file (.json) + password via the Elrond Web Wallet.
+You can connect your wallet to the Maiar Exchange in three different ways: Maiar App, Maiar DeFi Wallet, Ledger hardware wallet, keystore file (.json) + password via the Elrond Web Wallet.
 
 ## What are Swaps?
 

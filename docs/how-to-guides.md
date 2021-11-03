@@ -12,11 +12,13 @@ sidebar_position: 5
 
 </div>
 
-- Maiar Login - scan a QR code with your Maiar App and connect your Maiar wallet to the exchange. Your Maiar app will then be used to sign all your actions on the exchange.
+- **Maiar DeFi Wallet** - simply click the appropriate button on the web extension pop-up and you can create or import multiple different wallets and connect to different networks, such as mainnet, testnet or devnet. You can securely swap between multiple wallets and sign messages or transfer funds, without having to login again.
 
-- Ledger - use your Ledger hardware wallet to connect. You will be prompted to confirm actions taken on the exchange on your device.
+- **Maiar App** - scan a QR code with your Maiar App and connect your Maiar wallet to the exchange. Your Maiar app will then be used to sign all your actions on the exchange.
 
-- Elrond Web wallet - you can login using a .JSON file + password. You will be prompted to login for every action.
+- **Ledger** - use your Ledger hardware wallet to connect. You will be prompted to confirm actions taken on the exchange on your device.
+
+- **Elrond Web Wallet** - you can login using a .JSON file + password. You will be prompted to login for every action.
 
 _Tip: As a neat trick, you can save the password in your browser. We however recommend one of the 2FA options mentioned above - Maiar or Ledger._
 
