@@ -4,7 +4,7 @@ sidebar_position: 2
 
 # What is the LKMEX time lock mechanism and unlock schedule?
 
-The Maiar Exchange chronology begins on the day of its deployment. That is day 1 and all lock mechanisms evolve around this date.
+The Maiar Exchange chronology begins on the day of its full deployment: November 19. That is day 0 and all lock mechanisms evolve around this date.
 
 This means the LKMEX time lock mechanism begins on the day of the Maiar Exchange deployment.
 
@@ -18,10 +18,10 @@ For LKMEX distributed to EGLD holders during the pre-launch snapshot periods, th
 
 For LKMEX earned as “locked rewards”:
 
-- The first 16.66% are unlocked after 390 epochs, 16.66% unlocked every 30 epochs after that
+- The first 17% are unlocked after 365 epochs, 17% unlocked every 30 epochs after that except for the last two of the 30 epochs when 16% will be unlocked.
 
 To reduce complexity, LKMEX tokens issued over the course of one month will have the same unlock schedule.
 
-- For example, assuming the Exchange is deployed on the 01 of the month:
+For example, assuming the Exchange is deployed on the 01 of the month:
 
-LKMEX tokens issued on 01 March, 13 March and 27 March, will all be locked with 01 March as the starting schedule.
+- LKMEX tokens issued on 01 March, 13 March and 27 March, will all be locked with 01 March as the starting schedule.
