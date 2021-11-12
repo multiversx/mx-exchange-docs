@@ -97,15 +97,15 @@ module.exports = {
           items: [
             {
               label: "Swap",
-              href: "https://devnet.maiar.exchange/swap",
+              href: "https://maiar.exchange/swap",
             },
             {
               label: "Liquidity",
-              href: "https://devnet.maiar.exchange/liquidity",
+              href: "https://maiar.exchange/liquidity",
             },
             {
               label: "Farms",
-              href: "https://devnet.maiar.exchange/farms",
+              href: "https://maiar.exchange/farms",
             },
           ],
         },
