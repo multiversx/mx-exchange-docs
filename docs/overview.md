@@ -11,7 +11,8 @@ slug: /
 ## Quick notes:
 
 🛠️ The Maiar Exchange will be launched in November!  
-💡 Official website: [maiar.exchange](https://maiar.exchange)  
+💡 Official website: [maiar.exchange](https://maiar.exchange)
+
 ## What is the Maiar Exchange?
 
 It's a DEX AMM running on the Elrond Network. It is built by the same team that has built the Elrond blockchain. You could call it the "official" DEX. There can be any number of DEX-es built on Elrond, but the team wanted to build the first one, because it is special.
@@ -40,3 +41,6 @@ The Maiar Exchange will launch in November.
 
 MEX is the token powering the Maiar Exchange. It is required for the governance of the decentralized exchange platform, as fuel for the perpetual decision-making process that will maintain the Maiar DEX ahead of the curve in terms of innovation, operational model, listing policies, and other actions aimed at creating a sustainable value cycle for its stakeholders. Furthermore, the MEX token is designed as a value capture mechanism and incentive vehicle that will allow the compelling attributes of the economical advancements it enables to scale with its adoption.
 [https://elrond.com/blog/maiar-exchange-mex-tokenomics/](https://elrond.com/blog/maiar-exchange-mex-tokenomics/)
+
+- Blog Post: [https://elrond.com/blog/maiar-exchange-mex-tokenomics/](https://elrond.com/blog/maiar-exchange-mex-tokenomics/)
+- MEX Distribution & Tokenomics: [https://maiar.exchange/mex-economics.pdf](https://maiar.exchange/mex-economics.pdf)
