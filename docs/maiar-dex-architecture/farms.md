@@ -45,7 +45,7 @@ The LOCKED MEX tokens can be used in the **LOCK MEX PROXY CONTRACT** to further 
 
 Through the lock mex proxy contract users can use the locked MEX to enter liquidity pools as well, and to use the liquidity position with locked tokens to enter into the farms. The positions from the proxy contracts are semi fungible tokens as well, thus by default are transferable.
 
-**Each month (every 30 epochs) a new Locked MEX (LKMEX) is created that will start to be unlocked after 1 year (16.66% per month for the next 6 months).**
+**Each month (every 30 epochs) a new Locked MEX (LKMEX) is created that will start to be unlocked after 1 year (365 epochs) - the first 17% are unlocked after 365 epochs, 17% unlocked every 30 epochs after that except for the last two of the 30 epochs when 16% will be unlocked.**
 
 This means there are multiple Locked MEX tokens, each with different unlock schedules. There can be Locked MEX #10 which unlock in October 2022, and Locked MEX 12 which unlock in December 2022. Locked MEX #10 and Locked MEX #12 will always have the same value as the spot value of MEX, but they will be gradually unlocked according to the schedule.
 

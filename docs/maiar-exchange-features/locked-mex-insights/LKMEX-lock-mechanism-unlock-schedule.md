@@ -14,7 +14,7 @@ The LKMEX lock mechanism starts as soon as they become available, so before they
 
 For LKMEX distributed to EGLD holders during the pre-launch snapshot periods, the unlock schedule is as follows:
 
-- 10% unlocked 30 days after launch (19 December 2021), 15% unlocked every 30 epochs after 1 year ( 19 November 2022, then 19 December 2022, then 19 January 2023 and so on )
+- 10% unlocked 30 days after launch (20 December 2021), 15% unlocked every 30 epochs after 1 year (15 December 2022, 14 January 2023, 13 February 2023, 15 March 2023, 14 April 2023, 14 May 2023)
 
 For LKMEX earned as “locked rewards”:
 
