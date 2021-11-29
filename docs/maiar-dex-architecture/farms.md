@@ -6,7 +6,7 @@ sidebar_position: 4
 
 The liquidity pool tokens will be usable in the farming contracts. These users will be able to deposit their LP_ESDTs and will receive Semi Fungible tokens which will represent their farming position. These farms will earn extra yield for these users.
 
-**There will be ONE farm PER each liquidity token (LP_EGLD_MEX, LP_EGLD_BUSD) and one farm where users can enter with MEX.**
+**There will be ONE farm PER each liquidity token (LP_EGLD_MEX, LP_EGLD_USDC) and one farm where users can enter with MEX.**
 
 The process of staking and claiming rewards would be the following for those who **stake LP Tokens**:
 
@@ -29,7 +29,7 @@ The idea is to maintain a MexPerShare accumulator. At each block, we compute the
 
 ## Locking the rewards for a long period of time
 
-MEX rewards can come from 3 pools: EGLD/MEX farm, EGLD/BUSD farm and MEX farm. if you choose to lock the rewards (optionally) you will receive **double APR**.
+MEX rewards can come from 3 pools: EGLD/MEX farm, EGLD/USDC farm and MEX farm. if you choose to lock the rewards (optionally) you will receive **double APR**.
 
 Locking rewards is easy, we enhance the experience further by enabling the locked rewards to be used for further farming or liquidity providing. So we will make the whole system in a few steps. The locking period is as follows: you will receive 16.66% per month after one year. So in the first year there will be no unlocking, and after this, it gradually unlocks after each month.
 
