@@ -28,4 +28,4 @@ Advanced learning:
 - Maiar Exchange: All you need to know: [https://mgstaking.medium.com/maiar-exchange-all-you-need-to-know-c77843db1c86](https://mgstaking.medium.com/maiar-exchange-all-you-need-to-know-c77843db1c86)
 - AMMs & Maiar Exchange: [https://istarivision.medium.com/understanding-amms-exchanges-maiar-exchange-8eb0b5c5edb](https://istarivision.medium.com/understanding-amms-exchanges-maiar-exchange-8eb0b5c5edb)
 - Liquidity and LPing: [https://istarivision.medium.com/understanding-liquidity-and-liquidity-pools-4d4d3efa17a9](https://istarivision.medium.com/understanding-liquidity-and-liquidity-pools-4d4d3efa17a9)
-- MEX Distribution & Tokenomics: [https://maiar.exchange/mex-economics.pdf](https://maiar.exchange/mex-economics.pdf)
+- MEX Distribution & Tokenomics: [https://maiar.exchange/mex-economics-v2.pdf](https://maiar.exchange/mex-economics-v2.pdf)

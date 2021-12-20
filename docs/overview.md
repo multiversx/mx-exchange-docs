@@ -42,4 +42,4 @@ The Maiar Exchange will launch in November.
 MEX is the token powering the Maiar Exchange. It is required for the governance of the decentralized exchange platform, as fuel for the perpetual decision-making process that will maintain the Maiar DEX ahead of the curve in terms of innovation, operational model, listing policies, and other actions aimed at creating a sustainable value cycle for its stakeholders. Furthermore, the MEX token is designed as a value capture mechanism and incentive vehicle that will allow the compelling attributes of the economical advancements it enables to scale with its adoption.
 
 - Blog Post: [https://elrond.com/blog/maiar-exchange-mex-tokenomics/](https://elrond.com/blog/maiar-exchange-mex-tokenomics/)
-- MEX Distribution & Tokenomics: [https://maiar.exchange/mex-economics.pdf](https://maiar.exchange/mex-economics.pdf)
+- MEX Distribution & Tokenomics: [https://maiar.exchange/mex-economics-v2.pdf](https://maiar.exchange/mex-economics-v2.pdf)

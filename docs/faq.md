@@ -63,7 +63,7 @@ The MEX supply for Year 1 after launch will be 8,045,920,000,000 MEX tokens. The
 More details on the MEX Tokenomics can be found here:
 
 - [https://elrond.com/blog/maiar-exchange-mex-tokenomics/](https://elrond.com/blog/maiar-exchange-mex-tokenomics/)
-- [https://maiar.exchange/mex-economics.pdf ](https://maiar.exchange/mex-economics.pdf)
+- [https://maiar.exchange/mex-economics-v2.pdf ](https://maiar.exchange/mex-economics-v2.pdf)
 
 ## What are the security funds used for?
 
