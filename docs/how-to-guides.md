@@ -1,5 +1,5 @@
 ---
-sidebar_position: 5
+sidebar_position: 6
 ---
 
 # How To Guides
@@ -8,7 +8,7 @@ sidebar_position: 5
 
 <div style={{textAlign: 'center'}}>
 
-<img src="/docs/how-to-login.png" width="500" />
+<img src="/docs/how-to/how-to-login.png" width="500" />
 
 </div>
 
@@ -26,7 +26,7 @@ _Tip: As a neat trick, you can save the password in your browser. We however rec
 
 <div style={{textAlign: 'center'}}>
 
-<img src="/docs/how-to-swap.png" width="500" />
+<img src="/docs/how-to/how-to-swap.png" width="500" />
 
 </div>
 
@@ -45,7 +45,7 @@ _Tip: As a neat trick, you can save the password in your browser. We however rec
 
 <div style={{textAlign: 'center'}}>
 
-<img src="/docs/how-to-add-liquidity.png" width="500" />
+<img src="/docs/how-to/how-to-add-liquidity.png" width="500" />
 
 </div>
 
