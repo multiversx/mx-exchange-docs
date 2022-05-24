@@ -58,7 +58,7 @@ Farming - Also referred to as “yield farming”, the term refers to earning re
 
 ## How many MEX tokens are there?
 
-The MEX supply for Year 1 after launch will be 8,045,920,000,000 MEX tokens. The MEX token has an issuance mechanism that is designed to accelerate the Maiar Exchange adoption. It is countered by a MEX burning mechanism: 0.05% of all fees are swapped to MEX and then burned. This will lead to MEX becoming deflationary as its adoption broadens.
+The MEX supply for Year 1 after launch will be 8,045,920,000,000 MEX tokens. The MEX token has an issuance mechanism that is designed to accelerate the Maiar Exchange adoption. It is countered by a MEX burning mechanism: 0.05% of all fees are swapped to MEX and then burned. This will help counter-balance inflationary aspects of the system, and should do so increasingly as adoption broadens (though we do not project or promise that the overall system will become deflationary).
 
 More details on the MEX Tokenomics can be found here:
 
