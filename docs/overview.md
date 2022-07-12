@@ -10,7 +10,6 @@ slug: /
 
 ## Quick notes:
 
-🛠️ The Maiar Exchange will be launched in November!  
 💡 Official website: [maiar.exchange](https://maiar.exchange)
 
 ## What is the Maiar Exchange?
