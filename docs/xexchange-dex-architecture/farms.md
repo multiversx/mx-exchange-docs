@@ -11,8 +11,8 @@ The liquidity pool tokens will be usable in the farming contracts. These users w
 The process of staking and claiming rewards would be the following for those who **stake LP Tokens**:
 
 1. The user enters as a liquidity provider in any **MEX/otherPair** swap pool and will get **LP-Token-MEX-PairX**. These LP tokens represent the user's position in the pool. If the user wants to claim some of his tokens back or the accumulated fees he must return the LP tokens and will receive the real tokens according to those.
-2. The user takes the **LP-Token-MEX-PairX** token and will stake it into the **Elrond-Farm-MEX-PairX SC**.
-3. In order to take advantage of tokenization even in the **Elrond-Farm-MEX-PairX SC** the staking position is represented by a **Farm Token**. The rewards are in the form of the **MEX** tokens received from the **swap fees (TBD)** and from **PER BLOCK MINTED MEX**.
+2. The user takes the **LP-Token-MEX-PairX** token and will stake it into the **MultiversX-Farm-MEX-PairX SC**.
+3. In order to take advantage of tokenization even in the **MultiversX-Farm-MEX-PairX SC** the staking position is represented by a **Farm Token**. The rewards are in the form of the **MEX** tokens received from the **swap fees (TBD)** and from **PER BLOCK MINTED MEX**.
 4. **The Farm tokens** will be actually different for every **Pair contract** in order to know what kind of LP-Tokens has to be returned when the user gets out. **The differentiation** can be done through issuing different **NFT** tokens.
 5. The process of claiming rewards is straightforward. The user has to give his position to the Farm SC and he will receive MEX rewards + a newly created NFT which is identical to the one given, the only difference is that it will have it’s reward counter reset.
 6. When getting out of the **FARM SC** the user will return some of the **Farm Tokens** and as we compute how much those tokens are valued, he will get it back as **LP-Tokens of the given pool, plus he will get the rewards from the accumulated MEX fees.**

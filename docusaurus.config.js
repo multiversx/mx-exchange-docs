@@ -1,160 +1,242 @@
-const lightCodeTheme = require("prism-react-renderer/themes/github");
-const darkCodeTheme = require("prism-react-renderer/themes/dracula");
+// @ts-check
+// Note: type annotations allow type checking and IDEs autocompletion
+require("dotenv").config();
+const math = require("remark-math");
+const katex = require("rehype-katex");
 
-/** @type {import('@docusaurus/types').DocusaurusConfig} */
-module.exports = {
-  title: "Maiar Exchange Docs",
+const lightCodeTheme = require("prism-react-renderer/themes/vsDark");
+const darkCodeTheme = require("prism-react-renderer/themes/oceanicNext");
+
+/** @type {import('@docusaurus/types').Config} */
+const config = {
+  title: "MultiversX Docs",
+  titleDelimiter: "•",
   tagline:
-    "Internet-scale DeFi: the scalable financial engine of the new internet economy. Powered by the Elrond Network.",
-  url: "https://docs.maiar.exchange",
+    "A highly scalable, fast and secure blockchain platform for distributed apps, enterprise use cases and the new internet economy.",
+  url: "https://docs.multiversx.com",
   baseUrl: "/",
-  onBrokenLinks: "throw",
-  onBrokenMarkdownLinks: "warn",
-  favicon: "img/favicon.ico",
-  organizationName: "ElrondNetwork", // Usually your GitHub org/user name.
-  projectName: "docs.maiar.exchange", // Usually your repo name.
-  // ogImage: "img/share.png",
-  // twitterImage: "img/share.png",
-  themeConfig: {
-    image: "img/share.png",
-    metadatas: [
-      {
-        name: "twitter:title",
-        content: "Maiar Exchange Docs",
-      },
-      {
-        name: "twitter:description",
-        content:
-          "Internet-scale DeFi: the scalable financial engine of the new internet economy. Powered by the Elrond Network.",
-      },
-      {
-        name: "og:title",
-        content: "Maiar Exchange Docs",
-      },
-      {
-        name: "og:description",
-        content:
-          "Internet-scale DeFi: the scalable financial engine of the new internet economy. Powered by the Elrond Network.",
-      },
-    ],
-    navbar: {
-      title: "Exchange Docs",
-      logo: {
-        alt: "Maiar",
-        src: "img/logo.svg",
-      },
-      items: [
-        {
-          type: "doc",
-          docId: "overview",
-          label: "Docs",
-        },
-      ],
-    },
-    footer: {
-      style: "dark",
-      links: [
-        {
-          title: "Features",
-          items: [
-            {
-              label: "Overview",
-              to: "/maiar-exchange-features/overview",
-            },
-            {
-              label: "Swaps",
-              to: "/maiar-exchange-features/swaps",
-            },
-            {
-              label: "Liquidity",
-              to: "/maiar-exchange-features/liquidity",
-            },
-            {
-              label: "Farms",
-              to: "/maiar-exchange-features/farms",
-            },
-          ],
-        },
-        {
-          title: "Architecture",
-          items: [
-            {
-              label: "Router Smart Contract",
-              to: "/maiar-dex-architecture/router-smart-contract",
-            },
-            {
-              label: "Pair Smart Contract",
-              to: "/maiar-dex-architecture/pair-smart-contract",
-            },
-            {
-              label: "Farms",
-              to: "/maiar-dex-architecture/farms",
-            },
-          ],
-        },
-        {
-          title: "Exchange",
-          items: [
-            {
-              label: "Swap",
-              href: "https://maiar.exchange/swap",
-            },
-            {
-              label: "Liquidity",
-              href: "https://maiar.exchange/liquidity",
-            },
-            {
-              label: "Farms",
-              href: "https://maiar.exchange/farms",
-            },
-          ],
-        },
-        {
-          title: "More",
-          items: [
-            {
-              label: "Blog",
-              href: "https://elrond.com/blog/maiar-dex-public-test/",
-            },
-            {
-              label: "FAQ",
-              href: "/faq",
-            },
-          ],
-        },
-      ],
-      copyright: `© ${new Date().getFullYear()} Elrond Network. Made with ❤️ by the Elrond team.`,
-    },
-    prism: {
-      theme: lightCodeTheme,
-      darkTheme: darkCodeTheme,
-    },
-    colorMode: {
-      defaultMode: "light",
-      disableSwitch: false,
-      respectPrefersColorScheme: true,
-      switchConfig: {
-        darkIcon: "🌙",
-        lightIcon: "\u2600",
-        // React inline style object
-        // see https://reactjs.org/docs/dom-elements.html#style
-        darkIconStyle: { marginLeft: "2px" },
-        lightIconStyle: { marginLeft: "1px" },
-      },
-    },
+  onBrokenLinks: "log",
+  onBrokenMarkdownLinks: "log",
+  favicon: "img/favicons/favicon.ico",
+
+  // GitHub pages deployment config.
+  // If you aren't using GitHub pages, you don't need these.
+  organizationName: "multiversx", // Usually your GitHub org/user name.
+  projectName: "mx-docs", // Usually your repo name.
+
+  // Even if you don't use internalization, you can use this field to set useful
+  // metadata like html lang. For example, if your site is Chinese, you may want
+  // to replace "en" with "zh-Hans".
+  i18n: {
+    defaultLocale: "en",
+    locales: ["en"],
   },
+
   presets: [
     [
-      "@docusaurus/preset-classic",
-      {
+      "classic",
+      /** @type {import('@docusaurus/preset-classic').Options} */
+      ({
         docs: {
+          routeBasePath: "/", // Serve the docs at the site's root
           sidebarPath: require.resolve("./sidebars.js"),
-          routeBasePath: "/",
+          /* other docs plugin options */
+          remarkPlugins: [math],
+          rehypePlugins: [katex],
         },
+        blog: false, // Optional: disable the blog plugin
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
+        },
+        googleAnalytics: {
+          trackingID: "UA-143242606-1",
+        },
+      }),
+    ],
+  ],
+
+  stylesheets: [
+    {
+      href: "https://cdn.jsdelivr.net/npm/katex@0.13.24/dist/katex.min.css",
+      type: "text/css",
+      integrity:
+        "sha384-odtC+0UGzzFL/6PNoE8rX/SPcQDXBJ+uRepguP4QkPCm2LBxH3FA3y+fKSiJ+AmM",
+      crossorigin: "anonymous",
+    },
+    {
+      href: "https://fonts.googleapis.com/css?family=Montserrat:400,500,600&display=swap",
+      type: "text/css",
+      crossorigin: "anonymous",
+    },
+  ],
+
+  themeConfig:
+    /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
+    ({
+      colorMode: {
+        defaultMode: "dark",
+        disableSwitch: true,
+        respectPrefersColorScheme: false,
+      },
+      navbar: {
+        logo: {
+          alt: "MultiversX xExchange Docs",
+          src: "img/logo_dark.svg",
+          srcDark: "img/logo.svg",
+        },
+        items: [
+          {
+            href: "/developers/overview",
+            label: "Develop",
+            position: "left",
+          },
+          {
+            href: "/validators/overview",
+            label: "Validate",
+            position: "left",
+          },
+          {
+            href: "/integrators/overview",
+            label: "Integrate",
+            position: "left",
+          },
+          {
+            href: "/technology/architecture-overview",
+            label: "Learn",
+            position: "left",
+          },
+          {
+            href: "https://github.com/multiversx",
+            position: "right",
+            className: "header-github-link",
+            "aria-label": "GitHub",
+          },
+          {
+            href: "https://t.me/MultiversX",
+            position: "right",
+            className: "header-telegram-link",
+            "aria-label": "Chat",
+          },
+          {
+            type: "dropdown",
+            position: "right",
+            className: "header-app-change",
+            "aria-label": "Websites",
+            items: [
+              {
+                label: "Main Site",
+                href: "https://multiversx.com",
+                target: "_blank",
+              },
+              {
+                label: "Wallet",
+                href: "https://wallet.multiversx.com",
+                target: "_blank",
+              },
+              {
+                label: "Explorer",
+                href: "https://explorer.multiversx.com",
+                target: "_blank",
+              },
+              {
+                label: "Bridge",
+                href: "https://ad-astra.multiversx.com",
+                target: "_blank",
+              },
+              {
+                label: "xExchange",
+                href: "https://xexchange.com",
+                target: "_blank",
+              },
+              {
+                label: "xLaunchpad",
+                href: "https://xlaunchpad.com",
+                target: "_blank",
+              },
+            ],
+          },
+        ],
+      },
+      image: "img/share.jpg",
+      footer: {
+        style: "light",
+        links: [],
+        copyright: `Copyright © ${new Date().getFullYear()} MultiversX. All rights reserved.`,
+      },
+      prism: {
+        theme: lightCodeTheme,
+        darkTheme: darkCodeTheme,
+        additionalLanguages: ["rust", "tsx", "jsonp"],
+      },
+      algolia: {
+        // The application ID provided by Algolia
+        appId: `${process.env.REACT_APP_ALGOLIA_APP_ID}`,
+        // Public API key: it is safe to commit it
+        apiKey: `${process.env.REACT_APP_ALGOLIA_SEARCH_KEY}`,
+        indexName: "dev_multiversx",
+        contextualSearch: false,
+      },
+      slugPreprocessor: (slugBase) =>
+        slugBase.replace(/<([^>]+?)([^>]*?)>(.*?)<\/\1>/gi, ""),
+    }),
+
+  plugins: [
+    [
+      "@docusaurus/plugin-client-redirects",
+      {
+        redirects: [
+          {
+            from: "/sdk-and-tools/rest-api/api-com/",
+            to: "/sdk-and-tools/rest-api/multiversx-api/",
+          },
+          {
+            from: "/validators/elrond-go-scripts/config-scripts",
+            to: "/validators/nodes-scripts/config-scripts",
+          },
+          {
+            from: "/validators/elrond-go-scripts/install-update",
+            to: "/validators/nodes-scripts/install-update",
+          },
+          {
+            from: "/sdk-and-tools/dapp-core",
+            to: "/sdk-and-tools/sdk-dapp",
+          },
+        ],
+        createRedirects(existingPath) {
+          if (existingPath.includes("/erdjs")) {
+            return [
+              // erdjs -> sdk-js
+              existingPath.replace(
+                "/sdk-and-tools/erdjs",
+                "/sdk-and-tools/sdk-js"
+              ),
+              existingPath.replace(
+                "/sdk-and-tools/erdjs/erdjs-cookbook",
+                "sdk-and-tools/sdk-js/sdk-js-cookbook"
+              ),
+              existingPath.replace(
+                "/sdk-and-tools/erdjs/extending-erdjs",
+                "sdk-and-tools/sdk-js/extending-sdk-js"
+              ),
+              existingPath.replace(
+                "/sdk-and-tools/erdjs/writing-and-testing-erdjs-interactions",
+                "sdk-and-tools/sdk-js/writing-and-testing-sdk-js-interactions"
+              ),
+              existingPath.replace(
+                "/sdk-and-tools/erdjs/erdjs-migration-guides",
+                "sdk-and-tools/sdk-js/sdk-js-migration-guides"
+              ),
+              existingPath.replace(
+                "/sdk-and-tools/erdjs/erdjs-signing-providers",
+                "sdk-and-tools/sdk-js/sdk-js-signing-providers"
+              ),
+            ];
+          }
+          return undefined; // Return a falsy value: no redirect created
         },
       },
     ],
   ],
 };
+
+module.exports = config;

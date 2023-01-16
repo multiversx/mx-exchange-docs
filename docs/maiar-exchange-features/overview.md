@@ -5,17 +5,17 @@ id: overview
 
 # Overview
 
-The Maiar Decentralized Exchange (DEX) is the Automated Market Maker (AMM), rearchitecting some of the key elements to build a product that can leverage the entire performance of the Elrond architecture, to offer global, near-instant, inexpensive transactions among an expanding suite of assets.
+The xExchange Decentralized Exchange (DEX) is the Automated Market Maker (AMM), rearchitecting some of the key elements to build a product that can leverage the entire performance of the MultiversX (previously Elrond) architecture, to offer global, near-instant, inexpensive transactions among an expanding suite of assets.
 
 ![img](/docs/overview.png)
 
-The Maiar DEX will feature an Automated Market Maker (AMM) application, enabling seamless p2p exchange (actually a peer-to-contract: P2C) of native Elrond tokens without the need of maintaining an order book.
+The xExchange DEX will feature an Automated Market Maker (AMM) application, enabling seamless p2p exchange (actually a peer-to-contract: P2C) of native MultiversX (previously Elrond) tokens without the need of maintaining an order book.
 
 You could think of an Automated Market Maker as a bot that’s always willing to quote you a price between two assets. These swaps instantaneously happen against assets that are pooled to provide liquidity. You can also provide liquidity in these pools and be rewarded based on their utilization. This allows essentially anyone to become a market maker on an exchange and earn fees for providing liquidity.
 
 An AMM relies on a mathematical formula to price assets. Instead of using an order book like a traditional exchange, assets are priced according to a pricing algorithm.
 
-This formula can vary with each protocol. For examaple, Maiar DEX uses the industry standard "x\*y=k" constant product AMM model, which has proven its reliability in existing implementations, and has been [formally modelled and verified](https://github.com/runtimeverification/verified-smart-contracts/blob/master/uniswap/README.md). In this formula, k is a fixed constant, meaning the pool’s total liquidity always has to remain the same.
+This formula can vary with each protocol. For examaple, xExchange DEX uses the industry standard "x\*y=k" constant product AMM model, which has proven its reliability in existing implementations, and has been [formally modelled and verified](https://github.com/runtimeverification/verified-smart-contracts/blob/master/uniswap/README.md). In this formula, k is a fixed constant, meaning the pool’s total liquidity always has to remain the same.
 
 <div style={{textAlign: 'center'}}>
 

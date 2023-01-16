@@ -4,11 +4,11 @@ sidebar_position: 2
 
 # What is the LKMEX time lock mechanism and unlock schedule?
 
-The Maiar Exchange chronology begins on the day of its full deployment: November 19. That is day 0 and all lock mechanisms evolve around this date.
+The xExchange chronology begins on the day of its full deployment: November 19. That is day 0 and all lock mechanisms evolve around this date.
 
-This means the LKMEX time lock mechanism begins on the day of the Maiar Exchange deployment.
+This means the LKMEX time lock mechanism begins on the day of the xExchange deployment.
 
-The Elrond blockchain chronology revolves around epochs of 24 hours. 1 month is thus considered to be 30 epochs. 1 month is 30 epochs. 1 year is 12 x 30 = 360 epochs.
+The MultiversX (previously Elrond) blockchain chronology revolves around epochs of 24 hours. 1 month is thus considered to be 30 epochs. 1 month is 30 epochs. 1 year is 12 x 30 = 360 epochs.
 
 The LKMEX lock mechanism starts as soon as they become available, so before they are claimed.
 

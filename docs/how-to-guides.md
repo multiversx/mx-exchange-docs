@@ -12,15 +12,15 @@ sidebar_position: 6
 
 </div>
 
-- **Maiar DeFi Wallet** - simply click the appropriate button on the web extension pop-up and you can create or import multiple different wallets and connect to different networks, such as mainnet, testnet or devnet. You can securely swap between multiple wallets and sign messages or transfer funds, without having to login again.
+- **MultiversX (previously Elrond) DeFi Wallet** - simply click the appropriate button on the web extension pop-up and you can create or import multiple different wallets and connect to different networks, such as mainnet, testnet or devnet. You can securely swap between multiple wallets and sign messages or transfer funds, without having to login again.
 
-- **Maiar App** - scan a QR code with your Maiar App and connect your Maiar wallet to the exchange. Your Maiar app will then be used to sign all your actions on the exchange.
+- **xPortal Mobile Wallet** - scan a QR code with your xPortal Mobile Wallet and connect your xPortal wallet to the exchange. Your xPortal app will then be used to sign all your actions on the exchange.
 
 - **Ledger** - use your Ledger hardware wallet to connect. You will be prompted to confirm actions taken on the exchange on your device.
 
-- **Elrond Web Wallet** - you can login using a .JSON file + password. You will be prompted to login for every action.
+- **MultiversX (previously Elrond) Web Wallet** - you can login using a .JSON file + password. You will be prompted to login for every action.
 
-_Tip: As a neat trick, you can save the password in your browser. We however recommend one of the 2FA options mentioned above - Maiar or Ledger._
+_Tip: As a neat trick, you can save the password in your browser. We however recommend one of the 2FA options mentioned above - xPortal or Ledger._
 
 ## Swap
 
@@ -30,7 +30,7 @@ _Tip: As a neat trick, you can save the password in your browser. We however rec
 
 </div>
 
-1. Log into the Maiar Exchange
+1. Log into xExchange
 2. Select “Swap” from the top menu
 3. The swap interface presents you with a choice of original token and destination token
 4. Select the two tokens
@@ -49,7 +49,7 @@ _Tip: As a neat trick, you can save the password in your browser. We however rec
 
 </div>
 
-1. Log into the Maiar Exchange
+1. Log into xExchange
 2. Select “Liquidity” from the top menu
 3. Click on +Add Liquidity
 4. Select the tokens you want to add liquidity for
@@ -65,7 +65,7 @@ Tip: you can add LKMEX tokens to the EGLD/MEX liquidity pool. Your LKMEX will be
 
 ## Remove Liquidity
 
-1. Log into the Maiar Exchange
+1. Log into xExchange
 2. Select “Liquidity” from the top menu
 3. Click on “My Liquidity”
 4. Expand the token pair you want to remove liquidity from

@@ -6,17 +6,17 @@ sidebar_position: 5
 
 ## The listing process
 
-Any project is eligible for listing. A simple criteria is to have an ESDT token, either natively minted on the Elrond Network blockchain, or bridged over from another ecosystem.
+Any project is eligible for listing. A simple criteria is to have an ESDT token, either natively minted on the MultiversX (previously Elrond) Network blockchain, or bridged over from another ecosystem.
 
 Important: only the token creator (i.e. holoride for $RIDE) can perform the listing process. In the initial phase, tokens can be paired with EGLD and MEX, and later on with USDC.
 
 ### 1. Register New Token
 
-Add your token to the Elrond Web Tools as described here [https://elrond.com/blog/elrond-web-tools-token-branding/](https://elrond.com/blog/elrond-web-tools-token-branding/). Once the registration process is complete, your token will be usable in the Maiar Exchange for the next steps of the listing process.
+Add your token to the MultiversX (previously Elrond) Web Tools as described here [https://multiversx.com/blog/elrond-web-tools-token-branding](https://multiversx.com/blog/elrond-web-tools-token-branding). Once the registration process is complete, your token will be usable in xExchange for the next steps of the listing process.
 
 ### 2. Create Pair
 
-You will be able to create a liquidity pool for your token with either EGLD or MEX. The USDC option will become available to pools that pass certain initial criteria. New pairs will not be automatically displayed in the Maiar Exchange, but they can be imported by users in the near future.
+You will be able to create a liquidity pool for your token with either EGLD or MEX. The USDC option will become available to pools that pass certain initial criteria. New pairs will not be automatically displayed in xExchange, but they can be imported by users in the near future.
 
 _Note: only the token owner account can initiate the listing process. This way, token owners have control over the chosen pair and initial price._
 

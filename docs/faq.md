@@ -4,17 +4,17 @@ sidebar_position: 8
 
 # FAQ
 
-## What is the Maiar Exchange?
+## What is the xExchange?
 
-The Maiar Exchange is a DEX (Decentralized Exchange) with AMM (Automated Market Making) functions, deployed on the Elrond Network. It is the engine for DeFi products such as swaps, liquidity pools and yield farms.
+The xExchange platform is a DEX (Decentralized Exchange) with AMM (Automated Market Making) functions, deployed on the MultiversX (previously Elrond) Network. It is the engine for DeFi products such as swaps, liquidity pools and yield farms.
 
-## How do I connect my wallet to Maiar Exchange?
+## How do I connect my wallet to xExchange?
 
-You can connect your wallet to the Maiar Exchange in four different ways: Maiar App, Maiar DeFi Wallet, Ledger hardware wallet, keystore file (.json) + password via the Elrond Web Wallet.
+You can connect your wallet to xExchange in four different ways: xPortal Mobile Wallet, MultiversX (previously Elrond) DeFi Wallet, Ledger hardware wallet, keystore file (.json) + password via the MultiversX (previously Elrond) Web Wallet.
 
 ## What are Swaps?
 
-You can use a Swap to trade one token for another, based on the available token pairs. Because the Maiar Exchange is an AMM DEX, you will always be quoted a swap price based on the availability of tokens in a swap pool. Thanks to balancing mechanisms such as arbitrage, you will always receive a swap price that is close to the USD value of the swap, provided there is enough liquidity in the respective token pool.
+You can use a Swap to trade one token for another, based on the available token pairs. Because the xExchange is an AMM DEX, you will always be quoted a swap price based on the availability of tokens in a swap pool. Thanks to balancing mechanisms such as arbitrage, you will always receive a swap price that is close to the USD value of the swap, provided there is enough liquidity in the respective token pool.
 
 ## What are Liquidity Pools?
 
@@ -58,20 +58,20 @@ Farming - Also referred to as “yield farming”, the term refers to earning re
 
 ## How many MEX tokens are there?
 
-The MEX supply for Year 1 after launch will be 8,045,920,000,000 MEX tokens. The MEX token has an issuance mechanism that is designed to accelerate the Maiar Exchange adoption. It is countered by a MEX burning mechanism: 0.05% of all fees are swapped to MEX and then burned. This will help counter-balance inflationary aspects of the system, and should do so increasingly as adoption broadens (though we do not project or promise that the overall system will become deflationary).
+The MEX supply for Year 1 after launch will be 8,045,920,000,000 MEX tokens. The MEX token has an issuance mechanism that is designed to accelerate the xExchange adoption. It is countered by a MEX burning mechanism: 0.05% of all fees are swapped to MEX and then burned. This will help counter-balance inflationary aspects of the system, and should do so increasingly as adoption broadens (though we do not project or promise that the overall system will become deflationary).
 
 More details on the MEX Tokenomics can be found here:
 
-- [https://elrond.com/blog/maiar-exchange-mex-tokenomics/](https://elrond.com/blog/maiar-exchange-mex-tokenomics/)
-- [https://maiar.exchange/mex-economics-v2.pdf ](https://maiar.exchange/mex-economics-v2.pdf)
+- [https://multiversx.com/blog/maiar-exchange-mex-tokenomics/](https://multiversx.com/blog/maiar-exchange-mex-tokenomics/)
+- [https://xexchange.com/mex-economics-v2.pdf](https://xexchange.com/mex-economics-v2.pdf)
 
 ## What are the security funds used for?
 
-Security is a top priority. A portion of the MEX supply has been set aside for funding periodic and exhaustive security audits, as well as future bounty programs, for all the Maiar Exchange components, from smart contracts to front-end components.
+Security is a top priority. A portion of the MEX supply has been set aside for funding periodic and exhaustive security audits, as well as future bounty programs, for all the xExchange components, from smart contracts to front-end components.
 
 ## What is Wrapped EGLD?
 
-The Maiar Exchange Smart Contracts work with ESDT tokens. EGLD is the native coin of the Elrond Network and needs to be wrapped as an ESDT token to work in Maiar Exchange.
+The xExchange Smart Contracts work with ESDT tokens. EGLD is the native coin of the MultiversX (previously Elrond) Network and needs to be wrapped as an ESDT token to work in xExchange.
 
 Wrapped EGLD is used for each action that requires EGLD, such as swapping EGLD for another token, or depositing EGLD in a liquidity pool. The wrapping and unwrapping actions are automated by the interface.
 
