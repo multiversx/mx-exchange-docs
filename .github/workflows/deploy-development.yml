@@ -2,7 +2,7 @@ name: deploy-development
 
 on:
   push:
-    branches: [master]
+    branches: [development]
   repository_dispatch:
     types: deploy-development
   workflow_dispatch:
