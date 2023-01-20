@@ -6,7 +6,7 @@ sidebar_position: 1
 
 MEX is a 100% community owned token that is powering the xExchange. It is required for the governance of the decentralized exchange platform, as fuel for the perpetual decision-making process that will maintain xExchange ahead of the curve in terms of innovation, operational model, listing policies and other actions aimed at creating a sustainable value cycle for its stakeholders. Furthermore, the MEX token is designed as a value capture mechanism and incentive vehicle that will allow the compelling attributes of the economical advancements it enables to scale with its adoption.
 
-A locked form of MEX, namely xMEX, is used to incentivize liquidity provision. All xMEX rewards are locked for four years by default. xMEX is untradable and unsendable. However, a user may shorten the locking period or redeem xMEX for MEX at any time, although with a penalty.
+A locked form of MEX, namely xMEX, is used to incentivize liquidity provision. All xMEX rewards are locked for four years by default. xMEX is untradeable and unsendable. However, a user may shorten the locking period or redeem xMEX for MEX at any time, although with a penalty.
 
 <div style={{ textAlign: 'center' }}>
     <img src="/docs/tokenomics/tokenomics-chart.png" width="700" alt="Tokenomics Chart" />
@@ -22,9 +22,9 @@ Since xMEX is used for all kinds of rewards, namely farming rewards, boosted rew
     <img src="/docs/tokenomics/tokenomics-table.png" width="600" alt="Tokenomics Table" />
 </div>
 
-The first year’s emissions were under the old tokenomics (LKMEX). The transition to xExchange and xMEX happened simulatneously with the start into the second year of emissions.
+The first year’s emissions were under the old tokenomics (LKMEX). The transition to xExchange and xMEX happened simultaneously with the start into the second year of emissions.
 
-To battle the inflation, there a various burning measures in place, namely:
+To battle the inflation, there are various burning measures in place, namely:
 
 - 0.05% of the entire trading volume on xExchange is used to buy back MEX and burn it
 - 0.05% of the entire trading volume on xExchange is distributed to users with energy
