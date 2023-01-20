@@ -184,24 +184,7 @@ const config = {
     [
       "@docusaurus/plugin-client-redirects",
       {
-        redirects: [
-          {
-            from: "/sdk-and-tools/rest-api/api-com/",
-            to: "/sdk-and-tools/rest-api/multiversx-api/",
-          },
-          {
-            from: "/validators/elrond-go-scripts/config-scripts",
-            to: "/validators/nodes-scripts/config-scripts",
-          },
-          {
-            from: "/validators/elrond-go-scripts/install-update",
-            to: "/validators/nodes-scripts/install-update",
-          },
-          {
-            from: "/sdk-and-tools/dapp-core",
-            to: "/sdk-and-tools/sdk-dapp",
-          },
-        ],
+        redirects: [],
         createRedirects(existingPath) {
           if (existingPath.includes("/erdjs")) {
             return [
