@@ -112,7 +112,7 @@ const config = {
             "aria-label": "GitHub",
           },
           {
-            href: "https://t.me/MultiversX",
+            href: "https://t.me/xExchangeApp",
             position: "right",
             className: "header-telegram-link",
             "aria-label": "Chat",
