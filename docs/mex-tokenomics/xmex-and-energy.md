@@ -14,7 +14,7 @@ All xExchange farm rewards and fees are distributed as xMEX locked for 4 years.
 
 xMEX can be locked from any period ranging between 0 and 4 years, measured in days - more accurately, epochs: 24 hour intervals that begin and end around ~15:30 UTC each day.
 
-xMEX can be unlocked either by waiting for the entire respective period, or at any time but with a penalty ranging from 0 to 80% (20% for each year).
+xMEX can be unlocked either by waiting for the entire respective period, or at any time but with a penalty ranging from 0 to 80%.
 
 i.e. 100,000 xMEX with 1 years time lock can be converted into 80,000 MEX.
 
