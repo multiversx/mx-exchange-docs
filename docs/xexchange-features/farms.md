@@ -27,7 +27,7 @@ The APR of the boosted rewards (`BoostedAPR`) is given by the following formula:
     BoostedAPR = BaseAPR * BoostFactor * min(u YourLP/TotalLP, YourEnergy/TotalEnergy)
 </div>
 
-where `YourLP` is your amount of LP in the farm, `TotalLP` the total amount of LP in the farm, `YourEnergy` your energy, `TotalEnergy` the total energy in the farm, `BoostFactor = 60%/40% = 1.5` and `u=2`.
+where `YourLP` is your amount of LP in the farm, `TotalLP` the total amount of LP in the farm, `YourEnergy` your energy, `TotalEnergy` the total energy in the farm, `BoostFactor = 60%/40% = 1.5` and `u = 2`.
 
 Boosted rewards aren’t immediately visible. They become visible at the end of each rewards period (every Friday, at epoch change). You can find a countdown to the end of each rewards period in the right side menu.
 
