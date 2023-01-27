@@ -24,7 +24,7 @@ From all emissions that go towards a farm, 40% go to base rewards while 60% go t
 The APR of the boosted rewards (`BoostedAPR`) is given by the following formula:
 
 <div style={{ textAlign: 'center' }}>
-    BoostedAPR = BaseAPR * BoostFactor * min(u YourLP/TotalLP, YourEnergy/TotalEnergy)
+    BoostedAPR = BaseAPR * BoostFactor * min(u, (YourEnergy/TotalEnergy) / (YourLP/TotalLP))
 </div>
 
 where `YourLP` is your amount of LP in the farm, `TotalLP` the total amount of LP in the farm, `YourEnergy` your energy, `TotalEnergy` the total energy in the farm, `BoostFactor = 60%/40% = 1.5` and `u = 2`.
