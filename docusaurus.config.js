@@ -86,26 +86,6 @@ const config = {
         },
         items: [
           {
-            href: "/developers/overview",
-            label: "Develop",
-            position: "left",
-          },
-          {
-            href: "/validators/overview",
-            label: "Validate",
-            position: "left",
-          },
-          {
-            href: "/integrators/overview",
-            label: "Integrate",
-            position: "left",
-          },
-          {
-            href: "/technology/architecture-overview",
-            label: "Learn",
-            position: "left",
-          },
-          {
             href: "https://github.com/multiversx",
             position: "right",
             className: "header-github-link",
