@@ -3,6 +3,8 @@ sidebar_position: 2
 id: swaps
 ---
 
+[comment]: # (mx-context-auto)
+
 # Swaps
 
 Users can trade or swap an amount of tokens for an automated computed amount from the second token. The Automated Market Making concept relies on a mathematical formula to price assets. Instead of using an order book like a traditional exchange, assets are priced according to a pricing algorithm.

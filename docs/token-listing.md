@@ -3,7 +3,11 @@ sidebar_position: 4
 id: token-listing
 ---
 
+[comment]: # (mx-exclude-context)
+
 # Token Listing
+
+[comment]: # (mx-context-auto)
 
 ## The listing process
 
@@ -11,9 +15,13 @@ Any project is, in principal, eligible for listing. A simple criteria is to have
 
 Important: only the token creator (i.e. holoride for $RIDE) can perform the listing process. In the initial phase, tokens can be paired with EGLD and MEX, and later on with USDC.
 
+[comment]: # (mx-context-auto)
+
 ### 1. Register New Token
 
 Add your token to the MultiversX Web Tools as described here [https://github.com/multiversx/mx-assets](https://github.com/multiversx/mx-assets). Once the registration process is complete, your token will be usable in the xExchange for the next steps of the listing process.
+
+[comment]: # (mx-context-auto)
 
 ### 2. Create Pair
 
@@ -44,6 +52,8 @@ During the next step, the interface will show the pool contract address. Also, y
     <img src="/docs/token-listing/set-rules.png" alt="Set Token Rules" width="700"/>
 </div>
 
+[comment]: # (mx-context-auto)
+
 ### 3. Add liquidity
 
 Token creators will set the parity between their listed token and its pair by adding initial liquidity. The ratio between the two tokens determines the initial token price.
@@ -66,11 +76,15 @@ This is possible in the "Settings" menu.
 
 Congratulations, you have created your token pair!
 
+[comment]: # (mx-context-auto)
+
 ### 4. Enable swaps
 
 The swap function is not enabled by default for new pairs. Initially, a minimum of $100K USD equivalent in liquidity is required to activate this function. Note that adding and removing liquidity is not restricted in any scenario.
 
 On the testnet, make sure you reach out to a Telegram admin to quickly enable swaps for your test pairs.
+
+[comment]: # (mx-context-auto)
 
 ### 5. Upgrade to Farm, Global Visibility & Unlock USDC pairing
 
