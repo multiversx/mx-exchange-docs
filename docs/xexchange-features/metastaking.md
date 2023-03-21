@@ -3,6 +3,8 @@ sidebar_position: 5
 id: metastaking
 ---
 
+[comment]: # (mx-context-auto)
+
 # Metastaking
 
 Metastaking offers a way for liquidity providers to earn from three revenue streams simultaneously (apart from the rewards earned for having energy). Users can earn from trading fees, staking their LP tokens into eligible farms, and from staking the Farm position for additional rewards in the respective’s farm token, i.e. $UTK or $RIDE.

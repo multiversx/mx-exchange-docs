@@ -3,7 +3,11 @@ sidebar_position: 6
 id: how-to-guides
 ---
 
+[comment]: # (mx-exclude-context)
+
 # How To Guides
+
+[comment]: # (mx-context-auto)
 
 ## Login
 
@@ -15,6 +19,8 @@ id: how-to-guides
 - **xPortal Mobile Wallet** - scan a QR code with your xPortal App and connect your xPortal wallet to the exchange. Your xPortal App will then be used to sign all your actions on the exchange.
 - **Ledger** - use your Ledger hardware wallet to connect. You will be prompted to confirm actions taken on the exchange on your device.
 - **MultiversX** **Web Wallet** - you can login using a .JSON file + password. You will be prompted to login for every action.
+
+[comment]: # (mx-context-auto)
 
 ## Swap
 
@@ -33,6 +39,8 @@ id: how-to-guides
 9. The 2 transactions will be sent and your new balances will be automatically updated, pending the transactions’ execution
 
 Tip: You can change the slippage in the settings menu.
+
+[comment]: # (mx-context-auto)
 
 ## Add Liquidity
 
@@ -53,6 +61,8 @@ Tip: You can change the slippage in the settings menu.
 
 **Tip**: you can add xMEX tokens to the EGLD/MEX liquidity pool. Your xMEX will be put aside and unlocked MEX from a special reserve pool will be deposited in the LP instead. After withdrawing, you will get back your original deposited xMEX (not considering IL).
 
+[comment]: # (mx-context-auto)
+
 ## Staking
 
 1. Press “Stake”
@@ -61,6 +71,8 @@ Tip: You can change the slippage in the settings menu.
 4. Click “Continue”
 5. You will be asked to sign 1/2 transactions, as per your login method -> confirm
 6. The 1/2 transactions will be sent and your new balances will be automatically updated, pending the transactions’ execution
+
+[comment]: # (mx-context-auto)
 
 ## Harvesting:
 
@@ -74,6 +86,8 @@ You can either harvest the rewards individually, all at once, or directly reinve
 
 “Reinvest all” - reinvests all the available rewards for all positions. All the rewards are thus automatically staked into the farm. The rewards lock mechanisms will be identical to the respective positions.
 
+[comment]: # (mx-context-auto)
+
 ## Withdrawing:
 
 1. Click on “Withdraw” - notice the penalty countdown, if applicable
@@ -81,6 +95,8 @@ You can either harvest the rewards individually, all at once, or directly reinve
 3. Click on “Continue”
 4. You will be asked to sign 1 transaction, as per your login method -> confirm
 5. The transaction will be sent and your new balances will be automatically updated, pending the transaction’s execution
+
+[comment]: # (mx-context-auto)
 
 ## Remove Liquidity
 

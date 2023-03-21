@@ -3,6 +3,8 @@ sidebar_position: 9
 id: settings
 ---
 
+[comment]: # (mx-context-auto)
+
 # Settings
 
 To access the settings of the xExchange, open the menu on the right-hand side.
@@ -17,6 +19,8 @@ On the very bottom, you will see the settings category, which allows you to adju
     <img src="/docs/features/settings-panel.png" alt="Settings Panel" />
 </div>
 
+[comment]: # (mx-context-auto)
+
 ### Slippage Tolerance
 
 Here you can change how much slippage you are willing to accept before your swap gets canceled. It is advised to set the slippage to one of the three presets.
@@ -24,6 +28,8 @@ Here you can change how much slippage you are willing to accept before your swap
 If you have a slippage of 5%, it means that the swap will only be executed, as long as the price doesn’t change more than 5% on the negative side.
 
 A higher slippage ultimately leads to more risk, so use higher slippages with care!
+
+[comment]: # (mx-context-auto)
 
 ### Experimental Tokens
 
