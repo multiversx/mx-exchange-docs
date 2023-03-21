@@ -4,13 +4,19 @@ id: overview
 slug: /
 ---
 
+[comment]: # (mx-exclude-context)
+
 # Welcome to xExchange
 
 <img src="docs/xexchange-overview.jpg" alt="xExchange Overview" />
 
+[comment]: # (mx-context-auto)
+
 ## Quick notes:
 
 💡 Official website: [https://xexchange.com](https://xexchange.com/)
+
+[comment]: # (mx-context-auto)
 
 ## What is xExchange?
 
@@ -19,6 +25,8 @@ xExchange is a platform for trading and engaging with decentralized finance runn
 It is the second iteration of Maiar DEX - you can think of it as Maiar DEX 2.0 - and it is using the same powerful and scalable financial technology.
 
 Built by the same team that has built the blockchain protocol. Owned by the community.
+
+[comment]: # (mx-context-auto)
 
 ## What's special about the xExchange?
 
@@ -36,9 +44,13 @@ Built by the same team that has built the blockchain protocol. Owned by the comm
 
 **xPortal App (1.2M+ users)**: Seamless onboarding - you can use MultiversX’s xPortal App to login and sign transactions on the xExchange. As secure as a Ledger hardware wallet, as convenient as Face ID + tapping on the screen. Additionally, xPortal is super easy to use - it automatically and securely creates a wallet in seconds, using just a phone number (not shared, only a hash of it is used one time for wallet creation).
 
+[comment]: # (mx-context-auto)
+
 ## Why is the xExchange important?
 
 The MultiversX ecosystem has hundreds of partners, builders, projects and tokens. xExchange facilitates their communities and economies to build on each other’s strengths. Value creation that scales with utility and growth.
+
+[comment]: # (mx-context-auto)
 
 ## What is MEX?
 
@@ -48,9 +60,13 @@ MEX is the token powering the xExchange. It is designed as a value capture mecha
 - Initial MEX Distribution & Tokenomics: [https://xexchange.com/mex-economics-v2.pdf](https://xexchange.com/mex-economics-v2.pdf)
 - xExchange Whitepaper and Economics: [http://xexchange.com/x-exchange-economics.pdf](https://xexchange.com/x-exchange-economics.pdf)
 
+[comment]: # (mx-context-auto)
+
 ## What is xMEX?
 
 It is the tokenized commitment of long term explorers towards building the new frontiers of finance. Equivalent in value with MEX, xMEX is committed to a user’s account for a certain period of time. This “lock” duration is represented as Energy, which opens access to more rewards and perks.
+
+[comment]: # (mx-context-auto)
 
 ## What is Energy?
 

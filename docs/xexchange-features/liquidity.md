@@ -3,6 +3,8 @@ sidebar_position: 3
 id: liquidity
 ---
 
+[comment]: # (mx-context-auto)
+
 # Liquidity
 
 The liquidity pools emerged as an innovative and automated way of solving the liquidity challenge on DEXs. They replace the traditional order book model used by centralized crypto exchanges by using Automated Market Makers (AMM).
@@ -30,6 +32,8 @@ staking the LP token in a staking pool.
 However, a liquidity provider may also opt-in to earning rewards from a third revenue stream: Metastaking.
 
 Keep in mind that the LP token is very important. In order to withdraw the stake in the liquidity pool you need to provide the LP token.
+
+[comment]: # (mx-context-auto)
 
 ### Impermanent loss
 

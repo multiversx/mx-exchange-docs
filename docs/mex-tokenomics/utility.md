@@ -2,6 +2,8 @@
 sidebar_position: 3
 ---
 
+[comment]: # (mx-context-auto)
+
 # Utility
 
 The new Energy system not only rewards users based on xMEX holdings, but also on lock duration.

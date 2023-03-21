@@ -3,6 +3,8 @@ sidebar_position: 4
 id: farms
 ---
 
+[comment]: # (mx-context-auto)
+
 # Farms
 
 Farms generate yield for liquidity providers that stake the LP tokens. They are meant to incentivize long-term liquidity providing by offering an additional revenue stream for providers. The rewards for farms are usually provided in xMEX tokens, but special farms with dual token rewards can exist.
@@ -14,6 +16,8 @@ Farms generate yield for liquidity providers that stake the LP tokens. They are 
 Liquidity providers can use farms by staking the LP tokens obtained from providing liquidity in a pool. After doing this, xMEX rewards will periodically become available for harvesting.
 
 Farms have an early-withdrawal penalty. After depositing into a farm, you will notice that withdrawing will result in a 1% penalty. If you wait out the time shown, you will not have to pay a fee. This is to disincentivize playing with liquidity and ensure a stable amount of liquidity at all times.
+
+[comment]: # (mx-context-auto)
 
 ## Boosted Rewards
 
