@@ -85,6 +85,10 @@
   margin-right: 0.5rem;
 }
 
+.navbar__logo {
+  height: 1.5rem;
+}
+
 .navbar__items--right .dropdown.dropdown--right + div {
   order: 4;
   margin-right: 0.5rem;

@@ -1,33 +1,61 @@
-# Website
+# MultiversX xExchange docs
 
-This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
+The repository containing the [documentation](https://docs.exchange.com) for the MultiversX xExchange protocol.
 
-## Installation
+## About
 
-```console
-yarn install
-```
+The documentation is built over a custom [docusaurus](https://docusaurus.io/) solution and relies on Markdown files.
+This repository also has GitHub actions that will trigger the real-time updating of the official documentation website by merging into the `master` branch.
 
-## Local Development
+## How to use locally
 
-```console
-yarn start
-```
+In order to ensure that the new added content is correctly aligned and every Markdown feature is working as intended, one can run the project on a local machine.
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+### Requirements:
 
-## Build
+- a `git` client installed
+- `nodejs` and `npm` installed
+- optional, but useful: an IDE (Visual Code for example)
 
-```console
-yarn build
-```
+### Steps:
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
+- clone the repository
+- run `npm install` (only for the first usage)
+- run `npm start`
+- access `http://localhost:3000` to view your local version of the docs
 
-## Deployment
+Live reloading is supported, so you can view the changes in real time by saving the file and going back to the browser.
 
-```console
-GIT_USER=<Your GitHub username> USE_SSH=true yarn deploy
-```
+## Contributions
 
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+### About
+
+Once a proposal to update the documentation is submitted, it will be subject to an internal review process for merging into the core repository.
+
+### Audience
+
+Anyone can contribute to the docs. Any help is appreciated. Here are some ways in which you can contribute:
+
+- update parts of the documentation that no longer match the actual behaviour.
+- document features that aren't documented yet.
+- add additional information about a component.
+- fix grammar issues.
+- and so on...
+
+### Guidelines
+
+- external contributions will be made to the `external` branch.
+- you can contribute from GitHub directly (not recommended) or by working locally and pushing the changes (recommended).
+- the documentation pages are to be found inside the `docs` directory at the corresponding category.
+- please follow `docs/utils.md` for Markdown examples.
+
+### Opening a `pull request`
+
+- create a new branch starting from `external`.
+- push the changes to the new branch.
+- open a `pull request` from your branch to `external` branch.
+- wait for MultiversX members to review your pull request.
+
+Once approved, the pull request will be merged into the `external` branch. From time to time (and depending on the emergency of the changes) we will merge the `external` branch into `development` or `master` branches.
+
+## **Thank you!**

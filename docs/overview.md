@@ -4,7 +4,7 @@ id: overview
 slug: /
 ---
 
-# Welcome to xExchange ⚡
+# Welcome to xExchange
 
 <img src="docs/xexchange-overview.jpg" alt="xExchange Overview" />
 

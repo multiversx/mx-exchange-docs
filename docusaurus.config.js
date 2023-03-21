@@ -49,7 +49,7 @@ const config = {
           customCss: require.resolve("./src/css/custom.css"),
         },
         googleAnalytics: {
-          trackingID: "UA-143242606-1",
+          trackingID: "G-3K8PZXNLVF",
         },
       }),
     ],
@@ -85,26 +85,6 @@ const config = {
           srcDark: "img/logo.svg",
         },
         items: [
-          {
-            href: "/developers/overview",
-            label: "Develop",
-            position: "left",
-          },
-          {
-            href: "/validators/overview",
-            label: "Validate",
-            position: "left",
-          },
-          {
-            href: "/integrators/overview",
-            label: "Integrate",
-            position: "left",
-          },
-          {
-            href: "/technology/architecture-overview",
-            label: "Learn",
-            position: "left",
-          },
           {
             href: "https://github.com/multiversx",
             position: "right",
@@ -157,7 +137,7 @@ const config = {
           },
         ],
       },
-      image: "img/share.jpg",
+      image: "img/preview.jpg",
       footer: {
         style: "light",
         links: [],
