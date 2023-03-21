@@ -17,9 +17,17 @@ Farms have an early-withdrawal penalty. After depositing into a farm, you will n
 
 ## Boosted Rewards
 
-Each Farm has base rewards and boosted rewards. While base rewards are paid out equally to everyone, based on their share of the farm (APR is shown for each farm), boosted rewards are paid out not only based on your share of the liquidity, but also on how much energy you have. If you have a lot of energy, your boosted rewards can be higher than the base rewards.
+Each Farm has base rewards and boosted rewards. While base rewards are paid out equally to everyone, based on their share of the farm (APR is shown for each farm), boosted rewards are paid out not only based on your share of the liquidity of the farm, but also on your share of the energy of the farm.
 
 From all emissions that go towards a farm, 40% go to base rewards while 60% go towards the boosted rewards, to reward those with energy.
+
+The APR of the boosted rewards (`BoostedAPR`) is given by the following formula:
+
+<div style={{ textAlign: 'center' }}>
+    BoostedAPR = BaseAPR * BoostFactor * min(u, (YourEnergy/TotalEnergy) / (YourLP/TotalLP))
+</div>
+
+where `YourLP` is your amount of LP in the farm, `TotalLP` the total amount of LP in the farm, `YourEnergy` your energy, `TotalEnergy` the total energy in the farm, `BoostFactor = 60%/40% = 1.5` and `u = 2`.
 
 Boosted rewards aren’t immediately visible. They become visible at the end of each rewards period (every Friday, at epoch change). You can find a countdown to the end of each rewards period in the right side menu.
 

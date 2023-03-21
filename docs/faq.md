@@ -50,7 +50,7 @@ You can deposit LP tokens in Farms to earn rewards by pressing the Stake button.
 
 ## How can I stake xMEX?
 
-By simply holding xMEX in your wallet, you are already eligible for multiple simultaneous benefits, without the need to stake it as explained in the Utility section of the docs.
+By simply holding xMEX in your wallet, you are already eligible for multiple simultaneous benefits, without the need to stake it as explained in the [utility section of the docs](https://docs.xexchange.com/mex-tokenomics/utility).
 
 ## How many MEX tokens are there?
 
@@ -100,7 +100,7 @@ The pool displays many various tokens because 0.05% of the swap fee for all swap
 
 Energy is the new concept introduced with MEX 2.0. The more energy you have, the more rewards you will get.
 
-To find out what rewards you can earn, head to the [utility page of the docs](https://www.notion.so/FAQ-2e8611063f444fbf9ad8ff10af9858c1).
+To find out what rewards you can earn, head to the [utility page of the docs](docs.xexchange.com).
 
 ## How often do I have to claim the rewards?
 

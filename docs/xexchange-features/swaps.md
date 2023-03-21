@@ -13,6 +13,6 @@ xExchange uses the Uniswap-like constant product formula x \* y = k, where x is 
     <img src="/docs/features/swaps.png" alt="Swaps" width="570" />
 </div>
 
-There is a **0.3%** fee for swapping tokens. A part of this fee, 0.22% is split by liquidity providers proportional to their contribution to liquidity reserves. The contract will buy-back and burn MEX from the EGLD/MEX pool using 0.05% and the remaining 0.05% are split amongst all wallets with energy.
+There is a **0.3%** fee for swapping tokens. A part of this fee, 0.2% is split by liquidity providers proportional to their contribution to liquidity reserves. The contract will buy-back and burn MEX from the EGLD/MEX pool using 0.05% and the remaining 0.05% are split amongst all wallets with energy.
 
-To learn more about the energy system of xExchange, read this.
+To learn more about the energy system of xExchange, [read this](https://xexchange.com/x-exchange-economics.pdf).
