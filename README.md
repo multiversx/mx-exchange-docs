@@ -1,6 +1,6 @@
 # MultiversX xExchange docs
 
-The repository containing the [documentation](https://docs.exchange.com) for the MultiversX xExchange protocol.
+The repository containing the [documentation](https://docs.xexchange.com) for the MultiversX xExchange protocol.
 
 ## About
 
