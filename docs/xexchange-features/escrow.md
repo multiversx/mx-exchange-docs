@@ -16,7 +16,7 @@ Therefore, it shall be used mindfull of its strict conditions and, most likely, 
 ## XMEX Move flow
 
  1. Sender selects the batch of XMEX tokens to be transferred; after Move button clicked, sender has to fill in the receiver address and initiate the tokens transfer;
- 2. Receiver will only be able to redeem the transferred token ONLY after a certain amount of days;
+ 2. Receiver will be able to redeem the transferred tokens ONLY after a certain amount of days;
 
 ## XMEX move limitations
  - Sender can only send to a receiver ONCE per 30 days;
@@ -25,7 +25,7 @@ Therefore, it shall be used mindfull of its strict conditions and, most likely, 
  - Receiver can't accept new transfers from any other address after a sender sends tokens to it. A 30 days cooldown period is applied to receiver after a transfer was initiated towards the receiver.
 
 ## Canceling XMEX moving transfers
-We care about the security of users' accounts. That’s why the contract has a transfer cancelling feature available that allows an Admin to cancel malitious transfers that occur out of account thefts, exploits or scams.
+We care about the security of users' accounts. That’s why the contract has a transfer cancelling feature available that allows an Admin to cancel malicious transfers that occur out of account thefts, exploits or scams.
 In case you did not initiate an XMEX transfer, please contact the xExchange team. You'll need to provide a proof of a complaint emited by an official police authority that we can use as a basis to cancel unauthorized XMEX transfers from your account.
 
 Please note the fact that the team can not and will not cancel any ongoing transfer that doesn't fall into this legal category of complaints. Therefore, the integrity and correctness of any transfer is under the sole responsibility of the users.
