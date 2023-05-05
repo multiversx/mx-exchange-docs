@@ -1,6 +1,6 @@
 ---
 sidebar_position: 9
-id: xmex move
+id: xmex-move
 ---
 
 [comment]: # (mx-context-auto)
