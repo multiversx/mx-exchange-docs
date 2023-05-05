@@ -1,6 +1,6 @@
 ---
 sidebar_position: 9
-id: xmex move
+id: xmex-move
 ---
 
 [comment]: # (mx-context-auto)
@@ -23,6 +23,7 @@ Therefore, it shall be used mindfull of its strict conditions and, most likely, 
  - Receiver will be able to redeem the tokens after 30 days;
  - If receiver did not redeemed the tokens from a specific sender, that sender will not be able to send tokens again to the same receiver. Therefore, the receiver has to redeem the tokens first;
  - Receiver can't accept new transfers from any other address after a sender sends tokens to it. A 30 days cooldown period is applied to receiver after a transfer was initiated towards the receiver.
+ - Only XMEX can be moved, while LKMEX can not. The only way LKMEX can be moved is via conversion to XMEX beforehand.
 
 ## Canceling XMEX moving transfers
 We care about the security of users' accounts. That’s why the contract has a transfer cancelling feature available that allows an Admin to cancel malicious transfers that occur out of account thefts, exploits or scams.
