@@ -31,7 +31,7 @@ The governance power of a user increases with its energy. The rule is that the g
 A vote passes if and only if, at the end of the voting period, the following 3 criteria are met:
 
 - **Majority**: At least 50% of the participating governance power has voted "Yes" for the proposal,
-- **Quorum**: At least 40% of the total governance power has participated in the proposal.
+- **Quorum**: At least 40% of the total energy has participated in the proposal.
 - **No Veto**: Less than 33.40% of participating voting power has voted "NoWithVeto" for the proposal.
 
 At the end of the voting period, the XMEX deposit of the proposer is fully refunded, except if the proposal was vetoed, in which case a certain percentage of the deposit is burnt and the rest is refunded.
@@ -77,5 +77,5 @@ Keep in mind that before the voting period finishes, any voter may modify their 
 At the end of the voting period, users can’t vote any more and the xEIP has either passed the governance vote, or been rejected. There are three requirements:
 
 - **Majority**: At least 50% of the participating governance power has voted "Yes" for the proposal,
-- **Quorum**: At least 40% of the total governance power has participated in the proposal.
+- **Quorum**: At least 40% of the total energy power has participated in the proposal.
 - **No Veto**: Less than 33.40% of participating voting power has voted "NoWithVeto" for the proposal.
