@@ -32,6 +32,6 @@ To battle the inflation, there are various burning measures in place, namely:
 - 0.05% of the entire trading volume on xExchange is distributed to users with energy
 - 50% of the energy removal fee (when decreasing lock time on xMEX) is used to burn MEX
 - 50% of the energy removal fee is used to distribute extra rewards to users with energy
-- 100% of the 1% fee, when withdrawing from a farm before the withdrawal timer runs out, is used to buy back MEX and burn it
+- 100% of the 3% fee, when withdrawing from a farm before the withdrawal timer runs out, is used to buy back MEX and burn it
 
 For all the Tokenomics details, we advise you to read the [xExchange Whitepaper](https://xexchange.com/x-exchange-economics.pdf).
