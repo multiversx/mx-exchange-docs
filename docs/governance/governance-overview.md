@@ -1,6 +1,6 @@
 ---
 sidebar_position: 1
-id: governance overview
+id: governance-overview
 ---
 
 [comment]: # (mx-exclude-context)

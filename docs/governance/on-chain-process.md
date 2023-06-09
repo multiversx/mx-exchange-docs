@@ -1,6 +1,6 @@
 ---
 sidebar_position: 3
-id: on-chain proposal process
+id: on-chain-process
 ---
 
 [comment]: # (mx-exclude-context)
