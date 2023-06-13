@@ -71,7 +71,7 @@ Creating proposals requires finding a balance between being concise and detailed
 
 Each submission should start with an overview, detailing the critical aspects of the proposal, which should encourage people to form opinions without further information. The submission can also include any relevant link to other information, for example to related previous proposals and discussion in the Agora, or to GitHub repositories containing implementations of the changes.
 
-You can start an xEIP discussion on the Agora by opening a new thread and posting an xEIP draft. This is a message following the **xEIP draft template** (see below), that describes and motivates the proposed improvement. People will reply and discuss this draft, its author might decide to update it, and eventually, he might publish it on-chain for a governance vote.
+You can start an xEIP discussion on the Agora by opening a new thread and posting an xEIP draft. This is a message following the **xEIP draft template** (see below), that describes and motivates the proposed improvement. People will reply and discuss this draft, its author might decide to update it, and eventually, might publish it on-chain for a governance vote.
 
 ### xEIP draft template
 

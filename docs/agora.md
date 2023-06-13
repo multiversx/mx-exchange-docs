@@ -19,7 +19,7 @@ There are two categories of discussions on the Agora: the "General discussions" 
 
 ## "General discussions" category
 
-This category is for discussing any subject related to xExchange (product, strategy, tokenomics, website, etc.). A user can for instance ask a question related to the protocol, share ideas with the community, gather community feedback on a certain question or idea, present a tool he created to enhance xExchange in any way.
+This category is for discussing any subject related to xExchange (product, strategy, tokenomics, website, etc.). A user can, for instance, ask a question related to the protocol, share ideas with the community, gather community feedback on a certain question or idea, or present a tool they created to enhance xExchange in any way.
 
 [comment]: # (mx-context-auto)
 
