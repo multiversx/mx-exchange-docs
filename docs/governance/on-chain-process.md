@@ -34,7 +34,7 @@ A vote passes if and only if, at the end of the voting period, the following 3 c
 - **Quorum**: At least 40% of the total energy has participated in the proposal.
 - **No Veto**: Less than 33.40% of participating voting power has voted "NoWithVeto" for the proposal.
 
-At the end of the voting period, the XMEX deposit of the proposer is fully refunded, except if the proposal was vetoed, in which case a certain percentage of the deposit is burnt and the rest is refunded.
+At the end of the voting period, the XMEX deposit of the proposer is fully refunded, except if the proposal was vetoed, in which case the whole deposit is burnt.
 
 If the proposal has been approved, provided the proposal’s feasibility, the xExchange team will take action to implement it.
 
@@ -62,9 +62,7 @@ On Twitter, a sizable portion of the community may be found, and it may be a goo
 
 Once the deposit threshold is met, the Governance Depositor submits the xEIP to the governance contract, and the voting period starts.
 
-Only when the proposal is vetoed, a certain percentage of the deposit will be burnt. Otherwise, deposits will not be burnt in, even if the vote did not pass, for example if the quorum or the "Yes" majority were not reached.
-During the Voting Period
-During the voting period, users upvote proposal ("Yes" vote), downvote it ("No" vote), participate with a white vote which is neither for or against the proposal ("White" vote), or veto the proposal ("NoWithVeto" vote).
+Only when the proposal is vetoed, the deposit will be entirely burnt. Otherwise, deposits will not be burnt, they will be fully refunded, even if the vote did not pass, for example if the quorum or the "Yes" majority were not reached. During the voting period, users upvote proposal ("Yes" vote), downvote it ("No" vote), participate with a white vote which is neither for or against the proposal ("White" vote), or veto the proposal ("NoWithVeto" vote).
 
 As the xEIP creator, you should now keep tabs on the Energy holders who have and have not voted. To make sure they are aware of your plan, that they may ask you any questions about it, and that they are ready to vote, you should re-engage directly with the highest-ranking Energy holders.
 
