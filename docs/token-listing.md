@@ -80,7 +80,7 @@ Congratulations, you have created your token pair!
 
 ### 4. Enable swaps
 
-The swap function is not enabled by default for new pairs. Initially, a minimum of $100K USD equivalent in liquidity is required to activate this function. Note that adding and removing liquidity is not restricted in any scenario.
+The swap function is not enabled by default for new pairs. Note that adding and removing liquidity is not restricted in any scenario.
 
 On the testnet, make sure you reach out to a Telegram admin to quickly enable swaps for your test pairs.
 
