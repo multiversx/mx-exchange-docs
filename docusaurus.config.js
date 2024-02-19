@@ -9,11 +9,11 @@ const darkCodeTheme = require("prism-react-renderer/themes/oceanicNext");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "MultiversX Docs",
+  title: "xExchange Docs",
   titleDelimiter: "•",
   tagline:
     "A highly scalable, fast and secure blockchain platform for distributed apps, enterprise use cases and the new internet economy.",
-  url: "https://docs.multiversx.com",
+  url: "https://docs.xexchange.com",
   baseUrl: "/",
   onBrokenLinks: "log",
   onBrokenMarkdownLinks: "log",
@@ -22,7 +22,13 @@ const config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: "multiversx", // Usually your GitHub org/user name.
-  projectName: "mx-docs", // Usually your repo name.
+  projectName: "mx-exchange-docs", // Usually your repo name.
+
+   // mermaid support
+   markdown: {
+    mermaid: true,
+  },
+  themes: ["@docusaurus/theme-mermaid"],
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
