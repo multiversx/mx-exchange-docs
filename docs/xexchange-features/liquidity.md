@@ -50,8 +50,8 @@ Example:
 
 When providing liquidity at the starting point as 50 EGLD and 5000 USDC:
 
-- Value at future point if held: $1,250.00 → 50 EGLD and 5000 USDC (hodl)
-- Value at future point if providing liquidity: $1,224.74 → 40.8 EGLD and 6123.7 USDC (in liquidity pool)
+- Value at future point if held: $12,500.00 → 50 EGLD and 5000 USDC (hodl)
+- Value at future point if providing liquidity: $12,247.4 → 40.8 EGLD and 6123.7 USDC (in liquidity pool)
 - Impermanent loss: 2.02%
 
 Consider the potential returns while providing liquidity (from swaps, farm rewards, staking rewards) versus the potential impermanent loss to take an informed risk decision.
