@@ -1,11 +1,11 @@
 ---
 sidebar_position: 3
 id: on-chain-process
+sidebar_label: On-Chain Process
+title: On-Chain Proposal Process
 ---
 
 [comment]: # (mx-exclude-context)
-
-# On-Chain Proposal Process
 
 Now that you have received the knowledge and consideration from the community and converged to a final version of your proposal, if you have a decent level of confidence that your proposal will be approved by the majority of the community, it is time to submit it to the on-chain governance vote!
 

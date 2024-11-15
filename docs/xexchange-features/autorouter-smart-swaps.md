@@ -1,11 +1,10 @@
 ---
 sidebar_position: 7
 id: autorouter-smartswaps
+sidebar_label: Autorouter / Smart Swaps
+title: Autorouter / Smart Swaps
 ---
-
 [comment]: # (mx-context-auto)
-
-# Autorouter / Smart Swaps
 
 xExchange offers an innovative Smart Swaps feature, that allows swaps from any listed token to any listed token.
 

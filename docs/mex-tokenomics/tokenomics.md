@@ -1,10 +1,11 @@
 ---
 sidebar_position: 1
+sidebar_label: Tokenomics
+title: MEX Tokenomics
 ---
 
 [comment]: # (mx-context-auto)
 
-# Tokenomics
 
 MEX is a 100% community owned token that is powering the xExchange. It is required for the governance of the decentralized exchange platform, as fuel for the perpetual decision-making process that will maintain xExchange ahead of the curve in terms of innovation, operational model, listing policies and other actions aimed at creating a sustainable value cycle for its stakeholders. Furthermore, the MEX token is designed as a value capture mechanism and incentive vehicle that will allow the compelling attributes of the economical advancements it enables to scale with its adoption.
 

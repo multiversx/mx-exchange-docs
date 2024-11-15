@@ -2,13 +2,13 @@
 sidebar_position: 1
 id: overview
 slug: /
+sidebar_label: Introduction
+title: Welcome to xExchange
 ---
 
 [comment]: # (mx-exclude-context)
 
-# Welcome to xExchange
-
-<img src="docs/xexchange-overview.jpg" alt="xExchange Overview" />
+<img src="docs/launch.webp" alt="xExchange Overview" />
 
 [comment]: # (mx-context-auto)
 

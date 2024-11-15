@@ -1,13 +1,9 @@
 ---
 sidebar_position: 10
 id: faq
+sidebar_label: FAQ
+title: Frequently Asked Questions
 ---
-
-[comment]: # (mx-exclude-context)
-
-# FAQ
-
-[comment]: # (mx-context-auto)
 
 ## What is the xExchange?
 

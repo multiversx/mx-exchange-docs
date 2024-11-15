@@ -1,11 +1,11 @@
 ---
 sidebar_position: 7
 id: ui-walkthrough
+sidebar_label: UI Walkthrough
+title: xExchange User Interface Walkthrough
 ---
 
 [comment]: # (mx-context-auto)
-
-# User Interface Walkthrough
 
 If you are connected with your wallet, clicking on the xExchange Logo on the top left will always take you to the Dashboard.
 

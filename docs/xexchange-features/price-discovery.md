@@ -1,11 +1,11 @@
 ---
 sidebar_position: 8
 id: price-discovery
+sidebar_label: Price Discovery
+title: Price Discovery
 ---
 
 [comment]: # (mx-context-auto)
-
-# Price Discovery
 
 Price Discovery is a novel mechanism that allows token listings with less volatility than usual.
 

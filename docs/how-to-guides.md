@@ -1,13 +1,9 @@
 ---
 sidebar_position: 8
 id: how-to-guides
+sidebar_label: How To Guides
+title: How To Guides
 ---
-
-[comment]: # (mx-exclude-context)
-
-# How To Guides
-
-[comment]: # (mx-context-auto)
 
 ## Login
 

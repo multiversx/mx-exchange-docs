@@ -1,11 +1,11 @@
 ---
 sidebar_position: 1
 id: overview
+sidebar_label: Overview
+title: Overview
 ---
 
 [comment]: # (mx-context-auto)
-
-# Overview
 
 The xExchange is an evolved Automated Market Maker (AMM) Decentralized Exchange (DEX). It rearchitects key elements of the DEX AMM concept to build a product that can leverage the entire performance of the MultiversX architecture. The goal is to offer global, near-instant, inexpensive transactions among an expanding suite of assets.
 

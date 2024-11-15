@@ -1,14 +1,10 @@
 ---
 sidebar_position: 2
+sidebar_label: xMEX and Energy
+title: xMEX and Energy
 ---
 
-[comment]: # (mx-exclude-context)
-
-# xMEX & Energy
-
-[comment]: # (mx-context-auto)
-
-## xMEX
+## What is xMEX?
 
 xMEX is the time-locked equivalent of MEX. It has the same value, but for a certain period of time it can’t be bought, sold, or transferred.
 

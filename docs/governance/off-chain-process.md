@@ -1,13 +1,10 @@
 ---
 sidebar_position: 2
 id: off-chain-process
+sidebar_label: Off-Chain Process
+title: Off-Chain Proposal Process
 ---
 
-[comment]: # (mx-exclude-context)
-
-# Off-Chain Proposal Process
-
-[comment]: # (mx-context-auto)
 
 A proposal cannot be modified to incorporate criticism or new information once it has been placed on the chain. Giving a proposal time off-chain to garner comments, suggestions, and modifications is vitally crucial before bringing it up on-chain and soliciting votes.
 

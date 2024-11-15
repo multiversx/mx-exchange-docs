@@ -1,11 +1,11 @@
 ---
 sidebar_position: 10
 id: settings
+sidebar_label: Settings
+title: xExchange Settings
 ---
 
 [comment]: # (mx-context-auto)
-
-# Settings
 
 To access the settings of the xExchange, open the menu on the right-hand side.
 

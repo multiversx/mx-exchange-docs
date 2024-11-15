@@ -1,11 +1,11 @@
 ---
 sidebar_position: 6
 id: metabonding
+sidebar_label: Metabonding
+title: Metabonding
 ---
 
 [comment]: # (mx-context-auto)
-
-# Metabonding
 
 Metabonding is the ultimate community bootstrapping product for Web3 startups. A Web3 bonding fire that has become the golden standard for community building. The front-page of the builder's scene.
 

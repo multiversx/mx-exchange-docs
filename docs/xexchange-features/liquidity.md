@@ -1,11 +1,11 @@
 ---
 sidebar_position: 3
 id: liquidity
+sidebar_label: Liquidity Pools
+title: Liquidity Pools
 ---
 
 [comment]: # (mx-context-auto)
-
-# Liquidity
 
 The liquidity pools emerged as an innovative and automated way of solving the liquidity challenge on DEXs. They replace the traditional order book model used by centralized crypto exchanges by using Automated Market Makers (AMM).
 

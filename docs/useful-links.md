@@ -1,11 +1,11 @@
 ---
 sidebar_position: 9
 id: useful-links
+sidebar_label: Useful Links
+title: Useful Links
 ---
 
 [comment]: # (mx-context-auto)
-
-# Useful Links
 
 Wallets:
 

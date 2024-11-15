@@ -1,13 +1,9 @@
 ---
 sidebar_position: 6
 id: token-listing
+sidebar_label: Create a Liquidity Pool
+title: How to create a Liquidity Pool on xExchange
 ---
-
-[comment]: # "mx-exclude-context"
-
-# Token Listing
-
-[comment]: # "mx-context-auto"
 
 ## The listing process
 

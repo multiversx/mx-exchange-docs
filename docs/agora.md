@@ -1,13 +1,9 @@
 ---
 sidebar_position: 4
 id: agora
+sidebar_label: Agora
+title: xExchange Agora
 ---
-
-[comment]: # (mx-exclude-context)
-
-# Agora
-
-[comment]: # (mx-context-auto)
 
 ## What is the Agora?
 
