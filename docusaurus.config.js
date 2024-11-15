@@ -9,11 +9,11 @@ const darkCodeTheme = require("prism-react-renderer/themes/oceanicNext");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "MultiversX Docs",
+  title: "xExchange Docs",
   titleDelimiter: "•",
   tagline:
-    "A highly scalable, fast and secure blockchain platform for distributed apps, enterprise use cases and the new internet economy.",
-  url: "https://docs.multiversx.com",
+    "xExchange is a platform for trading and engaging with decentralized finance running on the MultiversX Network.",
+  url: "https://docs.xexchange.com/",
   baseUrl: "/",
   onBrokenLinks: "log",
   onBrokenMarkdownLinks: "log",
@@ -63,11 +63,37 @@ const config = {
         "sha384-odtC+0UGzzFL/6PNoE8rX/SPcQDXBJ+uRepguP4QkPCm2LBxH3FA3y+fKSiJ+AmM",
       crossorigin: "anonymous",
     },
+    // {
+    //   href: "https://fonts.googleapis.com/css?family=Montserrat:400,500,600&display=swap",
+    //   type: "text/css",
+    //   crossorigin: "anonymous",
+    // },
+  ],
+
+  headTags: [
     {
-      href: "https://fonts.googleapis.com/css?family=Montserrat:400,500,600&display=swap",
-      type: "text/css",
-      crossorigin: "anonymous",
+      tagName: 'link',
+      attributes: {
+        rel: 'manifest',
+        href: '/site.webmanifest',
+      },
     },
+    {
+      tagName: 'link',
+      attributes: {
+        rel: 'apple-touch-icon',
+        href: '/img/favicons/apple-touch-icon.png',
+        sizes: '180x180',
+      },
+    },  
+    {
+      tagName: 'link',
+      attributes: {
+        rel: 'mask-icon',
+        href: '/img/favicons/safari-pinned-tab.svg',
+        color: '#007cff',
+      },
+    }  
   ],
 
   themeConfig:
@@ -75,7 +101,7 @@ const config = {
     ({
       colorMode: {
         defaultMode: "dark",
-        disableSwitch: true,
+        disableSwitch: false,
         respectPrefersColorScheme: false,
       },
       navbar: {
@@ -120,7 +146,7 @@ const config = {
               },
               {
                 label: "Bridge",
-                href: "https://ad-astra.multiversx.com",
+                href: "https://bridge.multiversx.com",
                 target: "_blank",
               },
               {
@@ -134,10 +160,18 @@ const config = {
                 target: "_blank",
               },
             ],
-          },
+          },          
+          {          
+            href: "https://xexchange.com",
+            position: "right",
+            className: "header-open-app-button",
+            "aria-label": "Open xExchange App",
+            label: "Open App",
+          },          
+
         ],
       },
-      image: "img/preview.jpg",
+      image: "img/launch.webp",
       footer: {
         style: "light",
         links: [],
