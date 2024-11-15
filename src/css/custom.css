@@ -341,3 +341,11 @@ html[data-theme="dark"] {
 }
 
 /* -------------------- End Markdown ------------------- */
+
+/* ------------------- Start Mermaid ------------------- */
+
+.docusaurus-mermaid-container {
+  text-align: center;
+}
+
+/* -------------------- End Mermaid ------------------- */
