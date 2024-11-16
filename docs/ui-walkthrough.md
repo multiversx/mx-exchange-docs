@@ -1,7 +1,7 @@
 ---
-sidebar_position: 7
+sidebar_position: 1000
 id: ui-walkthrough
-sidebar_label: UI Walkthrough
+sidebar_label: 👀 UI Walkthrough
 title: xExchange User Interface Walkthrough
 ---
 

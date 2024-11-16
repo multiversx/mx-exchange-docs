@@ -6,14 +6,13 @@ title: Overview
 ---
 
 [comment]: # (mx-context-auto)
+<img src="/docs/welcome.png" alt="xExchange Overview" />
 
-The xExchange is an evolved Automated Market Maker (AMM) Decentralized Exchange (DEX). It rearchitects key elements of the DEX AMM concept to build a product that can leverage the entire performance of the MultiversX architecture. The goal is to offer global, near-instant, inexpensive transactions among an expanding suite of assets.
+:::info
+xExchange is an evolved Automated Market Maker (AMM) Decentralized Exchange (DEX). It rearchitects key elements of the DEX AMM concept to build a product that can leverage the entire performance of the MultiversX architecture. The goal is to offer global, near-instant, inexpensive transactions among an expanding suite of assets.
+:::
 
-<div style={{ textAlign: 'center' }}>
-    <img src="/docs/features/features-overview.png"  alt="Features Overview" />
-</div>
-
-The xExchange DEX will feature an Automated Market Maker (AMM) application, enabling seamless P2P exchange (actually a peer-to-contract: P2C) of native tokens without the need of maintaining an order book.
+The xExchange DEX features an Automated Market Maker (AMM) application, enabling seamless P2P exchange (actually a peer-to-contract: P2C) of native tokens without the need of maintaining an order book.
 
 You could think of an Automated Market Maker as a bot that’s always willing to quote you a price between two assets. These swaps instantaneously happen against assets that are pooled to provide liquidity. You can also provide liquidity in these pools and be rewarded based on their utilization. This allows essentially anyone to become a market maker on an exchange and earn fees for providing liquidity.
 

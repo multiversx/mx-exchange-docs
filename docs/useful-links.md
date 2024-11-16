@@ -1,7 +1,7 @@
 ---
-sidebar_position: 9
+sidebar_position: 1100
 id: useful-links
-sidebar_label: Useful Links
+sidebar_label: 🔗 Useful Links
 title: Useful Links
 ---
 

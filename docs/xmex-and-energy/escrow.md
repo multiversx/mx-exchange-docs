@@ -1,8 +1,8 @@
 ---
 sidebar_position: 9
 id: xmex-move
-sidebar_label: xMEX Move
-title: xMEX Move
+sidebar_label: Transferring xMEX
+title: Transferring xMEX
 ---
 
 [comment]: # (mx-context-auto)

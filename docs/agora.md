@@ -1,7 +1,7 @@
 ---
-sidebar_position: 4
+sidebar_position: 850
 id: agora
-sidebar_label: Agora
+sidebar_label: 🏛️ Agora
 title: xExchange Agora
 ---
 

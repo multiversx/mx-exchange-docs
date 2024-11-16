@@ -6,6 +6,7 @@ title: Governance Overview
 ---
 
 [comment]: # (mx-exclude-context)
+<img src="/docs/features/governance-header_1x.webp" alt="xExchange Governance" />
 
 xExchange Governance allows the community to propose xExchange Improvement Proposals (xEIPs) and to vote for them. This is a two-step process:
 

@@ -1,6 +1,8 @@
 ---
 sidebar_position: 2
 id: safe-price
+sidebar_label: Safe Price
+title: Safe Price
 ---
 
 [comment]: # (mx-exclude-context)

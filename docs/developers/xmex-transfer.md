@@ -1,6 +1,8 @@
 ---
 sidebar_position: 3
 id: xmex-transfer
+sidebar_label: xMEX Transfer
+title: xMEX Transfer
 ---
 
 [comment]: # (mx-exclude-context)

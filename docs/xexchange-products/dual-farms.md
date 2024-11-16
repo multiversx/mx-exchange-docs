@@ -1,12 +1,12 @@
 ---
 sidebar_position: 5
-id: metastaking
-sidebar_label: Metastaking
-title: Metastaking
+id: dual-farms
+sidebar_label: 🌾🌾 Dual Farms
+title: Dual Farms
 ---
 
 [comment]: # (mx-context-auto)
-
+<img src="/docs/features/dual-farms-header_1x.webp" alt="xExchange Dual Farms" />
 Metastaking offers a way for liquidity providers to earn from three revenue streams simultaneously (apart from the rewards earned for having energy). Users can earn from trading fees, staking their LP tokens into eligible farms, and from staking the Farm position for additional rewards in the respective’s farm token, i.e. $UTK or $RIDE.
 
 <div style={{ textAlign: 'center' }}>

@@ -1,38 +1,24 @@
 ---
-sidebar_position: 1
+sidebar_position: 100
 id: overview
 slug: /
-sidebar_label: Introduction
+sidebar_label: 👋 Welcome
 title: Welcome to xExchange
 ---
-
 [comment]: # (mx-exclude-context)
+<img src="docs/welcome.png" alt="xExchange Overview" />
 
-<img src="docs/launch.webp" alt="xExchange Overview" />
+[comment]: # (mx-context-auto)
+xExchange is a decentralized finance (DeFi) platform on the MultiversX Network, where users can participate as traders or liquidity providers. Users can earn rewards by supplying liquidity or take advantage of efficient trading, all powered by next-gen blockchain technology.
 
 [comment]: # (mx-context-auto)
 
-## Quick notes:
 
-💡 Official website: [https://xexchange.com](https://xexchange.com/)
-
-[comment]: # (mx-context-auto)
-
-## What is xExchange?
-
-xExchange is a platform for trading and engaging with decentralized finance running on the MultiversX Network. A gateway for the next billion people into the digital economy.
-
-It is the second iteration of Maiar DEX - you can think of it as Maiar DEX 2.0 - and it is using the same powerful and scalable financial technology.
-
-Built by the same team that has built the blockchain protocol. Owned by the community.
-
-[comment]: # (mx-context-auto)
-
-## What's special about the xExchange?
+## Get familiar with xExchange
 
 **Blazing fast**: State sharding technology makes all DeFi operations on the xExchange execute in a fast and reliable manner while keeping up with any volume of demand.
 
-**Inexpensives**: Costs are negligible so everyone can enjoy everything from simple trades to deploying complex strategies.
+**Inexpensive**: Costs are negligible so everyone can enjoy everything from simple trades to deploying complex strategies.
 
 **Slick**: Intuitive experiences will ease the next billion people into digital finance.
 
@@ -48,7 +34,9 @@ Built by the same team that has built the blockchain protocol. Owned by the comm
 
 ## Why is the xExchange important?
 
+:::note
 The MultiversX ecosystem has hundreds of partners, builders, projects and tokens. xExchange facilitates their communities and economies to build on each other’s strengths. Value creation that scales with utility and growth.
+:::
 
 [comment]: # (mx-context-auto)
 

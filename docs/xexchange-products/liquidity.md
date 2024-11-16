@@ -1,41 +1,48 @@
 ---
 sidebar_position: 3
 id: liquidity
-sidebar_label: Liquidity Pools
+sidebar_label: 🌊 Liquidity Pools
 title: Liquidity Pools
 ---
 
 [comment]: # (mx-context-auto)
+<img src="/docs/features/pools-header_1x.webp" alt="xExchange Liquidity Pools" />
 
-The liquidity pools emerged as an innovative and automated way of solving the liquidity challenge on DEXs. They replace the traditional order book model used by centralized crypto exchanges by using Automated Market Makers (AMM).
+:::info
+Liquidity pools emerged as an innovative and automated way of solving the liquidity challenge on DEXs. They replace the traditional order book model used by centralized crypto exchanges by using Automated Market Makers (AMM).
+:::
 
-<div style={{ textAlign: 'center' }}>
-    <img src="/docs/features/liquidity.png" width="580" alt="Liquidity" />
-</div>
-
+## How it works
 Liquidity providers are incentivized for their contribution with rewards. When they make a deposit, they receive a new token representing their stake, called a liquidity pool token or LP token.
 
 The share of trading fees paid by users who use the pool to swap tokens is distributed automatically to all liquidity providers, proportional to their stake size. There is a **0.3%** fee for swapping tokens.
 
-The xExchange economics model will be as follows: 0.3% will be the basic fee, from which 0.2% goes to the liquidity providers, with 0.05% the contract will buy MEX from the EGLD/MEX pool and burn it and the remaining 0.05% will be distributed among all users with energy.
+The xExchange economics model is as follows:
 
-This 0.2% fee is split by liquidity providers proportional to their contribution to liquidity reserves. This is done via the following algorithm: whenever someone trades on the exchange, the trader pays a 0.3% fee and 0.2% is added to the liquidity pool. Since no new liquidity tokens are minted, this has the effect of splitting the transaction fee proportionally between all existing
-liquidity providers.
+Swapping tokens incurs a **0.3%** fee. As part of that fee:
+- **0.2%** goes to liquidity providers based on their share of the liquidity pool.
+
+- **0.05%** is used to buy back and burn MEX from the EGLD/MEX pool.
+
+- The final **0.05%** is distributed to all accounts with [Energy](/mex-tokenomics/xmex-and-energy.md).
+
+The 0.2% fee is shared among liquidity providers based on their stake. Here’s how it works: when a trade occurs, a 0.3% fee is charged, with 0.2% added directly to the liquidity pool. Since no new liquidity tokens are minted, this effectively distributes the fee among existing liquidity providers proportionally.
 
 Swapping fees are immediately deposited into liquidity reserves. This increases the value of liquidity tokens, functioning as a payout to all liquidity providers proportional to their share of the pool.
 
-On xExchange, LP tokens can also be staked in a farm specific to each liquidity pool so that even more rewards are earned in the form of xMEX tokens.
+On xExchange, Liquidity Pool (LP) tokens can be staked in [dedicated farms](/xexchange-products/yield-farming.md) for each pool, earning additional rewards in xMEX tokens.
 
-Thus, a liquidity provider will earn rewards from 2 streams: the fees from the LP and xMEX for
-staking the LP token in a staking pool.
+A liquidity provider earns rewards from two sources: trading fees from the liquidity pool and xMEX rewards for staking LP tokens in a farm.
 
-However, a liquidity provider may also opt-in to earning rewards from a third revenue stream: Metastaking.
+Additionally, they can opt into a third stream through [Dual Farms](/xexchange-products/dual-farms.md) for even more rewards.
 
-Keep in mind that the LP token is very important. In order to withdraw the stake in the liquidity pool you need to provide the LP token.
+:::tip
+The LP token is essential—you’ll need it to withdraw your stake from the liquidity pool.
+:::
 
 [comment]: # (mx-context-auto)
 
-### Impermanent loss
+## What is Impermanent loss?
 
 Providing liquidity can be profitable, but you’ll need to keep the concept of impermanent loss (IL) in mind. IL describes the temporary loss of funds occasionally experienced by liquidity providers because of volatility in a trading pair.
 

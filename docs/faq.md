@@ -1,7 +1,7 @@
 ---
-sidebar_position: 10
+sidebar_position: 800
 id: faq
-sidebar_label: FAQ
+sidebar_label: 🤔 FAQ
 title: Frequently Asked Questions
 ---
 
