@@ -4,8 +4,10 @@ require("dotenv").config();
 const math = require("remark-math");
 const katex = require("rehype-katex");
 
-const lightCodeTheme = require("prism-react-renderer/themes/vsDark");
-const darkCodeTheme = require("prism-react-renderer/themes/oceanicNext");
+// Update theme imports for prism-react-renderer v2
+const { themes } = require('prism-react-renderer');
+const lightCodeTheme = themes.vsLight;
+const darkCodeTheme = themes.oceanicNext;
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -52,9 +54,6 @@ const config = {
         blog: false, // Optional: disable the blog plugin
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
-        },
-        googleAnalytics: {
-          trackingID: "G-3K8PZXNLVF",
         },
       }),
     ],
@@ -182,6 +181,7 @@ const config = {
         links: [],
         copyright: `Copyright © ${new Date().getFullYear()} MultiversX. All rights reserved.`,
       },
+      // Update prism config
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
@@ -236,6 +236,12 @@ const config = {
           }
           return undefined; // Return a falsy value: no redirect created
         },
+      }
+    ],
+    ['@docusaurus/plugin-google-gtag',
+      {
+        trackingID: 'G-3K8PZXNLVF',
+        anonymizeIP: true,
       },
     ],
   ],

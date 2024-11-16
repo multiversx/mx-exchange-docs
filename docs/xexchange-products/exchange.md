@@ -30,7 +30,7 @@ As part of that fee:
 
 - **0.05%** is used to buy back and burn MEX from the EGLD/MEX pool.
 
-- The final **0.05%** is distributed to all accounts with [Energy](/mex-tokenomics/xmex-and-energy.md).
+- The final **0.05%** is distributed to all accounts with [Energy](/xmex-and-energy/what-is-energy.md).
 :::
 
 To learn more about the energy system of xExchange, you can read the [xExchange Economics Paper](https://xexchange.com/x-exchange-economics.pdf).

@@ -7,7 +7,7 @@ title: What is xMEX?
 <img src="/docs/features/xmex-header.webp" alt="xExchange xMEX Token" />
 
 :::info
-xMEX is the time-locked equivalent of [MEX](/mex-tokenomics/what-si-mex.md). It has the same value, but for a certain period of time it can’t be bought, sold, or transferred.
+xMEX is the time-locked equivalent of [MEX](/mex-tokenomics/what-is-mex.md). It has the same value, but for a certain period of time it can’t be bought, sold, or transferred.
 :::
 
 :::note

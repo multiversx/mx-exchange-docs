@@ -24,7 +24,7 @@ Swapping tokens incurs a **0.3%** fee. As part of that fee:
 
 - **0.05%** is used to buy back and burn MEX from the EGLD/MEX pool.
 
-- The final **0.05%** is distributed to all accounts with [Energy](/mex-tokenomics/xmex-and-energy.md).
+- The final **0.05%** is distributed to all accounts with [Energy](/xmex-and-energy/what-is-energy.md).
 
 The 0.2% fee is shared among liquidity providers based on their stake. Here’s how it works: when a trade occurs, a 0.3% fee is charged, with 0.2% added directly to the liquidity pool. Since no new liquidity tokens are minted, this effectively distributes the fee among existing liquidity providers proportionally.
 
