@@ -238,12 +238,83 @@ const config = {
         },
       }
     ],
+    [
+      "pwa",
+      {
+        // debug: isDeployPreview,
+        offlineModeActivationStrategies: [
+          "appInstalled",
+          "standalone",
+          "queryString",
+        ],
+        // swRegister: false,
+        // swCustom: require.resolve("./src/sw.js"), // TODO make it possible to use relative path
+        pwaHead: [
+          {
+            tagName: "link",
+            rel: "icon",
+            href: "img/favicons/apple-touch-icon.png",
+          },
+          {
+            tagName: "link",
+            rel: "manifest",
+            href: "manifest/manifest.json",
+          },
+          {
+            tagName: "meta",
+            name: "theme-color",
+            content: "rgb(14, 14, 14)",
+          },
+          {
+            tagName: "meta",
+            name: "apple-mobile-web-app-capable",
+            content: "yes",
+          },
+          {
+            tagName: "meta",
+            name: "apple-mobile-web-app-status-bar-style",
+            content: "#0e0e0e",
+          },
+          {
+            tagName: "link",
+            rel: "apple-touch-icon",
+            href: "img/favicons/apple-touch-icon.png",
+          },
+          {
+            tagName: "link",
+            rel: "mask-icon",
+            href: "img/favicons/apple-touch-icon.png",
+            color: "rgb(14, 14, 14)",
+          },
+          {
+            tagName: "meta",
+            name: "msapplication-TileImage",
+            content: "img/favicons/mstile-150x150.png",
+          },
+          {
+            tagName: "meta",
+            name: "msapplication-TileColor",
+            content: "#0e0e0e",
+          },
+        ],
+      },
+    ],    
     ['@docusaurus/plugin-google-gtag',
       {
         trackingID: 'G-3K8PZXNLVF',
         anonymizeIP: true,
       },
     ],
+    async function tailwindPlugin(context, options) {
+      return {
+        name: "docusaurus-tailwindcss",
+        configurePostCss(postcssOptions) {
+          postcssOptions.plugins.push(require("tailwindcss"));
+          postcssOptions.plugins.push(require("autoprefixer"));
+          return postcssOptions;
+        },
+      };
+    },
   ],
 };
 
