@@ -1,26 +1,27 @@
-html:not(.docs-wrapper):not(.search-page-wrapper) {
-  --navbar-transparency: 1;
-  --navbar-blur: 0;
-}
-
 html[data-theme="dark"]:not(.docs-wrapper):not(.search-page-wrapper) {
   --ifm-background-color: theme(colors.neutral.900);
+  --navbar-blur: 10rem;
 }
 
 html[data-has-hydrated="true"][data-theme="dark"]:not(.docs-wrapper):not(
     .search-page-wrapper
   )
   .navbar {
-    background-color: rgba(14, 14, 14, var(--navbar-transparency, 1));
+    background-color: rgba(14, 14, 14, var(--navbar-transparency));
+    backdrop-filter: blur(var(--navbar-blur));
+  }
+  
+html[data-has-hydrated="true"]:not(.docs-wrapper):not(
+    .search-page-wrapper
+  )
+  .navbar {
+    background-color: rgba(255, 255, 255, var(--navbar-transparency));
   }
 
 html[data-has-hydrated="true"]:not(.docs-wrapper):not(.search-page-wrapper)
   #__docusaurus {
-  background: url("/img/theme/bolt@2x.webp") right -20px top 40px no-repeat,
-    url("/img/theme/bg-light@2x.webp") right -180px top -150px no-repeat,
-    var(--ifm-background-color);
-  background-size: 40vw, 60vw, auto;
-  background-blend-mode: normal, difference, normal;
+  background: url("/img/theme/bg-light@2x.png") center  top -90dvh no-repeat;
+  background-size: 120vw;
 }
 
 html[data-has-hydrated="true"][data-theme="dark"]:not(.docs-wrapper):not(
@@ -28,10 +29,8 @@ html[data-has-hydrated="true"][data-theme="dark"]:not(.docs-wrapper):not(
   )
   #__docusaurus {
   background: 
-    url("/img/theme/bg-dark@2x.webp") center  top -90dvh no-repeat,
-    var(--ifm-background-color);
-  background-size: 120vw, auto;
-  background-blend-mode: lighten, normal;
+    url("/img/theme/bg-dark.png") center top -5dvh no-repeat;
+  background-size: 90vw;
 }
 
 @media only screen and (max-width: 428px) {

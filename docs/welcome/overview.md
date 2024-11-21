@@ -2,7 +2,7 @@
 sidebar_position: 1
 id: overview
 sidebar_label: Overview
-title: Overview
+title: 👋 Welcome to xExchange
 ---
 
 [comment]: # (mx-context-auto)

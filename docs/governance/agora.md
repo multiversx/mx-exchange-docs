@@ -1,13 +1,13 @@
 ---
 sidebar_position: 850
 id: agora
-sidebar_label: 🏛️ Agora
+sidebar_label: Agora
 title: xExchange Agora
 ---
 
-## What is the Agora?
-
+:::info
 The Agora (which means the central public place in ancient Greek) is xExchange forum (https://agora.xexchange.com/), where users can start discussions on any subject related to xExchange, and participate in ongoing ones by posting messages. For this, users must have logged in with their wallet and be at least in the Faraday league, i.e. have more than 5 billion energy.
+:::
 
 There are two categories of discussions on the Agora: the "General discussions" category for discussing any subject xExchange related, and the "xEIP discussions" category for discussing xExchange Improvement Proposals.
 

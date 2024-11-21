@@ -13,11 +13,11 @@ Liquidity pools emerged as an innovative and automated way of solving the liquid
 :::
 
 ## How it works
-Liquidity providers are incentivized for their contribution with rewards. When they make a deposit, they receive a new token representing their stake, called a liquidity pool token or LP token.
+Liquidity providers are incentivized for their contribution with rewards. When they make a deposit, they receive a new token representing their stake, called a liquidity pool token or **LP token**.
 
 The share of trading fees paid by users who use the pool to swap tokens is distributed automatically to all liquidity providers, proportional to their stake size. There is a **0.3%** fee for swapping tokens.
 
-The xExchange economics model is as follows:
+## Economics
 
 Swapping tokens incurs a **0.3%** fee. As part of that fee:
 - **0.2%** goes to liquidity providers based on their share of the liquidity pool.
@@ -29,6 +29,8 @@ Swapping tokens incurs a **0.3%** fee. As part of that fee:
 The 0.2% fee is shared among liquidity providers based on their stake. Here’s how it works: when a trade occurs, a 0.3% fee is charged, with 0.2% added directly to the liquidity pool. Since no new liquidity tokens are minted, this effectively distributes the fee among existing liquidity providers proportionally.
 
 Swapping fees are immediately deposited into liquidity reserves. This increases the value of liquidity tokens, functioning as a payout to all liquidity providers proportional to their share of the pool.
+
+## Beyond Liquidity Pools
 
 On xExchange, Liquidity Pool (LP) tokens can be staked in [dedicated farms](/xexchange-products/yield-farming.md) for each pool, earning additional rewards in xMEX tokens.
 

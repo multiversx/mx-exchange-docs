@@ -17,14 +17,14 @@ export const SectionCard = ({
       <Link
         to={link}
         className={clsx(
-          "flex grow h-full w-auto min-h-[196px] p-6 rounded-2xl border border-solid border-white/5 backdrop-blur-[52px] justify-between items-end  hover:no-underline bg-white hover:bg-neutral-25 dark:bg-neutral-850/80  dark:hover:bg-neutral-700/30 transition-all",
+          "flex grow h-full w-auto min-h-[196px] p-6 rounded-2xl border border-solid border-white/5 backdrop-blur-[52px] justify-between items-end hover:no-underline bg-white dark:bg-neutral-850/80 dark:hover:bg-neutral-700/30 outline outline-0 outline-red hover:outline-4 transition-all",
           className
         )}
       >
         <div className="grow shrink basis-0 self-stretch rounded-2xl flex-col justify-between items-start inline-flex gap-8">
           <div className="self-stretch flex-col justify-start items-start gap-10 flex">
             <div className="justify-start items-center gap-1 inline-flex">
-              <div className="text-neutral-800 dark:text-neutral-25 text-lg font-medium leading-normal">
+              <div className="text-neutral-800 dark:text-neutral-25 text-lg font-medium">
                 {title}
               </div>
               <div className="w-4 h-4 justify-center items-center flex">
@@ -47,7 +47,7 @@ export const SectionCard = ({
     <Link
       to={link}
       className={clsx(
-        "flex grow h-full p-6 rounded-3xl backdrop-blur-[50px] justify-between items-end hover:no-underline bg-white hover:bg-neutral-25 dark:bg-neutral-850/80 dark:hover:bg-neutral-700/30 transition-all",
+        "flex grow h-full p-6 rounded-3xl justify-between items-end hover:no-underline bg-neutral-25 dark:bg-neutral-850/50 outline outline-0 dark:outline-neutral-850/50 outline-neutral-25 hover:outline-8 transition-all ease-in-out",
         className
       )}
     >
@@ -62,7 +62,7 @@ export const SectionCard = ({
             </div>
           )}
           <div className="self-stretch justify-start items-center gap-1 inline-flex">
-            <div className="text-neutral-800 dark:text-neutral-25 font-medium leading-[21px]">
+            <div className="text-neutral-800 dark:text-neutral-25 font-medium text-lg">
               {title}
             </div>
             <div className="w-4 h-4 justify-center items-center flex">
@@ -73,7 +73,7 @@ export const SectionCard = ({
             </div>
           </div>
         </div>
-        <p className="ms-0 mb-0 text-neutral-400 font-normal text-sm leading-tight line-clamp-2">{text}</p>
+        <p className="ms-0 mb-0 text-neutral-400 font-normal text-lg leading-tight line-clamp-2">{text}</p>
       </div>
     </Link>
   );

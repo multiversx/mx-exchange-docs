@@ -21,10 +21,6 @@ From all emissions that go towards a farm, 40% go to base rewards while 60% go t
 
 Similarly to how Farms work, boosted rewards from Dual Farms are paid only to Energy holder. Learn more in [Dual Farms](/xexchange-products/dual-farms.md)
 
-## ⚡️ Metabonding Rewards
-
-[Metabonding](/xexchange-products/metabonding.md) rewards are exclusively distributed to users who have Energy.
-
 ## ⚡️ xMEX emissions
 
 5% of the xMEX emissions will go to Energy holders. There is no need to stake your xMEX. Just holding it in the wallet is enough to earn rewards.

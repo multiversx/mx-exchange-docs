@@ -7,7 +7,10 @@ title: Transferring xMEX
 
 [comment]: # (mx-context-auto)
  
+:::info
 xMEX is special for its transfer locking mechanism, since it is supposed to be bound to the account. But sometimes people have to move for various reasons, so do tokens.
+:::
+
 The xMEX Move function comes as a solution for this precise and usually inconvenient case.
 
 The xMEX Move (also known as Escrow) contract facilitates the transfer of xMEX from one account to another, with limitations in place to overcome scamming and abuse of token transfers that go against the idea of holding xMEX.

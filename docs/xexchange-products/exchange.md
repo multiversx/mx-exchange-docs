@@ -18,10 +18,6 @@ Users can trade or swap an amount of tokens for an automated computed amount fro
 
 xExchange uses the Uniswap-like constant product formula x \* y = k, where x is the amount of one token in the liquidity pool, and y is the amount of the other. In this formula, k is a fixed constant, meaning the pool’s total liquidity always has to remain the same.
 
-<div style={{ textAlign: 'center' }}>
-    <img src="/docs/features/swaps.png" alt="Swaps" width="570" />
-</div>
-
 :::tip
 Swapping tokens incurs a **0.3%** fee.
 

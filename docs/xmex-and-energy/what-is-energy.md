@@ -4,6 +4,7 @@ id: what-is-energy
 sidebar_label: What is Energy?
 title: What is Energy?
 ---
+<img src="/docs/features/energy-header.webp" alt="xExchange Energy" />
 
 Any xMEX has attributed energy proportional to the locked period.
 

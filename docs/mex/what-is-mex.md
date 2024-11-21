@@ -1,8 +1,8 @@
 ---
 sidebar_position: 1
 id: what-is-mex
-sidebar_label: What is MEX?
-title: What is MEX?
+sidebar_label: What is $MEX?
+title: What is $MEX?
 ---
 
 [comment]: # (mx-context-auto)

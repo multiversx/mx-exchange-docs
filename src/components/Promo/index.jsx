@@ -18,7 +18,7 @@ const Promo = () => {
         playsInline
         autoPlay
         muted
-        className="absolute z-0 w-full rounded-3xl"
+        className="absolute z-0 inset-0 h-full rounded-3xl"
       >
         <source src="videos/xmex-rotation.mp4" />
         <source src="videos/xmex-rotation.webm" />

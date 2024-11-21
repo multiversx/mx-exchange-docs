@@ -1,9 +1,11 @@
 ---
 sidebar_position: 800
 id: faq
-sidebar_label: 🤔 FAQ
-title: Frequently Asked Questions
+sidebar_label: FAQ
+title: 🤔 Frequently Asked Questions
 ---
+
+<img src="/docs/features/faq-header.webp" alt="xExchange FAQ" />
 
 ## What is the xExchange?
 
@@ -66,7 +68,7 @@ You can deposit LP tokens in Farms to earn rewards by pressing the Stake button.
 
 ## How can I stake xMEX?
 
-By simply holding xMEX in your wallet, you are already eligible for multiple simultaneous benefits, without the need to stake it as explained in the [utility section of the docs](https://docs.xexchange.com/mex-tokenomics/utility).
+By simply holding xMEX in your wallet, you are already eligible for multiple simultaneous benefits, without the need to stake it as explained in the [utility section of the docs](https://docs.xexchange.com/mex/utility).
 
 [comment]: # (mx-context-auto)
 

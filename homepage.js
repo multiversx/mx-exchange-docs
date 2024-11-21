@@ -12,7 +12,7 @@ const homepage = {
       {
         title: "Introduction",
         text: "Learn about the core concepts of the xExchange Protocol. Trading, Pools, Energy and more.",
-        link: "/xexchange-features/overview",
+        link: "/welcome/overview",
         icon: faBolt,
       },
       {
@@ -63,7 +63,7 @@ const homepage = {
         link: "/learn/EGLD#getting-egld",
       },
       {
-        title: "Participate in Governance",
+        title: "Governance",
         text: "Vote on the future of xExchange.",
         link: "https://multiversx.com/builders/builder-tools-resources",
       },
@@ -79,7 +79,7 @@ const homepage = {
     tag: "Token",
     subtitle:
       "MEX is the fully community-owned token that drives xExchange. It plays a key role in governance, fueling the ongoing decision-making that keeps xExchange at the forefront of innovation, optimizing its operations, and shaping listing policies.",
-    link: "mex-tokenomics/what-is-mex",
+    link: "mex/what-is-mex",
     button: "Discover MEX",
   },
   community: {
@@ -114,6 +114,10 @@ const homepage = {
         text: "Goverance Portal",
         link: "https://xexchange.com/governance",
       },
+      {
+        text: "Release Notes",
+        link: "https://multiversx.notion.site/xExchange-Release-Notes-10c73522fb4d80898b19e8ad3c34a3d0?pvs=73",
+      },      
       {
         text: "Buy Crypto",
         link: "https://buy.multiversx.com/",

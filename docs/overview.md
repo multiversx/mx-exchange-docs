@@ -1,7 +1,7 @@
 ---
 sidebar_position: 100
 id: overview
-slug: /
+slug: /overview
 sidebar_label: 👋 Welcome
 title: Welcome to xExchange
 ---

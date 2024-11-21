@@ -50,6 +50,11 @@ const config = {
           /* other docs plugin options */
           remarkPlugins: [math],
           rehypePlugins: [katex],
+          exclude: [
+            'guides/**',
+            'glossary/**',
+            'overview.md',
+          ],
         },
         blog: false, // Optional: disable the blog plugin
         theme: {
@@ -103,6 +108,12 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      docs: {
+        sidebar: {
+          hideable: true,
+          autoCollapseCategories: false,
+        },
+      },
       colorMode: {
         defaultMode: "dark",
         disableSwitch: false,
@@ -111,10 +122,26 @@ const config = {
       navbar: {
         logo: {
           alt: "MultiversX xExchange Docs",
-          src: "img/logo_dark.svg",
-          srcDark: "img/logo.svg",
+          src: "img/logo.svg",
+          srcDark: "img/logo-dark.svg",
         },
         items: [
+
+          {
+            href: "/welcome/overview",
+            label: "Welcome",
+            position: "left",
+          },
+          {
+            href: "/xexchange-products/overview",
+            label: "Products",
+            position: "left",
+          },
+          {
+            href: "/mex/what-is-mex",
+            label: "$MEX",
+            position: "left",
+          },          
           {
             href: "https://github.com/multiversx",
             position: "right",
@@ -129,33 +156,29 @@ const config = {
           },
           {
             type: "dropdown",
+            label: "Websites",
             position: "right",
             className: "header-app-change",
             "aria-label": "Websites",
             items: [
               {
-                label: "Main Site",
-                href: "https://multiversx.com",
-                target: "_blank",
-              },
-              {
-                label: "Wallet",
+                label: "MultiversX Wallet",
                 href: "https://wallet.multiversx.com",
                 target: "_blank",
               },
               {
-                label: "Explorer",
+                label: "Blockchain Explorer",
                 href: "https://explorer.multiversx.com",
                 target: "_blank",
               },
               {
-                label: "Bridge",
+                label: "MultiversX Bridge",
                 href: "https://bridge.multiversx.com",
                 target: "_blank",
               },
               {
-                label: "xExchange",
-                href: "https://xexchange.com",
+                label: "xPortal Wallet",
+                href: "https://xportal.com",
                 target: "_blank",
               },
               {
@@ -164,7 +187,7 @@ const config = {
                 target: "_blank",
               },
             ],
-          },          
+          },
           {          
             href: "https://xexchange.com",
             position: "right",

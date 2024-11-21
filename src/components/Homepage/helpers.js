@@ -29,7 +29,7 @@ export function handleScroll(ref) {
 
   if (window.scrollY > 60) {
     const transparency = Math.min(window.scrollY / 250, 0.75);
-    const blur = Math.min(window.scrollY / 750, 0.375);
+    const blur = Math.min(window.scrollY / 100, 25.375);
 
     document.documentElement.style.setProperty(
       "--navbar-transparency",
@@ -38,6 +38,6 @@ export function handleScroll(ref) {
     document.documentElement.style.setProperty("--navbar-blur", `${blur}rem`);
   } else {
     document.documentElement.style.setProperty("--navbar-transparency", 0);
-    document.documentElement.style.setProperty("--navbar-blur", 0);
+    document.documentElement.style.setProperty("--navbar-blur", '10rem');
   }
 }
