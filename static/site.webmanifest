@@ -1,6 +1,14 @@
 {
     "name": "xExchange Docs",
     "short_name": "xExchange Docs",
+    "dir": "ltr",
+    "lang": "en",
+    "start_url": "/",
+    "display": "minimal-ui",
+    "theme_color": "#4789ff",
+    "description": "xExchange is a platform for trading and engaging with decentralized finance running on the MultiversX Network.",
+
+    "background_color": "#18191a",    
     "icons": [
         {
             "src": "/img/favicons/android-chrome-192x192.png",
@@ -12,8 +20,5 @@
             "sizes": "512x512",
             "type": "image/png"
         }
-    ],
-    "theme_color": "#4789ff",
-    "background_color": "#18191a",
-    "display": "standalone"
+    ]
 }

@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <Layout
       title="Docs"
-      description="A highly scalable, fast and secure blockchain platform for distributed apps, enterprise use cases and the new internet economy."
+      description="xExchange is a platform for trading and engaging with decentralized finance running on the MultiversX Network. use cases and the new internet economy."
     >
       <Homepage />
     </Layout>

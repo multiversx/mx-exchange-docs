@@ -14,12 +14,14 @@ const config = {
   title: "xExchange Docs",
   titleDelimiter: "•",
   tagline: "xExchange is a platform for trading and engaging with decentralized finance running on the MultiversX Network.",
+  // Set the production url of your site here
   url: "https://docs.xexchange.com/",
+  // Set the /<baseUrl>/ pathname under which your site is served
+  // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: "/",
   onBrokenLinks: "log",
   onBrokenMarkdownLinks: "log",
   favicon: "img/favicons/favicon.ico",
-
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: "multiversx", // Usually your GitHub org/user name.
@@ -83,14 +85,16 @@ const config = {
         "sha384-odtC+0UGzzFL/6PNoE8rX/SPcQDXBJ+uRepguP4QkPCm2LBxH3FA3y+fKSiJ+AmM",
       crossorigin: "anonymous",
     },
-    // {
-    //   href: "https://fonts.googleapis.com/css?family=Montserrat:400,500,600&display=swap",
-    //   type: "text/css",
-    //   crossorigin: "anonymous",
-    // },
   ],
 
   headTags: [
+    {
+      tagName: "link",
+      attributes: {
+        rel: "preconnect",
+        href: "https://cdn.multiversx.com",
+      },
+    },    
     {
       tagName: 'link',
       attributes: {
@@ -125,6 +129,8 @@ const config = {
           autoCollapseCategories: false,
         },
       },
+      // Replace with your project's social card
+      image: "img/launch.webp",      
       colorMode: {
         defaultMode: "dark",
         disableSwitch: false,
@@ -209,7 +215,7 @@ const config = {
 
         ],
       },
-      image: "img/launch.webp",
+
       footer: {
         style: "light",
         links: [],
@@ -271,68 +277,7 @@ const config = {
           return undefined; // Return a falsy value: no redirect created
         },
       }
-    ],
-    [
-      "pwa",
-      {
-        // debug: isDeployPreview,
-        offlineModeActivationStrategies: [
-          "appInstalled",
-          "standalone",
-          "queryString",
-        ],
-        // swRegister: false,
-        // swCustom: require.resolve("./src/sw.js"), // TODO make it possible to use relative path
-        pwaHead: [
-          {
-            tagName: "link",
-            rel: "icon",
-            href: "img/favicons/apple-touch-icon.png",
-          },
-          {
-            tagName: "link",
-            rel: "manifest",
-            href: "manifest/manifest.json",
-          },
-          {
-            tagName: "meta",
-            name: "theme-color",
-            content: "rgb(14, 14, 14)",
-          },
-          {
-            tagName: "meta",
-            name: "apple-mobile-web-app-capable",
-            content: "yes",
-          },
-          {
-            tagName: "meta",
-            name: "apple-mobile-web-app-status-bar-style",
-            content: "#0e0e0e",
-          },
-          {
-            tagName: "link",
-            rel: "apple-touch-icon",
-            href: "img/favicons/apple-touch-icon.png",
-          },
-          {
-            tagName: "link",
-            rel: "mask-icon",
-            href: "img/favicons/apple-touch-icon.png",
-            color: "rgb(14, 14, 14)",
-          },
-          {
-            tagName: "meta",
-            name: "msapplication-TileImage",
-            content: "img/favicons/mstile-150x150.png",
-          },
-          {
-            tagName: "meta",
-            name: "msapplication-TileColor",
-            content: "#0e0e0e",
-          },
-        ],
-      },
-    ],    
+    ], 
     ['@docusaurus/plugin-google-gtag',
       {
         trackingID: 'G-3K8PZXNLVF',
