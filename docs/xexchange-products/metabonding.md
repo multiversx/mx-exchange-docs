@@ -8,6 +8,10 @@ title: Metabonding
 [comment]: # (mx-context-auto)
 <img src="/docs/features/metabonding-header.webp" alt="xExchange Metabonding" />
 
+:::warning
+The Metabonding program has been discontinued in November 2024
+:::
+
 Metabonding is the ultimate community bootstrapping product for Web3 startups. A Web3 bonding fire that has become the golden standard for community building. The front-page of the builder's scene.
 
 Projects building on MultiversX will be able to establish a long-term commitment with the most hardcore community members, by distributing 10% of their token supply over the course of 2 years to all accounts, proportional to their energy.

@@ -1,6 +1,6 @@
 ---
 sidebar_position: 900
-id: token-listing
+id: how-to-create-a-liquidity-pool
 sidebar_label: Creating a Liquidity Pool
 title: How to create a Liquidity Pool on xExchange
 ---

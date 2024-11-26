@@ -17,14 +17,14 @@ const homepage = {
       },
       {
         title: "Products",
-        text: "Discover how to use xExchange products like Trade, Liquidity Pools, Yield Farming, Staking, Dual Farms, and more.",
+        text: "Discover products like Trade, Liquidity Pools, Yield Farming, Staking, Dual Farms, and more.",
         link: "/xexchange-products/overview",
         icon: faCube,
       },
       {
-        title: "Guides",
-        text: "Learn step by step how to use xExchange features and how to leverage them to your advantage.",
-        link: "/guides/overview",
+        title: "Governance",
+        text: "Vote on the future of xExchange.",
+        link: "/governance/governance-overview",
         icon: faBook,
       },
     ],
@@ -65,12 +65,12 @@ const homepage = {
       {
         title: "Governance",
         text: "Vote on the future of xExchange.",
-        link: "https://multiversx.com/builders/builder-tools-resources",
+        link: "/governance/governance-overview",
       },
       {
         title: "For Developers",
         text: "Start building on xExchange.",
-        link: "https://multiversx.com/builders/build-your-first-multiversx-dapp-in-30-minutes",
+        link: "/developers/useful-links",
       },
     ],
   },

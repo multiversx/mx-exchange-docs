@@ -43,8 +43,8 @@
 
 html {
   scroll-behavior: smooth;
-  font-family: Inter, Roboto, Helvetica Neue, Noto Sans,
-    Liberation Sans, sans-serif;
+  font-family: Inter, Roboto, Helvetica Neue, Noto Sans, Liberation Sans,
+    sans-serif;
   font-size: 16px;
 }
 
@@ -59,7 +59,7 @@ html {
   --ifm-color-primary-lighter: theme(colors.primary.200);
   --ifm-color-primary-lightest: theme(colors.primary.100);
   --ifm-code-font-size: 95%;
-  
+
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 
   --ifm-heading-font-family: theme(fontFamily.sans);
@@ -74,7 +74,7 @@ html {
   --ifm-heading-font-weight: 600;
 
   --ifm-footer-padding-vertical: 1.25rem;
-  
+
   --ifm-navbar-background-color: theme(colors.white);
   --ifm-navbar-link-color: theme(colors.neutral.850);
   --ifm-navbar-link-hover-color: theme(colors.primary.DEFAULT);
@@ -94,6 +94,17 @@ html {
   --ifm-global-spacing: 2rem;
 }
 
+@media only screen and (max-width: 998px) {
+  :root {
+  --ifm-navbar-padding-vertical: 1rem;
+  --ifm-navbar-padding-horizontal: 1rem;
+  --ifm-spacing-horizontal: 1rem;
+  --ifm-spacing-vertical: 1rem;
+  --ifm-global-spacing: 1rem;
+  }
+}
+
+
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 html[data-theme="dark"] {
   --ifm-background-color: theme(colors.neutral.900);
@@ -109,12 +120,11 @@ html[data-theme="dark"] {
   --ifm-footer-background-color: theme(colors.primary.1000);
   --docsearch-hit-active-color: #242526 !important;
 
-  
   --ifm-navbar-background-color: theme(colors.primary.1000);
   --ifm-navbar-link-color: theme(colors.neutral.25);
   --ifm-navbar-link-hover-color: theme(colors.neutral.25);
 
-  --ifm-toc-border-color: rgba(255,255,255,0.06);
+  --ifm-toc-border-color: rgba(255, 255, 255, 0.06);
   --ifm-color-emphasis-300: theme(colors.neutral.850);
 
   --ifm-breadcrumb-item-background-active: theme(colors.neutral.850);
@@ -122,7 +132,6 @@ html[data-theme="dark"] {
 
   --ifm-heading-color: theme(colors.neutral.50);
   --ifm-font-color-base: theme(colors.neutral.100);
-
 }
 /* -------------------- Start Tailwind -------------------- */
 
@@ -162,13 +171,11 @@ html[data-theme="dark"] {
   }
 }
 
-
 /* -------------------- BEGIN Sidebar ------------------- */
 
 .theme-doc-sidebar-menu {
   padding: 1rem;
 }
-
 
 .theme-doc-sidebar-item-link-level-2,
 .theme-doc-sidebar-item-link-level-3 {
@@ -195,6 +202,10 @@ html[data-theme="dark"] {
   @apply pb-3;
 }
 
+.navbar-sidebar--show {
+  @apply min-h-[100dvh]
+}
+
 /* -------------------- END Sidebar ------------------- */
 
 .table-of-contents__link strong {
@@ -218,7 +229,6 @@ html[data-theme="dark"] {
 .navbar__logo {
   height: 1.75rem;
 }
-
 
 /* -------------------- End Overrides ------------------- */
 
@@ -268,7 +278,7 @@ div[class*="colorModeToggle"] .clean-btn {
   border-radius: 0.375rem;
   backdrop-filter: blur(16px);
   background-color: theme(colors.neutral.50);
-  @apply outline outline-0 outline-neutral-50 hover:outline-2 transition-all ease-in-out
+  @apply outline outline-0 outline-neutral-50 hover:outline-2 transition-all ease-in-out;
 }
 
 .navbar__items--right .dropdown.dropdown--right:hover,
@@ -432,7 +442,6 @@ div[class*="colorModeToggle"] .clean-btn:hover {
 
 /* -------------------- End Navbar ------------------- */
 
-
 /* ------------------- Start Docsearch ------------------- */
 
 .DocSearch {
@@ -443,7 +452,7 @@ div[class*="colorModeToggle"] .clean-btn:hover {
   --docsearch-highlight-color: var(--docsearch-primary-color);
   --docsearch-muted-color: theme(colors.neutral.800);
   --docsearch-container-background: rgba(101, 108, 133, 0.8);
-  --docsearch-logo-color: rgba(255,255,255,.3);
+  --docsearch-logo-color: rgba(255, 255, 255, 0.3);
   --docsearch-modal-width: 560px;
   --docsearch-modal-height: 600px;
   --docsearch-modal-background: #f5f6f7;
@@ -524,7 +533,6 @@ html[data-theme="dark"] .DocSearch {
 }
 /* -------------------- End Docsearch ------------------- */
 
-
 /* -------------------- Start Footer ------------------- */
 
 .footer-favicon {
@@ -589,7 +597,6 @@ html[data-theme="dark"] .DocSearch {
   --ifm-h1-vertical-rhythm-bottom: 0.5;
   --ifm-heading-vertical-rhythm-bottom: 1.25;
 
-
   --ifm-heading-margin-top: 1px;
   --ifm-heading-margin-bottom: 1px;
 }
@@ -633,3 +640,50 @@ html[data-theme="dark"] .DocSearch {
 }
 
 /* -------------------- End Mermaid ------------------- */
+
+/* ------------------- Start Homepage ------------------- */
+html[data-theme="dark"]:not(.docs-wrapper):not(.search-page-wrapper) {
+  --ifm-background-color: theme(colors.neutral.900);
+  --navbar-blur: 10rem;
+}
+
+html[data-has-hydrated="true"][data-theme="dark"]:not(.docs-wrapper):not(
+    .search-page-wrapper
+  )
+  .navbar {
+  background-color: rgba(14, 14, 14, var(--navbar-transparency));
+  backdrop-filter: blur(var(--navbar-blur));
+}
+
+html[data-has-hydrated="true"]:not(.docs-wrapper):not(.search-page-wrapper)
+  .navbar {
+  background-color: rgba(255, 255, 255, var(--navbar-transparency));
+}
+
+html[data-has-hydrated="true"][data-theme="dark"]:not(.docs-wrapper):not(
+    .search-page-wrapper
+  )
+  #__docusaurus {
+  background: url("/img/theme/bg-dark.png") center top -5dvh no-repeat;
+  background-size: 90vw;
+}
+
+@media only screen and (max-width: 428px) {
+  html[data-has-hydrated="true"][data-theme="dark"]:not(.docs-wrapper):not(
+      .search-page-wrapper
+    )
+    #__docusaurus {
+    background-position: center -60px;
+    background-size: 100vw;
+  }
+}
+
+@media only screen and (min-width: 429px) and (max-width: 992px) {
+  html[data-has-hydrated="true"][data-theme="dark"]:not(.docs-wrapper):not(
+      .search-page-wrapper
+    )
+    #__docusaurus {
+    background-position: center 0px;
+    background-size: 120vw;
+  }
+} /* ------------------- End Homepage ------------------- */

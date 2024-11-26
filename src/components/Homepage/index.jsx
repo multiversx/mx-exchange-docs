@@ -7,7 +7,6 @@ import Hero from "../Hero";
 import Promo from "../Promo";
 import Resources from "../Resources";
 
-import "./homepage.css";
 import { debounce, handleScroll, throttle } from "./helpers";
 
 export default function Homepage() {
