@@ -14,4 +14,4 @@ MEX is the fully community-owned token that drives xExchange. It plays a key rol
 
 By design, MEX serves as both a value capture mechanism and an incentive tool, ensuring that its benefits scale with adoption, fostering a sustainable value cycle for all stakeholders.
 
-A locked form of MEX, namely [xMEX](/xmex-and-energy/xme/.d), is used to incentivize liquidity provision. All xMEX rewards are locked for four years by default. xMEX is untradeable and unsendable. However, a user may shorten the locking period or redeem xMEX for MEX at any time, although with a penalty.
+A locked form of MEX, namely [xMEX](/xmex-and-energy/xmex.md), is used to incentivize liquidity provision. All xMEX rewards are locked for four years by default. xMEX is untradeable and unsendable. However, a user may shorten the locking period or redeem xMEX for MEX at any time, although with a penalty.

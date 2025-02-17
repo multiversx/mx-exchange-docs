@@ -57,11 +57,11 @@ const homepage = {
         text: "Get a higher APR on your positions.",
         link: "/xmex-and-energy/what-is-energy",
       },
-      {
-        title: "Create Liquidity Pool",
-        text: "List your token or create pool.",
-        link: "/guides/how-to-create-a-liquidity-pool",
-      },
+      // {
+      //   title: "Create Liquidity Pool",
+      //   text: "List your token or create pool.",
+      //   link: "/guides/how-to-create-a-liquidity-pool",
+      // },
       {
         title: "Governance",
         text: "Vote on the future of xExchange.",
