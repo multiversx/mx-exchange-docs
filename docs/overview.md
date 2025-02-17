@@ -6,7 +6,7 @@ sidebar_label: 👋 Welcome
 title: Welcome to xExchange
 ---
 [comment]: # (mx-exclude-context)
-<img src="docs/welcome.png" alt="xExchange Overview" />
+<img src="/docs/welcome.png" alt="xExchange Overview" />
 
 [comment]: # (mx-context-auto)
 xExchange is a decentralized finance (DeFi) platform on the MultiversX Network, where users can participate as traders or liquidity providers. Users can earn rewards by supplying liquidity or take advantage of efficient trading, all powered by next-gen blockchain technology.

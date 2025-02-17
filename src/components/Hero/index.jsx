@@ -17,7 +17,7 @@ const Hero = () => {
       </section>
       <Section cards={hero.cards} cardsClassname="hero-card" />
       <img 
-        src="img/theme/bg-dark.png"
+        src="/img/theme/bg-dark.png"
         alt="xExchange Energy"
         className="absolute w-[200dvw] max-w-none sm:w-full h-auto -z-10 top-0 left-auto right-auto"
       />
