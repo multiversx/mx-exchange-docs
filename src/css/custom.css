@@ -660,14 +660,14 @@ html[data-has-hydrated="true"]:not(.docs-wrapper):not(.search-page-wrapper)
   background-color: rgba(255, 255, 255, var(--navbar-transparency));
 }
 
-html[data-has-hydrated="true"][data-theme="dark"]:not(.docs-wrapper):not(
+/* html[data-has-hydrated="true"][data-theme="dark"]:not(.docs-wrapper):not(
     .search-page-wrapper
   )
   #__docusaurus {
   background: url("/img/theme/bg-dark.png") center top -5dvh no-repeat;
   background-size: 90vw;
-}
-
+} */
+/* 
 @media only screen and (max-width: 428px) {
   html[data-has-hydrated="true"][data-theme="dark"]:not(.docs-wrapper):not(
       .search-page-wrapper
@@ -676,8 +676,8 @@ html[data-has-hydrated="true"][data-theme="dark"]:not(.docs-wrapper):not(
     background-position: center -60px;
     background-size: 100vw;
   }
-}
-
+} */
+/* 
 @media only screen and (min-width: 429px) and (max-width: 992px) {
   html[data-has-hydrated="true"][data-theme="dark"]:not(.docs-wrapper):not(
       .search-page-wrapper
@@ -686,4 +686,6 @@ html[data-has-hydrated="true"][data-theme="dark"]:not(.docs-wrapper):not(
     background-position: center 0px;
     background-size: 120vw;
   }
-} /* ------------------- End Homepage ------------------- */
+}  */
+
+/* ------------------- End Homepage ------------------- */

@@ -35,32 +35,32 @@ const homepage = {
       {
         title: "Trade",
         text: "Trade or swap hundreds of tokens.",
-        link: "/tokens/intro",
+        link: "/xexchange-products/swaps",
       },
       {
         title: "Earn",
         text: "Add liquidity, earn fees and rewards.",
-        link: "/wallet/overview",
+        link: "/xexchange-products/liquidity",
       },
       {
         title: "Farm",
         text: "Stake your liquidity and earn xMEX",
-        link: "/integrators/overview",
+        link: "/xexchange-products/farms",
       },
       {
         title: "Stake",
         text: "Stake your tokens and earn rewards.",
-        link: "/learn/architecture-overview",
+        link: "/xexchange-products/staking",
       },
       {
         title: "Boost your Rewards",
         text: "Get a higher APR on your positions.",
-        link: "/learn/space-vm",
+        link: "/xmex-and-energy/what-is-energy",
       },
       {
         title: "Create Liquidity Pool",
         text: "List your token or create pool.",
-        link: "/learn/EGLD#getting-egld",
+        link: "/guides/how-to-create-a-liquidity-pool",
       },
       {
         title: "Governance",

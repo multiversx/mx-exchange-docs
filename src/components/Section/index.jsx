@@ -28,7 +28,7 @@ const Section = ({
       {cards.length > 0 && (
         <ul
           className={clsx(
-            "list-none pl-0 my-8 cards grid gap-4 mt-3xl grid-auto-rows-fr",
+            "list-none pl-0 pr-0 my-8 cards grid gap-4 mt-3xl grid-auto-rows-fr",
             {
               "grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4":
                 hasSmallCards,
@@ -41,7 +41,6 @@ const Section = ({
               <SectionCard
                 {...card}
                 className={cardsClassname}
-                isSmallCard={hasSmallCards}
               />
             </li>
           ))}

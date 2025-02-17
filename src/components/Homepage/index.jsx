@@ -46,11 +46,11 @@ export default function Homepage() {
       >
         <linearGradient id="icon-gradient">
           <stop offset="0%" stopColor="#00FFC2"></stop>
-          <stop offset="100%" stopColor="#28CAE0"></stop>
+        <stop offset="100%" stopColor="#28CAE0"></stop>
         </linearGradient>
       </svg>
       <div
-        className={clsx("py-4 gap-24 sm:py-24 sm:gap-24 flex-col inline-flex")}
+        className={clsx("py-24 gap-24 sm:py-24 sm:gap-24 flex-col inline-flex")}
       >
         <Hero />
         <Features />
