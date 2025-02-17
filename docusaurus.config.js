@@ -59,6 +59,8 @@ const config = {
             'guides/how-to-claim-rewards.md',
             'guides/how-to-login.md',
             'guides/how-to-remove-liquidity.md',
+            'guides/how-to-create-liquidity-pool.md',
+            'guides/useful-links.md',
             'guides/how-to-set-slippage-tolerance.md',
             'guides/how-to-stake.md',
             'guides/how-to-trade.md',
