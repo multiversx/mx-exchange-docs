@@ -1,8 +1,8 @@
 ---
-sidebar_position: 100
-id: how-to-guides
-sidebar_label: Overview
-title: Overview
+sidebar_position: 1
+id: guides-overview
+sidebar_label: Guides Overview
+title: Guides Overview
 ---
 
 ## Login
@@ -18,4 +18,3 @@ title: Overview
 ## Withdrawing:
 
 ## Remove Liquidity
-

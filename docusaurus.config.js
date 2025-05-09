@@ -5,7 +5,7 @@ const math = require("remark-math");
 const katex = require("rehype-katex");
 
 // Update theme imports for prism-react-renderer v2
-const { themes } = require('prism-react-renderer');
+const { themes } = require("prism-react-renderer");
 const lightCodeTheme = themes.vsLight;
 const darkCodeTheme = themes.oceanicNext;
 
@@ -13,7 +13,8 @@ const darkCodeTheme = themes.oceanicNext;
 const config = {
   title: "xExchange Docs",
   titleDelimiter: "•",
-  tagline: "xExchange is a platform for trading and engaging with decentralized finance running on the MultiversX Network.",
+  tagline:
+    "xExchange is a platform for trading and engaging with decentralized finance running on the MultiversX Network.",
   // Set the production url of your site here
   url: "https://docs.xexchange.com",
   // Set the /<baseUrl>/ pathname under which your site is served
@@ -27,8 +28,8 @@ const config = {
   organizationName: "multiversx", // Usually your GitHub org/user name.
   projectName: "mx-exchange-docs", // Usually your repo name.
 
-   // mermaid support
-   markdown: {
+  // mermaid support
+  markdown: {
     mermaid: true,
   },
   themes: ["@docusaurus/theme-mermaid"],
@@ -52,24 +53,7 @@ const config = {
           /* other docs plugin options */
           remarkPlugins: [math],
           rehypePlugins: [katex],
-          exclude: [
-            'guides/overview.md',
-            'guides/autorouter-smart-swaps.md',
-            'guides/how-to-add-liquidity.md',
-            'guides/how-to-claim-rewards.md',
-            'guides/how-to-login.md',
-            'guides/how-to-remove-liquidity.md',
-            'guides/how-to-create-liquidity-pool.md',
-            'guides/useful-links.md',
-            'guides/how-to-set-slippage-tolerance.md',
-            'guides/how-to-stake.md',
-            'guides/how-to-trade.md',
-            'guides/how-to-withdraw.md',
-            'guides/price-discovery.md',
-            'guides/ui-walkthrough.md',
-            'glossary/**',
-            'overview.md',
-          ],
+          exclude: ["glossary/**", "overview.md"],
         },
         blog: false, // Optional: disable the blog plugin
         theme: {
@@ -96,30 +80,30 @@ const config = {
         rel: "preconnect",
         href: "https://cdn.multiversx.com",
       },
-    },    
+    },
     {
-      tagName: 'link',
+      tagName: "link",
       attributes: {
-        rel: 'manifest',
-        href: '/site.webmanifest',
+        rel: "manifest",
+        href: "/site.webmanifest",
       },
     },
     {
-      tagName: 'link',
+      tagName: "link",
       attributes: {
-        rel: 'apple-touch-icon',
-        href: '/img/favicons/apple-touch-icon.png',
-        sizes: '180x180',
+        rel: "apple-touch-icon",
+        href: "/img/favicons/apple-touch-icon.png",
+        sizes: "180x180",
       },
-    },  
+    },
     {
-      tagName: 'link',
+      tagName: "link",
       attributes: {
-        rel: 'mask-icon',
-        href: '/img/favicons/safari-pinned-tab.svg',
-        color: '#007cff',
+        rel: "mask-icon",
+        href: "/img/favicons/safari-pinned-tab.svg",
+        color: "#007cff",
       },
-    }  
+    },
   ],
 
   themeConfig:
@@ -132,7 +116,7 @@ const config = {
         },
       },
       // Replace with your project's social card
-      image: "img/launch.webp",      
+      image: "img/launch.webp",
       colorMode: {
         defaultMode: "dark",
         disableSwitch: false,
@@ -145,7 +129,6 @@ const config = {
           srcDark: "img/logo-dark.svg",
         },
         items: [
-
           {
             href: "/welcome/overview",
             label: "Welcome",
@@ -160,7 +143,7 @@ const config = {
             href: "/mex/what-is-mex",
             label: "$MEX",
             position: "left",
-          },          
+          },
           {
             href: "https://github.com/multiversx",
             position: "right",
@@ -207,14 +190,13 @@ const config = {
               },
             ],
           },
-          {          
+          {
             href: "https://xexchange.com",
             position: "right",
             className: "header-open-app-button",
             "aria-label": "Open xExchange App",
             label: "Open App",
-          },          
-
+          },
         ],
       },
 
@@ -278,11 +260,12 @@ const config = {
           }
           return undefined; // Return a falsy value: no redirect created
         },
-      }
-    ], 
-    ['@docusaurus/plugin-google-gtag',
+      },
+    ],
+    [
+      "@docusaurus/plugin-google-gtag",
       {
-        trackingID: 'G-3K8PZXNLVF',
+        trackingID: "G-3K8PZXNLVF",
         anonymizeIP: true,
       },
     ],

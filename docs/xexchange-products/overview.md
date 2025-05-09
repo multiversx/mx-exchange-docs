@@ -1,15 +1,13 @@
 ---
 sidebar_position: 1
-id: overview
-sidebar_label: Overview
-title: Overview
+id: products-overview
+sidebar_label: Products Overview
+title: Products Overview
 ---
 
 import { SectionCard } from "../../src/components/Section/components/SectionCard";
 
-[comment]: # (mx-context-auto)
-
-
+[comment]: # "mx-context-auto"
 
 <img src="/docs/features/products-header.webp" alt="xExchange Products" />
 

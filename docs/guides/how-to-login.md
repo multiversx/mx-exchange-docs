@@ -1,7 +1,7 @@
 ---
-sidebar_position: 200
+sidebar_position: 2
 id: how-to-login
-sidebar_label: Logging in
+sidebar_label: Login
 title: How to Login to xExchange
 ---
 
