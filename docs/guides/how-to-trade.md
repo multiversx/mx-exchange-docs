@@ -1,12 +1,12 @@
 ---
-sidebar_position: 3
+sidebar_position: 30
 id: how-to-trade
 sidebar_label: Trading
 title: How to trade
 ---
 
 <div style={{ textAlign: 'center' }}>
-    <img src="/docs/how-to/trade-tokens.png" alt="Trade Tokens" width="560"/>
+    <img src="/docs/how-to/trade/trade-tokens.png" alt="Trade Tokens" width="560"/>
 </div>
 
 1. Log into the xExchange

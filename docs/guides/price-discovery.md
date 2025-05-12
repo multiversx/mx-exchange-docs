@@ -5,8 +5,9 @@ sidebar_label: 📟 Price Discovery
 title: Price Discovery
 ---
 
-[comment]: # (mx-context-auto)
-<img src="/docs/features/price-discovery-header.webp" alt="xExchange Price Discovery" />
+[comment]: # "mx-context-auto"
+
+<img src="/docs/how-to/price-discovery-header.webp" alt="xExchange Price Discovery" />
 
 Price Discovery is a novel mechanism that allows token listings with less volatility than usual.
 

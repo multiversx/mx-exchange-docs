@@ -53,7 +53,12 @@ const config = {
           /* other docs plugin options */
           remarkPlugins: [math],
           rehypePlugins: [katex],
-          exclude: ["glossary/**", "overview.md"],
+          exclude: [
+            "glossary/**",
+            "guides/price-discovery.md",
+            "guides/overview.md",
+            "overview.md",
+          ],
         },
         blog: false, // Optional: disable the blog plugin
         theme: {

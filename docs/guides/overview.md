@@ -1,5 +1,5 @@
 ---
-sidebar_position: 1
+sidebar_position: 10
 id: guides-overview
 sidebar_label: Guides Overview
 title: Guides Overview
@@ -7,14 +7,12 @@ title: Guides Overview
 
 ## Login
 
-## Swap
+## Trade
 
 ## Add Liquidity
 
-## Staking
+## Stake
 
-## Harvesting:
+## Claim Rewards
 
-## Withdrawing:
-
-## Remove Liquidity
+## Close Position

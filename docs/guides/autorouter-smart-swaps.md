@@ -1,5 +1,5 @@
 ---
-sidebar_position: 7
+sidebar_position: 100
 id: autorouter-smartswaps
 sidebar_label: Autorouter / Smart Swaps
 title: Autorouter / Smart Swaps
@@ -18,7 +18,7 @@ The Autorouter will use your USDC amount to buy EGLD, and then immediately use t
 You can see the chosen swap route on the bottom of the swap page by clicking on “More details”.
 
 <div style={{ textAlign: 'center' }}>
-    <img src="/docs/features/smart-swaps.png" width="525" alt="Smart Swaps" />
+    <img src="/docs/how-to/autorouter.png" width="525" alt="Smart Swaps" />
 </div>
 
 The example above illustrated a trade going over just two hops, for simplicity. However, the Autorouter is capable of determining the most efficient swap path over multiple hops.
