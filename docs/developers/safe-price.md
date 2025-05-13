@@ -23,9 +23,8 @@ The Safe Price module retrieves data independently of the liquidity pool's state
 
 | Environment | Safe Price view factory smart contract address |
 |-------------|------------------------------------------------|
-| Mainnet: | `erd1qqqqqqqqqqqqqpgqtce4z8zzz76xjht3hak0hseshcmj3ush2jps2exxjn` |
-| Devnet: | `erd1qqqqqqqqqqqqqpgqcmnum66jxyfpcnvqk5eahj5n3ny4vkfn0n4szjjskv` |
-| Testnet: | `erd1qqqqqqqqqqqqqpgqmdfdr9xp5glax4fcyxcf6j3wthufdrtrexkscfgj4p` |
+| Mainnet: | [erd1qqqqqqqqqqqqqpgqtce4z8zzz76xjht3hak0hseshcmj3ush2jps2exxjn](https://explorer.multiversx.com/accounts/erd1qqqqqqqqqqqqqpgqtce4z8zzz76xjht3hak0hseshcmj3ush2jps2exxjn) |
+| Devnet: | [erd1qqqqqqqqqqqqqpgqcmnum66jxyfpcnvqk5eahj5n3ny4vkfn0n4szjjskv](https://devnet-explorer.multiversx.com/accounts/erd1qqqqqqqqqqqqqpgqcmnum66jxyfpcnvqk5eahj5n3ny4vkfn0n4szjjskv) |
 
 ## Features
 
