@@ -1,7 +1,7 @@
 ---
 sidebar_position: 50
 id: how-to-stake
-sidebar_label: Staking
+sidebar_label: Stake
 title: How to stake tokens
 ---
 

@@ -1,7 +1,7 @@
 ---
 sidebar_position: 60
 id: how-to-claim-rewards
-sidebar_label: Claiming Rewards
+sidebar_label: Claim Rewards
 title: How to claim your rewards
 ---
 

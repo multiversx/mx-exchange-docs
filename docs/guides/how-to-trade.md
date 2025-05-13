@@ -1,7 +1,7 @@
 ---
 sidebar_position: 30
 id: how-to-trade
-sidebar_label: Trading
+sidebar_label: Trade
 title: How to trade
 ---
 

@@ -1,7 +1,7 @@
 ---
 sidebar_position: 40
 id: how-to-add-liquidity
-sidebar_label: Adding Liquidity
+sidebar_label: Add Liquidity
 title: How to add liquidity
 ---
 
