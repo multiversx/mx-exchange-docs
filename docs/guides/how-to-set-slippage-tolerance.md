@@ -1,25 +1,25 @@
 ---
-sidebar_position: 600
+sidebar_position: 90
 id: how-to-set-slippage
 sidebar_label: Slippage Tolerance
 title: How to set slippage tolerance
 ---
 
-[comment]: # (mx-context-auto)
+[comment]: # "mx-context-auto"
 
 To access the settings of the xExchange, open the menu on the right-hand side.
 
 <div style={{ textAlign: 'center' }}>
-    <img src="/docs/features/settings-trigger.png" alt="Settings Trigger" />
+    <img src="/docs/how-to/slippage/settings-trigger.png" alt="Settings Trigger" />
 </div>
 
 On the very bottom, you will see the settings category, which allows you to adjust a few options to your liking.
 
 <div style={{ textAlign: 'center' }}>
-    <img src="/docs/features/settings-panel.png" alt="Settings Panel" />
+    <img src="/docs/how-to/slippage/settings-panel.png" alt="Settings Panel" />
 </div>
 
-[comment]: # (mx-context-auto)
+[comment]: # "mx-context-auto"
 
 ### Slippage Tolerance
 

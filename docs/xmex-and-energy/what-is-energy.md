@@ -4,6 +4,7 @@ id: what-is-energy
 sidebar_label: What is Energy?
 title: What is Energy?
 ---
+
 <img src="/docs/features/energy-header.webp" alt="xExchange Energy" />
 
 Any xMEX has attributed energy proportional to the locked period.
@@ -29,8 +30,8 @@ The amount of an account’s Energy determines the rate of rewards for participa
 Simply put, more energy means more rewards:
 
 - higher APR for farms
+- higher APR for staking
 - bigger portion of xExchange fees
-- Metabonding rewards
 - other perks
 
 Each day, as the xMEX gets closer to it’s unlock day, it will lose 1 point.

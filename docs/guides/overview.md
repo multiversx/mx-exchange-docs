@@ -1,21 +1,18 @@
 ---
-sidebar_position: 100
-id: how-to-guides
-sidebar_label: Overview
-title: Overview
+sidebar_position: 10
+id: guides-overview
+sidebar_label: Guides Overview
+title: Guides Overview
 ---
 
 ## Login
 
-## Swap
+## Trade
 
 ## Add Liquidity
 
-## Staking
+## Stake
 
-## Harvesting:
+## Claim Rewards
 
-## Withdrawing:
-
-## Remove Liquidity
-
+## Close Position
