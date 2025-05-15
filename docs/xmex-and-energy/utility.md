@@ -13,13 +13,13 @@ The new Energy system not only rewards users based on xMEX holdings, but also on
 
 ## ⚡️ Boosted Rewards from Farms
 
-Each [Farm](/xexchange-products/yield-farming.md) has base rewards and boosted rewards. While base rewards are paid out equally to everyone, based on their share of the farm (APR is shown for each farm), boosted rewards are paid only to Energy holders. The boosted rewards increase based on how much Energy you have, giving you the potential to significantly enhance your returns.
+Each [Farm](/products/yield-farming.md) has base rewards and boosted rewards. While base rewards are paid out equally to everyone, based on their share of the farm (APR is shown for each farm), boosted rewards are paid only to Energy holders. The boosted rewards increase based on how much Energy you have, giving you the potential to significantly enhance your returns.
 
-From all emissions that go towards a farm, 40% go to base rewards while 60% go towards the boosted rewards, to reward those with Energy. Learn more in [Yield Farming](/xexchange-products/yield-farming.md)
+From all emissions that go towards a farm, 40% go to base rewards while 60% go towards the boosted rewards, to reward those with Energy. Learn more in [Yield Farming](/products/yield-farming.md)
 
 ## ⚡️ Boosted APR from Dual Farms
 
-Similarly to how Farms work, boosted rewards from Dual Farms are paid only to Energy holder. Learn more in [Dual Farms](/xexchange-products/dual-farms.md)
+Similarly to how Farms work, boosted rewards from Dual Farms are paid only to Energy holder. Learn more in [Dual Farms](/products/dual-farms.md)
 
 ## ⚡️ xMEX emissions
 

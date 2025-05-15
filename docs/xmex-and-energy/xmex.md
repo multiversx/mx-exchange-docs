@@ -4,6 +4,7 @@ id: xmex
 sidebar_label: What is xMEX?
 title: What is xMEX?
 ---
+
 <img src="/docs/features/xmex-header.webp" alt="xExchange xMEX Token" />
 
 :::info
@@ -11,10 +12,10 @@ xMEX is the time-locked equivalent of [MEX](/mex/what-is-mex.md). It has the sam
 :::
 
 :::note
-All xExchange [farm](/xexchange-products/yield-farming.md) rewards and fees are distributed as xMEX locked for 4 years.
+All xExchange [farm](/products/yield-farming.md) rewards and fees are distributed as xMEX locked for 4 years.
 :::
 
-[comment]: # (mx-context-auto)
+[comment]: # "mx-context-auto"
 
 ## Timelock
 
@@ -24,4 +25,4 @@ xMEX can be unlocked either by waiting for the entire respective period, or at a
 
 i.e. 100,000 xMEX with 1 years time lock can be converted into 80,000 MEX.
 
-[comment]: # (mx-context-auto)
+[comment]: # "mx-context-auto"

@@ -1,11 +1,12 @@
 ---
 sidebar_position: 2
-id: swaps
-sidebar_label: 🔄 Exchange
-title: Exchange
+id: trade
+sidebar_label: 🔄 Trade
+title: Trade
 ---
 
-[comment]: # (mx-context-auto)
+[comment]: # "mx-context-auto"
+
 <img src="/docs/features/exchange-header.webp" alt="xExchange Exchange" />
 
 :::info
@@ -22,11 +23,12 @@ xExchange uses the Uniswap-like constant product formula x \* y = k, where x is 
 Swapping tokens incurs a **0.3%** fee.
 
 As part of that fee:
+
 - **0.2%** goes to liquidity providers based on their share of the liquidity pool.
 
 - **0.05%** is used to buy back and burn MEX from the EGLD/MEX pool.
 
 - The final **0.05%** is distributed to all accounts with [Energy](/xmex-and-energy/what-is-energy.md).
-:::
+  :::
 
 To learn more about the energy system of xExchange, you can read the [xExchange Economics Paper](https://xexchange.com/x-exchange-economics.pdf).

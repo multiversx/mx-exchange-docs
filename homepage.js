@@ -1,13 +1,16 @@
+import { faTelegram, faXTwitter } from "@fortawesome/free-brands-svg-icons";
 import {
-  faTelegram,
-  faXTwitter,
-} from "@fortawesome/free-brands-svg-icons";
-import { faBook, faCube, faBolt, faLandmark } from "@fortawesome/free-solid-svg-icons";
+  faBook,
+  faCube,
+  faBolt,
+  faLandmark,
+} from "@fortawesome/free-solid-svg-icons";
 
 const homepage = {
   hero: {
     title: "xExchange Documentation",
-    subtitle: "xExchange is a decentralized finance (DeFi) platform on the MultiversX Network, where users can participate as traders or liquidity providers.",
+    subtitle:
+      "xExchange is a decentralized finance (DeFi) platform on the MultiversX Network, where users can participate as traders or liquidity providers.",
     cards: [
       {
         title: "Introduction",
@@ -18,7 +21,7 @@ const homepage = {
       {
         title: "Products",
         text: "Discover products like Trade, Liquidity Pools, Yield Farming, Staking, Dual Farms, and more.",
-        link: "/xexchange-products/overview",
+        link: "/products/products-overview",
         icon: faCube,
       },
       {
@@ -35,22 +38,22 @@ const homepage = {
       {
         title: "Trade",
         text: "Trade or swap hundreds of tokens.",
-        link: "/xexchange-products/swaps",
+        link: "/products/trade",
       },
       {
         title: "Earn",
         text: "Add liquidity, earn fees and rewards.",
-        link: "/xexchange-products/liquidity",
+        link: "/products/liquidity",
       },
       {
         title: "Farm",
         text: "Stake your liquidity and earn xMEX",
-        link: "/xexchange-products/farms",
+        link: "/products/farms",
       },
       {
         title: "Stake",
         text: "Stake your tokens and earn rewards.",
-        link: "/xexchange-products/staking",
+        link: "/products/staking",
       },
       {
         title: "Boost your Rewards",
@@ -117,7 +120,7 @@ const homepage = {
       {
         text: "Release Notes",
         link: "https://multiversx.notion.site/xExchange-Release-Notes-10c73522fb4d80898b19e8ad3c34a3d0?pvs=73",
-      },      
+      },
       {
         text: "Buy Crypto",
         link: "https://buy.multiversx.com/",
@@ -125,7 +128,7 @@ const homepage = {
       {
         text: "Bridge to MultiversX",
         link: "https://bridge.multiversx.com/",
-      },      
+      },
       {
         text: "Economics Paper",
         link: "https://xexchange.com/x-exchange-economics.pdf",

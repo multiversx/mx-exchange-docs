@@ -11,10 +11,9 @@ title: Staking
 xExchange V3 introduced a simpler Staking product, a streamlined way to earn yield by staking a single type of token.
 :::
 
-Unlike traditional staking in [liquidity pools](/xexchange-products/liquidity) or [farms](/xexchange-products/farms) that require pairing assets, Staking simplifies the process—allowing you to stake one token and earn rewards effortlessly.
+Unlike traditional staking in [liquidity pools](/products/liquidity) or [farms](/products/farms) that require pairing assets, Staking simplifies the process—allowing you to stake one token and earn rewards effortlessly.
 
 With Staking, you can earn yield on popular tokens. As this feature evolves, more tokens will be added, giving you even more options to stake your favorites.
-
 
 ## Benefits of Simple Staking
 

@@ -5,7 +5,8 @@ sidebar_label: 🌊 Liquidity Pools
 title: Liquidity Pools
 ---
 
-[comment]: # (mx-context-auto)
+[comment]: # "mx-context-auto"
+
 <img src="/docs/features/pools-header_1x.webp" alt="xExchange Liquidity Pools" />
 
 :::info
@@ -13,6 +14,7 @@ Liquidity pools emerged as an innovative and automated way of solving the liquid
 :::
 
 ## How it works
+
 Liquidity providers are incentivized for their contribution with rewards. When they make a deposit, they receive a new token representing their stake, called a liquidity pool token or **LP token**.
 
 The share of trading fees paid by users who use the pool to swap tokens is distributed automatically to all liquidity providers, proportional to their stake size. There is a **0.3%** fee for swapping tokens.
@@ -20,6 +22,7 @@ The share of trading fees paid by users who use the pool to swap tokens is distr
 ## Economics
 
 Swapping tokens incurs a **0.3%** fee. As part of that fee:
+
 - **0.2%** goes to liquidity providers based on their share of the liquidity pool.
 
 - **0.05%** is used to buy back and burn MEX from the EGLD/MEX pool.
@@ -32,17 +35,17 @@ Swapping fees are immediately deposited into liquidity reserves. This increases 
 
 ## Beyond Liquidity Pools
 
-On xExchange, Liquidity Pool (LP) tokens can be staked in [dedicated farms](/xexchange-products/yield-farming.md) for each pool, earning additional rewards in xMEX tokens.
+On xExchange, Liquidity Pool (LP) tokens can be staked in [dedicated farms](/products/yield-farming.md) for each pool, earning additional rewards in xMEX tokens.
 
 A liquidity provider earns rewards from two sources: trading fees from the liquidity pool and xMEX rewards for staking LP tokens in a farm.
 
-Additionally, they can opt into a third stream through [Dual Farms](/xexchange-products/dual-farms.md) for even more rewards.
+Additionally, they can opt into a third stream through [Dual Farms](/products/dual-farms.md) for even more rewards.
 
 :::tip
 The LP token is essential—you’ll need it to withdraw your stake from the liquidity pool.
 :::
 
-[comment]: # (mx-context-auto)
+[comment]: # "mx-context-auto"
 
 ## What is Impermanent loss?
 

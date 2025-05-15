@@ -135,7 +135,7 @@ const config = {
             position: "left",
           },
           {
-            href: "/xexchange-products/overview",
+            href: "/products/products-overview",
             label: "Products",
             position: "left",
           },
