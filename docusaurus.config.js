@@ -4,25 +4,35 @@ require("dotenv").config();
 const math = require("remark-math");
 const katex = require("rehype-katex");
 
-const lightCodeTheme = require("prism-react-renderer/themes/vsDark");
-const darkCodeTheme = require("prism-react-renderer/themes/oceanicNext");
+// Update theme imports for prism-react-renderer v2
+const { themes } = require("prism-react-renderer");
+const lightCodeTheme = themes.vsLight;
+const darkCodeTheme = themes.oceanicNext;
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "MultiversX Docs",
+  title: "xExchange Docs",
   titleDelimiter: "•",
   tagline:
-    "A highly scalable, fast and secure blockchain platform for distributed apps, enterprise use cases and the new internet economy.",
-  url: "https://docs.multiversx.com",
+    "xExchange is a platform for trading and engaging with decentralized finance running on the MultiversX Network.",
+  // Set the production url of your site here
+  url: "https://docs.xexchange.com",
+  // Set the /<baseUrl>/ pathname under which your site is served
+  // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: "/",
-  onBrokenLinks: "log",
-  onBrokenMarkdownLinks: "log",
+  onBrokenLinks: "throw",
+  onBrokenMarkdownLinks: "throw",
   favicon: "img/favicons/favicon.ico",
-
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: "multiversx", // Usually your GitHub org/user name.
-  projectName: "mx-docs", // Usually your repo name.
+  projectName: "mx-exchange-docs", // Usually your repo name.
+
+  // mermaid support
+  markdown: {
+    mermaid: true,
+  },
+  themes: ["@docusaurus/theme-mermaid"],
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
@@ -43,13 +53,11 @@ const config = {
           /* other docs plugin options */
           remarkPlugins: [math],
           rehypePlugins: [katex],
+          exclude: ["glossary/**", "guides/overview.md", "overview.md"],
         },
         blog: false, // Optional: disable the blog plugin
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
-        },
-        googleAnalytics: {
-          trackingID: "G-3K8PZXNLVF",
         },
       }),
     ],
@@ -63,28 +71,79 @@ const config = {
         "sha384-odtC+0UGzzFL/6PNoE8rX/SPcQDXBJ+uRepguP4QkPCm2LBxH3FA3y+fKSiJ+AmM",
       crossorigin: "anonymous",
     },
+  ],
+
+  headTags: [
     {
-      href: "https://fonts.googleapis.com/css?family=Montserrat:400,500,600&display=swap",
-      type: "text/css",
-      crossorigin: "anonymous",
+      tagName: "link",
+      attributes: {
+        rel: "preconnect",
+        href: "https://cdn.multiversx.com",
+      },
+    },
+    {
+      tagName: "link",
+      attributes: {
+        rel: "manifest",
+        href: "/site.webmanifest",
+      },
+    },
+    {
+      tagName: "link",
+      attributes: {
+        rel: "apple-touch-icon",
+        href: "/img/favicons/apple-touch-icon.png",
+        sizes: "180x180",
+      },
+    },
+    {
+      tagName: "link",
+      attributes: {
+        rel: "mask-icon",
+        href: "/img/favicons/safari-pinned-tab.svg",
+        color: "#007cff",
+      },
     },
   ],
 
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      docs: {
+        sidebar: {
+          hideable: true,
+          autoCollapseCategories: false,
+        },
+      },
+      // Replace with your project's social card
+      image: "img/launch.webp",
       colorMode: {
         defaultMode: "dark",
-        disableSwitch: true,
+        disableSwitch: false,
         respectPrefersColorScheme: false,
       },
       navbar: {
         logo: {
           alt: "MultiversX xExchange Docs",
-          src: "img/logo_dark.svg",
-          srcDark: "img/logo.svg",
+          src: "img/logo.svg",
+          srcDark: "img/logo-dark.svg",
         },
         items: [
+          {
+            href: "/welcome/overview",
+            label: "Welcome",
+            position: "left",
+          },
+          {
+            href: "/products/products-overview",
+            label: "Products",
+            position: "left",
+          },
+          {
+            href: "/mex/what-is-mex",
+            label: "$MEX",
+            position: "left",
+          },
           {
             href: "https://github.com/multiversx",
             position: "right",
@@ -99,33 +158,29 @@ const config = {
           },
           {
             type: "dropdown",
+            label: "Websites",
             position: "right",
             className: "header-app-change",
             "aria-label": "Websites",
             items: [
               {
-                label: "Main Site",
-                href: "https://multiversx.com",
-                target: "_blank",
-              },
-              {
-                label: "Wallet",
+                label: "MultiversX Wallet",
                 href: "https://wallet.multiversx.com",
                 target: "_blank",
               },
               {
-                label: "Explorer",
+                label: "Blockchain Explorer",
                 href: "https://explorer.multiversx.com",
                 target: "_blank",
               },
               {
-                label: "Bridge",
-                href: "https://ad-astra.multiversx.com",
+                label: "MultiversX Bridge",
+                href: "https://bridge.multiversx.com",
                 target: "_blank",
               },
               {
-                label: "xExchange",
-                href: "https://xexchange.com",
+                label: "xPortal Wallet",
+                href: "https://xportal.com",
                 target: "_blank",
               },
               {
@@ -135,14 +190,22 @@ const config = {
               },
             ],
           },
+          {
+            href: "https://xexchange.com",
+            position: "right",
+            className: "header-open-app-button",
+            "aria-label": "Open xExchange App",
+            label: "Open App",
+          },
         ],
       },
-      image: "img/preview.jpg",
+
       footer: {
         style: "light",
         links: [],
         copyright: `Copyright © ${new Date().getFullYear()} MultiversX. All rights reserved.`,
       },
+      // Update prism config
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
@@ -199,6 +262,23 @@ const config = {
         },
       },
     ],
+    [
+      "@docusaurus/plugin-google-gtag",
+      {
+        trackingID: "G-3K8PZXNLVF",
+        anonymizeIP: true,
+      },
+    ],
+    async function tailwindPlugin(context, options) {
+      return {
+        name: "docusaurus-tailwindcss",
+        configurePostCss(postcssOptions) {
+          postcssOptions.plugins.push(require("tailwindcss"));
+          postcssOptions.plugins.push(require("autoprefixer"));
+          return postcssOptions;
+        },
+      };
+    },
   ],
 };
 

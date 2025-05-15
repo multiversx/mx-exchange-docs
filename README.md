@@ -59,3 +59,8 @@ Anyone can contribute to the docs. Any help is appreciated. Here are some ways i
 Once approved, the pull request will be merged into the `external` branch. From time to time (and depending on the emergency of the changes) we will merge the `external` branch into `development` or `master` branches.
 
 ## **Thank you!**
+
+
+TODO:
+- Remove mentions of DeFi Wallet and replace with MultiversX Wallet
+- Check for broken links
