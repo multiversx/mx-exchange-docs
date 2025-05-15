@@ -19,8 +19,6 @@ Wallets:
 Tutorials:
 
 - xExchange Crash Course: [https://www.youtube.com/watch?v=2WMIUTX-TrY](https://www.youtube.com/watch?v=2WMIUTX-TrY)
-- Price Discovery Explained: [https://www.youtube.com/watch?v=0Syo8zfuZsA](https://www.youtube.com/watch?v=0Syo8zfuZsA)
-- Metabonding Explained: [https://www.youtube.com/watch?v=hthF-5rSCak](https://www.youtube.com/watch?v=hthF-5rSCak)
 
 Advanced learning:
 

@@ -36,10 +36,5 @@ import { SectionCard } from "../../src/components/Section/components/SectionCard
     title="🌱 Staking"
     text="Stake your tokens to earn rewards"
     link="/xexchange-products/staking"
-  />
-  <SectionCard
-    title="🎁 Metabonding"
-    text="Earn rewards from community projects"
-    link="/xexchange-products/metabonding"
-  />                 
+  />               
 </ul>

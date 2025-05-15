@@ -5,7 +5,7 @@ sidebar_label: Energy Benefits
 title: Energy Benefits
 ---
 
-[comment]: # (mx-context-auto)
+[comment]: # "mx-context-auto"
 
 :::info
 The new Energy system not only rewards users based on xMEX holdings, but also on lock duration. xMEX has special benefits, rewards and usecases across the entire exchange and even other products.
@@ -41,6 +41,6 @@ You are able to vote on governance proposals, based on your Energy.
 
 When reducing or removing the energy of your xMEX, you pay a penalty. 50% of that penalty gets burnt, while the other half gets distributed to all users with Energy.
 
-Last but not least, it’s important to stress that it is possible to earn rewards from all reward streams at the same time. You can have your xMEX added with EGLD in a liquidity farm and benefit from swap rewards, farm rewards, boosted farm rewards, metabonding, governance, xLaunchpad tiers, the swap fees rewards and energy removal rewards **simultaneously**.
+Last but not least, it’s important to stress that it is possible to earn rewards from all reward streams at the same time. You can have your xMEX added with EGLD in a liquidity farm and benefit from swap rewards, farm rewards, boosted farm rewards, governance, xLaunchpad tiers, the swap fees rewards and energy removal rewards **simultaneously**.
 
 To learn more about the utility, check out the [xExchange Whitepaper](https://xexchange.com/x-exchange-economics.pdf).
