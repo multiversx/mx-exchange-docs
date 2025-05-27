@@ -5,17 +5,17 @@ sidebar_label: On-Chain Process
 title: On-Chain Proposal Process
 ---
 
-[comment]: # (mx-exclude-context)
+[comment]: # "mx-exclude-context"
 
-Now that you have received the knowledge and consideration from the community and converged to a final version of your proposal, if you have a decent level of confidence that your proposal will be approved by the majority of the community, it is time to submit it to the on-chain governance vote!
+Now that you have received community feedback, got your idea known and refined a final version of your proposal, if you are resonably confident that it will be approved by the majority of the community, it is time to submit it for an on-chain governance vote!
 
 Below we describe the governance rules and process.
 
-[comment]: # (mx-context-auto)
+[comment]: # "mx-context-auto"
 
 ## Governance rules summary
 
-To publish the xEIP on-chain, the xEIP creator deposits 1 billion MEX and provides a hash of the proposal text which contains all the information about the proposal. If these criterions are satisfied, a voting period of 10 days starts, during which users have the following voting options:
+To publish the xEIP on-chain, the xEIP creator deposits 1 billion MEX and provides a hash of the proposal text which contains all the information about the proposal. If these criteria are satisfied, a voting period of 10 days starts, during which users have the following voting options:
 
 - **Yes** vote, to vote in favor of xEIP.
 - **No** vote, to vote against the xEIP.
@@ -36,7 +36,7 @@ At the end of the voting period, the MEX deposit of the proposer is fully refund
 
 If the proposal has been approved, provided the proposal’s feasibility, the xExchange team will take action to implement it.
 
-[comment]: # (mx-context-auto)
+[comment]: # "mx-context-auto"
 
 ## Governance process step-by-step
 
@@ -46,9 +46,9 @@ The xEIP can be published for on-chain voting by calling the governance smart co
 
 To create the xEIP, you would first write down all the information about the xEIP in a text file: title, summary, and detailed description. Then, you would hash that text file using [SHA-1 hash function](https://en.wikipedia.org/wiki/SHA-1). This will make sure that users vote on a common, non-ambiguous proposal text.
 
-You will then create the on-chain proposal: by providing the hash of the proposal text and depositing 1 billion MEX. 
+You will then create the on-chain proposal: by providing the hash of the proposal text and depositing 1 billion MEX.
 
-[comment]: # (mx-context-auto)
+[comment]: # "mx-context-auto"
 
 ### About the Deposit
 
@@ -56,11 +56,11 @@ As explained in the previous paragraph, before a governance proposal enters the 
 
 Only when the proposal is vetoed, 50% of the deposit will be burnt, and the other 50% will be refunded. Otherwise, the deposit will not be burnt, and will be fully refunded, even if the vote did not pass, for example if the quorum or the "Yes" majority were not reached. During the voting period, users upvote proposal ("Yes" vote), downvote it ("No" vote), participate with a white vote which is neither for or against the proposal ("White" vote), or veto the proposal ("NoWithVeto" vote).
 
-In a future version of the on-chain governance, in case you have not enough funds to cover the entire deposit, you will be allowed to associate with other MEX holders in order to provide the minimal MEX deposit. This deposit threshold will have to be attained within a maximum of 10 days, otherwise all users will be refunded.
+In a future version of the on-chain governance, in case you don’t have enough funds to cover the entire deposit, you will be allowed to associate with other MEX holders in order to provide the minimal MEX deposit. This deposit threshold will have to be attained within a maximum of 10 days, otherwise all users will be refunded.
 
 As the xEIP creator, you should now keep track of the Energy holders who have and have not voted. To make sure they are aware of your plan, that they understand the proposal correctly, and that they are ready to vote, you should re-engage directly with them. The biggest danger is that Energy holders (for a variety of reasons) won't vote at all. Energy holders typically need several reminders to vote. However, be mindful not going to the other extreme and spamming Energy holders.
 
-[comment]: # (mx-context-auto)
+[comment]: # "mx-context-auto"
 
 ### What determines whether the governance proposal passes?
 

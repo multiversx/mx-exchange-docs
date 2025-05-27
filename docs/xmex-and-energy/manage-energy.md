@@ -9,13 +9,13 @@ title: Managing Energy
     <img src="/docs/xmex/energy-button.png" alt="Energy Button" width="724" />
 </div>
 
-You can access you energy dashboard from the top right menu button new the search input.
+You can access your energy Dashboard from the top right menu button next to the new search input.
 
 <div style={{ textAlign: 'center' }}>
   <img src="/docs/xmex/energy-dashboard.png" alt="Energy Dashboard" width="724" />
 </div>
 
-On this dashboard you can create new or manage all your batteries (positions that give energy) and see league details.
+On this dashboard you can create new or manage all your existing batteries (positions that give energy) and see league details.
 
 By pressing the “+ New” button you will be redirected to the Create Battery pages.
 

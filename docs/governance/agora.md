@@ -6,18 +6,18 @@ title: xExchange Agora
 ---
 
 :::info
-The Agora (which means the central public place in ancient Greek) is xExchange forum (https://agora.xexchange.com/), where users can start discussions on any subject related to xExchange, and participate in ongoing ones by posting messages. For this, users must have logged in with their wallet and be at least in the Faraday league, i.e. have more than 5 billion energy.
+The Agora (which means the central public place in ancient Greek) is the xExchange forum (https://agora.xexchange.com/), where users can start discussions on any subject related to xExchange, and participate in ongoing ones by posting messages. For this, users must log in with their wallet and be at least in the Bronze (ex-Faraday) league, i.e. have more than 350,000 Energy.
 :::
 
 There are two categories of discussions on the Agora: the "General discussions" category for discussing any subject xExchange related, and the "xEIP discussions" category for discussing xExchange Improvement Proposals.
 
-[comment]: # (mx-context-auto)
+[comment]: # "mx-context-auto"
 
 ## "General discussions" category
 
 This category is for discussing any subject related to xExchange (product, strategy, tokenomics, website, etc.). A user can, for instance, ask a question related to the protocol, share ideas with the community, gather community feedback on a certain question or idea, or present a tool they created to enhance xExchange in any way.
 
-[comment]: # (mx-context-auto)
+[comment]: # "mx-context-auto"
 
 ## "xEIP discussions" category
 

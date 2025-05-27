@@ -15,17 +15,17 @@ Farms generate yield for liquidity providers that stake the LP tokens. They are 
 
 The rewards for farms are usually provided in [xMEX](/xmex-and-energy/xmex) tokens, but special farms with dual token rewards called [Dual Farms](/products/dual-farms) also exist.
 
-Liquidity providers can use farms by staking the LP tokens obtained from providing liquidity in a pool. After doing this, xMEX rewards will periodically become available for harvesting.
+Liquidity providers can use the Farms by staking their LP tokens received by providing liquidity in a dedicated pool. After doing this, xMEX rewards will periodically become available for claiming.
 
 [comment]: # "mx-context-auto"
 
 ## Energy Rewards
 
-Each Farm has base rewards and energy rewards. While base rewards are paid out equally to everyone, based on their share of the farm (APR is shown for each farm), energy rewards are paid out not only based on your share of the liquidity of the farm, but also on your share of the energy of the farm.
+Each Farm yields base rewards and Energy rewards. While base rewards are paid out equally to everyone, based on their share of the farm (APR is shown for each farm), energy rewards are paid out not only based on your share of the total liquidity in the farm, but also on your share of the total Energy in the farm.
 
-From all emissions that go towards a farm, **40%** go to base rewards while **60%** go towards the energy rewards, to reward those with energy.
+From all emissions that go towards a farm, **40%** go to base rewards while **60%** go towards the Energy rewards, to reward users holding Energy.
 
-The APR of the energy rewards (`eAPR`) is given by the following formula:
+The APR of the Energy rewards (`eAPR`) is given by the following formula:
 
 <div style={{ textAlign: 'center' }}>
     eAPR = BaseAPR * BoostFactor * min(u, (YourEnergy/TotalEnergy) / (YourLP/TotalLP))
@@ -33,7 +33,7 @@ The APR of the energy rewards (`eAPR`) is given by the following formula:
 
 where `YourLP` is your amount of LP in the farm, `TotalLP` the total amount of LP in the farm, `YourEnergy` your energy, `TotalEnergy` the total energy in the farm, `BoostFactor = 60%/40% = 1.5` and `u = 2`.
 
-Energy rewards aren’t immediately visible. They become visible at the end of each rewards period (every Friday, at epoch change). You can find a countdown to the end of each rewards period in the right side menu.
+Energy rewards aren’t immediately visible. They become visible at the end of each rewards period at epoch change (every Friday or Farm + Fees rewards and every Wednesday for Staking + Dual Farm rewards). You can find a countdown to the end of each rewards period on your Portfolio page.
 
 After they become visible, you can claim them.
 
@@ -43,4 +43,4 @@ To learn more about energy rewards, check out the [xExchange Whitepaper](https:/
 
 ### Early Withdrawal
 
-Farms have an early-withdrawal penalty. After depositing into a farm, you will notice that withdrawing will result in a 1% penalty. If you wait out the time shown, you will not have to pay a fee. This is to disincentivize playing with liquidity and ensure a stable amount of liquidity at all times.
+Farms have an early-withdrawal penalty. After depositing into a farm, you will notice that withdrawing will result in a 3% penalty. If you wait out the time shown, you will not have to pay a fee. This is to disincentivize playing with liquidity and ensure a stable amount of liquidity at all times.

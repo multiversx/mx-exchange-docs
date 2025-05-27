@@ -14,7 +14,7 @@ import { SectionCard } from "../../src/components/Section/components/SectionCard
 <ul class="w-full list-none pl-0 my-8 cards grid gap-4 mt-3xl grid-auto-rows-fr grid-cols-1 sm:grid-cols-2 md:grid-cols-2">
   <SectionCard
     title="🔄 Trade"
-    text="Trade or swap an amount tokens"
+    text="Trade or swap an amount of tokens"
     link="/products/trade"
   />
   <SectionCard

@@ -9,19 +9,19 @@ title: How to create a Liquidity Pool on xExchange
 
 Any project is, in principle, eligible for listing. A simple criteria is to have an ESDT token, either natively minted on the MultiversX blockchain, or bridged over from another ecosystem.
 
-Important: Tokens can be paired only with WEGLD, USDC, MEX, LEGLD, WBTC, WETH, WDAI, USH and XEGLD.
+Important: Tokens can be paired only with WEGLD, USDC, USDT, MEX, LEGLD, WBTC, WETH, WDAI, USH and XEGLD.
 
 [comment]: # "mx-context-auto"
 
 ### Register New Token
 
-Add your token to the MultiversX Web Tools as described here [https://github.com/multiversx/mx-assets](https://github.com/multiversx/mx-assets). Once the registration process is complete, your token will be usable in the xExchange for the next steps of the listing process.
+Add your token to the MultiversX Branded Assets repository as described here [https://github.com/multiversx/mx-assets](https://github.com/multiversx/mx-assets). Once the registration process is complete, your token will be usable in the xExchange for the next steps of the listing process.
 
 [comment]: # "mx-context-auto"
 
 ### 1. Create Pair
 
-You will be able to create a liquidity pool for your token or any other token with the available pairing tokens.
+You will be able to create a liquidity pool for your token or any other token with the available pairing tokens. To avoid pair spamming, only the token owner wallets can create new pairs via the xExchange frontend.
 
 - Click “...” from the top menu
 - Click “Create Pool” menu item
@@ -33,13 +33,13 @@ You will be able to create a liquidity pool for your token or any other token wi
 
 - Click on “Create Pool” button
 
-During the next step, the interface will show the pool contract address. Also, you will be able to set up your LP Token Name and Ticker (must be between 3 - 10 characters long)
-
 ### 2. Create Pool Token
 
 <div style={{ textAlign: 'center' }}>
     <img src="/docs/how-to/token-listing/create-token.png" alt="Create Token" width="700" />
 </div>
+
+During the next step, the interface will show the pool contract address. Also, you will be able to set up your LP Token Name and Ticker (must be between 3 - 10 characters long)
 
 - Click "Create Pool Token"
 
@@ -82,13 +82,13 @@ Select the minimum required LP amount.
     <img src="/docs/how-to/token-listing/lock-lp.png" alt="Lock liquidity" width="700" />
 </div>
 
-You can unlock you LP after a short period of time.
+You can unlock your LP after a short period of time.
 
 [comment]: # "mx-context-auto"
 
 ### 7. Enable Trade
 
-After executing the last transaction trade will be enabled for your pair.
+After executing the enable Trade transaction at this last step, trade will be enabled for your pair.
 
 <div style={{ textAlign: 'center' }}>
     <img src="/docs/how-to/token-listing/enable-trade.png" alt="Enable Trade" width="700" />

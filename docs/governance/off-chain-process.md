@@ -5,17 +5,16 @@ sidebar_label: Off-Chain Process
 title: Off-Chain Proposal Process
 ---
 
-
-A proposal cannot be modified to incorporate criticism or new information once it has been placed on the chain. Giving a proposal time off-chain to garner comments, suggestions, and modifications is vitally crucial before bringing it up on-chain and soliciting votes.
+A proposal cannot be modified to incorporate criticism or new information once it has been placed on the chain. That’s why allowing time for off-chain discussion—gathering comments, suggestions, and improvements—is essential before submitting it for a vote.
 
 If you have a proposal idea, we suggest to follow this simple two-stage process:
 
 1. Share your idea with the community, specialists and stakeholders, collect their feedback and gain confidence in your idea,
-2. Turn your idea into a draft of xExchange Improvement Proposal (xEIP) on the Agora, discuss with the community and converge to its best version.
+2. Turn your idea into a draft of xExchange Improvement Proposal (xEIP) on the Agora, discuss with the community and refine it to its best version.
 
-Why proceed in stages? It's a more cautious strategy to conserve resources. Prior to allocating more resources to the development of your plan, it is a good idea to consult with important stakeholders at each stage. You can directly draft your xEIP if you are certain about your idea.
+Why proceed in stages? It's a more cautious and resource-efficient approach. Prior to allocating more resources to the development of your plan, it is a good idea to consult with important stakeholders at each stage. You can choose to draft your xEIP directly if you are confident in your idea.
 
-[comment]: # (mx-context-auto)
+[comment]: # "mx-context-auto"
 
 ## 1. Gain confidence in your idea by engaging with the community
 
@@ -31,7 +30,7 @@ Write a few succinct lines about your idea, e.g. a brief summary of your proposa
 
 You can share your idea with the community on social media (Twitter, Telegram, Reddit, Discord), or in the "General discussion" category of the Agora.
 
-[comment]: # (mx-context-auto)
+[comment]: # "mx-context-auto"
 
 ### Confident with your idea?
 
@@ -39,28 +38,28 @@ Great! However, keep in mind that governance suggestions may have an unforeseen 
 
 In order to avoid confirmation bias at this point, you should seek out and carefully examine critical input. Because putting a poor proposal on-chain will waste resources and have reputational implications, now is the perfect time to spot a key issue.
 
-Even if you have no personal links to any stakeholders or concerned parties, posting your concept to the Agora is a terrific approach to obtain widespread feedback and perspective.
+Even if you have no personal links to any stakeholders or concerned parties, posting your concept to the Agora is a great way to gather broad feedback and perspective.
 
-[comment]: # (mx-context-auto)
+[comment]: # "mx-context-auto"
 
 ### Are you ready to draft an xExchange Improvement Proposal?
 
-Regarding what your proposal brings and your plan for executing it, there will probably be disagreements. It may be worthwhile to create a proposal if you've thought carefully about the feedback from all angles, believe that what you're doing is worthwhile, and believe that your strategy should be effective.
+Regarding what your proposal brings and your plan for executing it, there will probably be disagreements. It may be worthwhile to create a proposal if you've thought carefully about the feedback from all angles, believe that what you're doing is worthwhile, and that your strategy would be effective.
 
-A vociferous minority isn't necessarily indicative of the outcome of an on-chain vote, so keep in mind that the biggest Energy holders have the biggest vote.
+A vocal minority isn't necessarily indicative of the outcome of an on-chain vote, so keep in mind that the largest Energy holders have the most governance power.
 You may decide to be cautious and postpone crafting the specifics of your proposal until you are reasonably confident that you have the backing of a majority of the voting power.
 
 Alternatively, you might put up the suggestion or lay out the issue and let other community members come up with alternative solutions.
 
-[comment]: # (mx-context-auto)
+[comment]: # "mx-context-auto"
 
-## 2. Draft your xEIP and converge to its best version
+## 2. Draft your xEIP and refine it to its best version
 
-The "xEIP discussions" category on the Agora (https://agora.xexchange.com/) is the perfect place to write down a draft of your proposal, discuss it with the community, collect feedback, evaluate pros and cons, improve the proposal and iterate again and again. The xEIP discussion is the natural step before possibly publishing an xEIP on-chain and having it voted by governance.
+The "xEIP discussions" category on Agora (https://agora.xexchange.com/) is the perfect place to write down a draft of your proposal, discuss it with the community, collect feedback, evaluate pros and cons, improve the proposal and iterate again and again. The xEIP discussion is the natural step before possibly publishing an xEIP on-chain and having it voted through governance.
 
 The essential components for crafting a proposal are outlined and described in the following section. Make sure you've thought through your plan and the likely questions the community will have. You won't be able to edit your proposal once it has been published on the blockchain.
 
-[comment]: # (mx-context-auto)
+[comment]: # "mx-context-auto"
 
 ### Drafting your proposal
 
@@ -100,4 +99,4 @@ We advise you to try new things and play to your strengths when presenting propo
 
 ### Try out your idea on devnet or testnet
 
-If it is possible, implementing and testing your idea on devnet or testnet can be an excellent opportunity to make your idea absolutely concrete in the eyes of other users, and check if it works exactly as you would want or if there are further needs to be tweaked.
+If it is possible, implementing and testing your idea on devnet or testnet can be an excellent opportunity to showcase your idea your idea, and check if it works exactly as intended or still needs further refinement.

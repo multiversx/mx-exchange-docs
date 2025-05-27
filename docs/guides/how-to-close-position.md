@@ -5,8 +5,8 @@ sidebar_label: Close Position
 title: How to close liquidity/staking positions
 ---
 
-1. Log into the xExchange
-2. Go to Portfolio page
+1. Log in to xExchange
+2. Go to the Portfolio page
 
 <div style={{ textAlign: 'center' }}>
   <img src="/docs/how-to/close-position/sections.png" alt="Sections" width="724" />
@@ -28,7 +28,7 @@ title: How to close liquidity/staking positions
 
 7. Select the amount of tokens you want removed
 
-8. In case of Farm positions you will receive an LP position. For the other types of positions you will receive the initial\* tokens
+8. In the case of Farm positions you will receive an LP position. For the other types of positions you will receive the initial\* tokens
 9. Click on “Withdraw”
 10. You will be asked to confirm 1 transaction, as per your login method -> confirm
 11. The transaction will be sent and your new balances will be automatically updated, pending the transactions’ execution
@@ -36,5 +36,5 @@ title: How to close liquidity/staking positions
 :::tip
 Liquidity positions are subject to Impermanent Loss
 Farm positions may have a penalty for withdrawing
-Staking/Dual Farm positions have 9-10 days unbonding period
+Staking/Dual Farm positions have a 9-10 days unbonding period
 :::
