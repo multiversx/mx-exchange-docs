@@ -37,15 +37,15 @@ Going back to the dashboard you can see a list of actions available for each bat
   <img src="/docs/xmex/battery-actions.png" alt="Battery Actions" width="724" />
 </div>
 
-“Send” - You will be redirected to the send XMEX. Note that Pool and Farm positions cannot be transfered.
+“Send” - You will be redirected to the send xMEX. Note that Pool and Farm positions cannot be transfered.
 
-“Unwrap” - Only availble for a special wrapped XMEX.
+“Unwrap” - Only availble for a special wrapped xMEX.
 
 “Charge” - You will be redirected to the Charge page of a battery. You can charge (lock) part of an existing battery, whole or multiple batteries in the same transaction.
 
 “Discharge” - You will be redirected to the Discharge page of a battery. You can discharge (unlock) part of an existing battery, whole or multiple batteries in the same transaction. There will be a fee to pay. Note that Pool and Farm positions cannot be discharged.
 
-“Merge” - You will be redirected to the Merge page of batteries. You can merge XMEX - XMEX, FARM - FARM or POOL - POOL batteries. You cannot combine categories of batteries between them. Be aware that the unlock date for the resulting battery will change. Please consult the preview info that the page provides.
+“Merge” - You will be redirected to the Merge page of batteries. You can merge xMEX - xMEX, FARM - FARM or POOL - POOL batteries. You cannot combine categories of batteries between them. Be aware that the unlock date for the resulting battery will change. Please consult the preview info that the page provides.
 
 “Remove” - You will be redirected to the Remove page of a battery. You can remove (unlock) part of an existing battery, whole or multiple batteries in the same transaction. There will be a fee to pay.
 

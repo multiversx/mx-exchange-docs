@@ -141,7 +141,7 @@ Normal (base) Farm, Dual Farm and Staking rewards can be accrued as often as you
 
 ## Can I earn multiple rewards at the same time?
 
-Absolutely! You can, for example, create an LP token with EGLD and MEX/XMEX of any other token, then put that LP token into the EGLD/MEX farm and earn liquidity APR there, while at the same time, earn XMEX emission rewards and fees rewards.
+Absolutely! You can, for example, create an LP token with EGLD and MEX/xMEX of any other token, then put that LP token into the EGLD/MEX farm and earn liquidity APR there, while at the same time, earn xMEX emission rewards and fees rewards.
 
 [comment]: # "mx-context-auto"
 
@@ -151,7 +151,7 @@ You tell the smart contract how much Energy you currently have by doing that tra
 
 You only should do it when actively getting more Energy by either locking MEX for xMEX, claiming rewards, or lengthening the lock duration on your xMEX or when actively decreasing the Energy you have by reducing the lock time or unlocking your xMEX.
 
-Updating the Energy won’t affect the lock time of your XMEX.
+Updating the Energy won’t affect the lock time of your xMEX.
 
 If you did any of these things mentioned above but did not update the Energy, you will get fewer rewards by the next claim or in the worst case, no rewards at all.
 
