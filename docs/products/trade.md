@@ -10,14 +10,14 @@ title: Trade
 <img src="/docs/features/exchange-header.webp" alt="xExchange Exchange" />
 
 :::info
-xExchange is an Automated Market Maker (AMM) decentralized exchange at the core of the MultiversX ecosystem. As the leading AMM on the network, xExchange stands as the most trusted and widely used decentralized exchange, delivering unmatched trading experiences.
+xExchange is an Automated Market Maker (AMM) decentralized exchange at the core of the MultiversX ecosystem. As the leading AMM on the network, xExchange stands as the most trusted and widely used decentralized exchange, delivering an unmatched trading experiences.
 :::
 
 ## Token Swaps
 
-Users can trade or swap an amount of tokens for an automated computed amount from the second token. The Automated Market Making concept relies on a mathematical formula to price assets. Instead of using an order book like a traditional exchange, assets are priced according to a pricing algorithm.
+Users can trade or swap an amount of token 1 for an automated computed amount from the token 2. The Automated Market Making concept relies on a mathematical formula to price assets. Instead of using an order book like a traditional exchange, assets are priced according to a pricing algorithm.
 
-xExchange uses the Uniswap-like constant product formula x \* y = k, where x is the amount of one token in the liquidity pool, and y is the amount of the other. In this formula, k is a fixed constant, meaning the pool’s total liquidity always has to remain the same.
+xExchange uses the Uniswap-like constant product formula x \* y = k, where x is the amount of token 1 in the liquidity pool, and y is the amount of token 2. In this formula, k is a fixed constant, meaning the pool’s total liquidity must always remain the same.
 
 :::tip
 Swapping tokens incurs a **0.3%** fee.
