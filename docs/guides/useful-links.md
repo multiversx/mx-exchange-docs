@@ -19,7 +19,7 @@ Wallets:
 
 xExchange Agora:
 
-- [https://agora.xexchange.com] (https://agora.xexchange.com)
+- [https://agora.xexchange.com](https://agora.xexchange.com)
 
 Tutorials:
 
