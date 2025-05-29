@@ -17,12 +17,12 @@ Here you can see a breakdown of your portfolio, the different kinds of assets yo
 
 The Unclaimed Rewards section displays the following:
 
-🔹 claimable Base Rewards (Farms, Dual Farms, Staking) - these are updated in real time, as they accrue
+🔹 claimable Base Rewards (Farms, Dual Farms, Staking) - these are updated in real time, as they accrue\
 🔹 claimable Energy Rewards (Fees, Farms, Dual farms, Staking) - updated once a week, when they become claimable (Wednesday/Friday), depending on their type
 
 Right under Unclaimed Rewards, you will find 2 smaller sections, displaying accumulating Energy Rewards:
 
-🔹 Staking + Dual Farm Rewards - claimable once per week, new batch each Wednesday
+🔹 Staking + Dual Farm Rewards - claimable once per week, new batch each Wednesday\
 🔹 Farm + Fees Rewards - claimable once per week, new batch each Friday
 
 If you click on the $ value (that with a dotted line underneath), it should display a detailed overview of your accrued rewards. This is currently updated each 30s.

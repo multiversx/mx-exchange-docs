@@ -31,7 +31,7 @@ title: How to close liquidity/staking positions
 8. In the case of Farm positions you will receive an LP position. For the other types of positions you will receive the initial\* tokens
 9. Click on “Withdraw”
 10. You will be asked to confirm 1 transaction, as per your login method -> confirm
-11. The transaction will be sent and your new balances will be automatically updated, pending the transactions’ execution
+11. The transaction will be sent and your new balances will be automatically updated, pending the transaction's execution
 
 :::tip
 Liquidity positions are subject to Impermanent Loss\

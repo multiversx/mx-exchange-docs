@@ -29,7 +29,7 @@ title: How to upgrade liquidity positions
 7. Select the position type that you want to upgrade and the amount of tokens\*
 8. Click on “Upgrade”
 9. You will be asked to confirm 1 transaction, as per your login method -> confirm
-10. The transaction will be sent and your new balances will be automatically updated, pending the transactions’ execution
+10. The transaction will be sent and your new balances will be automatically updated, pending the transaction's execution
 
 :::tip
 Some pools won't have a Farm or Dual Farm rewards tier

@@ -22,4 +22,4 @@ With Staking, you can earn yield on popular tokens. As this feature evolves, mor
 - **No Impermanent Loss:** Since you’re staking only one token, you avoid the risk of impermanent loss associated with asset pairs in AMMs.
 - **Effortless Staking:** Forget about juggling positions or moving tokens. Staking offers a hassle-free experience for earning rewards.
 - **Daily Rewards:** Earn rewards daily based on the APR, which you can claim or reinvest anytime you want.
-- **Boosted APR from Energy:** Boost your rewards locking your MEX to xMEX to gain [Energy](/xmex-and-energy/what-is-energy).
+- **Boosted APR from Energy:** Boost your rewards by locking your MEX to xMEX to gain [Energy](/xmex-and-energy/what-is-energy).
