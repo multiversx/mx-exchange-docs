@@ -62,7 +62,7 @@ Liquidity providers can participate in farms by staking the LP tokens they recei
 
 ## How to Use Farms?
 
-You can deposit LP tokens in Farms to earn rewards by pressing the Add - Create Position button. For every token swap pair, a corresponding Farm is created. You can only stake TKN1/TKN2 LPT in the TKN1/TKN2 farm, for example. Farms yield xMEX rewards.
+You can deposit LP tokens in Farms to earn rewards by pressing the Add - Create Position button. For specific token swap pairs, a corresponding Farm is created, with the decisions in this regard being currently taken by the xExchange team. You can only stake TKN1/TKN2 LPT in the TKN1/TKN2 farm, for example. Farms yield xMEX rewards.
 
 [comment]: # "mx-context-auto"
 

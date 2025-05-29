@@ -34,7 +34,7 @@ title: How to close liquidity/staking positions
 11. The transaction will be sent and your new balances will be automatically updated, pending the transactions’ execution
 
 :::tip
-Liquidity positions are subject to Impermanent Loss
-Farm positions may have a penalty for withdrawing
+Liquidity positions are subject to Impermanent Loss\
+Farm positions may have a penalty for withdrawing\
 Staking/Dual Farm positions have a 9-10 days unbonding period
 :::

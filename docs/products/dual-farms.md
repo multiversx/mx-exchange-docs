@@ -9,13 +9,13 @@ title: Dual Farms
 
 <img src="/docs/features/dual-farms-header_1x.webp" alt="xExchange Dual Farms" />
 
-Dual Farms offer a way for liquidity providers to earn from three revenue streams simultaneously (apart from the rewards earned for having energy). Users can earn from trading fees, staking their LP tokens into eligible farms, and from staking the Farm position for additional rewards in the respective’s farm token, i.e. $RIDE.
+Dual Farms offer a way for liquidity providers to earn from three revenue streams simultaneously (apart from the rewards earned for having energy). Users can earn from trading fees, staking their LP tokens into eligible farms, and from staking the Farm position for additional rewards in the respective’s farm token, i.e. $HTM.
 
 When staking a Farm token in Dual Farms, users will earn additional rewards on the eligible part of their provided liquidity.
 
-An example to this would be a LP token consisting of 1000 RIDE and 1 EGLD. When adding this Farm token to a Dual Farm, you would earn additional rewards on the RIDE part of your LP position.
+An example to this would be a LP token consisting of 1000 HTM and 1 EGLD. When adding this Farm token to a Dual Farm, you would earn additional rewards on the HTM part of your LP position.
 
 ## Withdrawing from Dual Farms:
 
-- Withdrawing from Dual Farms returns wrapped EGLD to your wallet immediately. The other half of the liquidity (i.e. $RIDE) can be claimed after 10 days of unbonding time.
+- Withdrawing from Dual Farms returns wrapped EGLD to your wallet immediately. The other half of the liquidity (i.e. $HTM) can be claimed after 10 days of unbonding time.
 - When unstaking tokens that weren’t in a LP position, they will also become claimable after a 10 epochs unbonding period.
