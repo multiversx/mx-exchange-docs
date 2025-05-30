@@ -55,7 +55,7 @@ Alternatively, you might put up the suggestion or lay out the issue and let othe
 
 ## 2. Draft your xEIP and refine it to its best version
 
-The "xEIP discussions" category on Agora (https://agora.xexchange.com/) is the perfect place to write down a draft of your proposal, discuss it with the community, collect feedback, evaluate pros and cons, improve the proposal and iterate again and again. The xEIP discussion is the natural step before possibly publishing an xEIP on-chain and having it voted through governance.
+The "xEIP discussions" category on Agora (https://agora.xexchange.com) is the perfect place to write down a draft of your proposal, discuss it with the community, collect feedback, evaluate pros and cons, improve the proposal and iterate again and again. The xEIP discussion is the natural step before possibly publishing an xEIP on-chain and having it voted through governance.
 
 The essential components for crafting a proposal are outlined and described in the following section. Make sure you've thought through your plan and the likely questions the community will have. You won't be able to edit your proposal once it has been published on the blockchain.
 

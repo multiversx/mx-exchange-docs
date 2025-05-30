@@ -103,9 +103,9 @@ const homepage = {
         icon: faTelegram,
       },
       {
-        title: "Agora Forum",
+        title: "Agora",
         text: "Join discussions, share ideas, and participate in our community forum.",
-        link: "https://stackoverflow.com/questions/tagged/multiversx",
+        link: "https://agora.xexchange.com",
         icon: faLandmark,
       },
     ],
