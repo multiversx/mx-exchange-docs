@@ -26,7 +26,7 @@ const homepage = {
       },
       {
         title: "Governance",
-        text: "Vote on the future of xExchange.",
+        text: "Vote on the future of xExchange",
         link: "/governance/governance-overview",
         icon: faBook,
       },
@@ -37,12 +37,12 @@ const homepage = {
     cards: [
       {
         title: "Trade",
-        text: "Trade or swap hundreds of tokens.",
+        text: "Trade or swap hundreds of tokens",
         link: "/products/trade",
       },
       {
         title: "Earn",
-        text: "Add liquidity, earn fees and rewards.",
+        text: "Add liquidity, earn fees and rewards",
         link: "/products/liquidity",
       },
       {
@@ -52,12 +52,12 @@ const homepage = {
       },
       {
         title: "Stake",
-        text: "Stake your tokens and earn rewards.",
+        text: "Stake your tokens and earn rewards",
         link: "/products/staking",
       },
       {
         title: "Boost your Rewards",
-        text: "Get a higher APR on your positions.",
+        text: "Get a higher APR on your positions",
         link: "/xmex-and-energy/what-is-energy",
       },
       // {
@@ -67,12 +67,12 @@ const homepage = {
       // },
       {
         title: "Governance",
-        text: "Vote on the future of xExchange.",
+        text: "Vote on the future of xExchange",
         link: "/governance/governance-overview",
       },
       {
         title: "For Developers",
-        text: "Start building on xExchange.",
+        text: "Start building on xExchange",
         link: "/developers/useful-links",
       },
     ],
@@ -88,23 +88,23 @@ const homepage = {
   community: {
     title: "Engage the community",
     subtitle:
-      "Join our vibrant community and participate in live discussions shaping the future of xExchange.",
+      "Join our vibrant community and participate in live discussions shaping the future of xExchange",
     cards: [
       {
         title: "Follow @xExchangeApp",
-        text: "Stay updated on xExchange and connect with our growing community.",
+        text: "Stay updated on xExchange and connect with our growing community",
         link: "https://twitter.com/xExchangeApp",
         icon: faXTwitter,
       },
       {
         title: "Telegram",
-        text: "Discuss trading, share insights, and get real-time support from fellow users.",
+        text: "Discuss trading, share insights, and get real-time support from fellow users",
         link: "https://t.me/xExchangeApp",
         icon: faTelegram,
       },
       {
         title: "Agora",
-        text: "Join discussions, share ideas, and participate in our community forum.",
+        text: "Join discussions, share ideas, and participate in our community forum",
         link: "https://agora.xexchange.com",
         icon: faLandmark,
       },
