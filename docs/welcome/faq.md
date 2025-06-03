@@ -141,7 +141,7 @@ Normal (base) Farm, Dual Farm and Staking rewards can be accrued as often as you
 
 ## Can I earn multiple rewards at the same time?
 
-Absolutely! You can, for example, create an LP token with EGLD and MEX/xMEX of any other token, then put that LP token into the EGLD/MEX farm and earn liquidity APR there, while at the same time, earn xMEX emission rewards and fees rewards.
+Absolutely! You can, for example, create an LP token with EGLD and MEX or any other token, then put that LP token into the EGLD/MEX farm and earn liquidity APR there, while at the same time, earn xMEX emission rewards and fees rewards.
 
 [comment]: # "mx-context-auto"
 

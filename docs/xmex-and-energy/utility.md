@@ -25,10 +25,6 @@ Similarly to how Farms work, boosted rewards from Dual Farms are paid only to En
 
 5% of the xMEX emissions will go to Energy holders. There is no need to stake your xMEX. Just holding it in the wallet is enough to earn rewards.
 
-## ⚡️ xLaunchpad Tickets
-
-There are two different tier systems. One is based on staked EGLD, while the other is based on xExchange Energy.
-
 ## ⚡️ Governance Power
 
 You are able to vote on xExchange governance proposals, based on your Energy.

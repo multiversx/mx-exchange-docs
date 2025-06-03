@@ -34,7 +34,6 @@ Simply put, more Energy means more rewards & benefits:
 - higher APR for farms
 - higher APR for staking
 - bigger portion of xExchange fees (a share of 5% of xMEX emissions, 0.05% of swap fees, Energy removal fees)
-- xLaunchpad tickets
 - Governance power
 - other perks
 

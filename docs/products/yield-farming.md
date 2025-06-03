@@ -13,7 +13,7 @@ title: Yield Farming
 Farms generate yield for liquidity providers that stake the LP tokens. They are meant to incentivize long-term liquidity providing by offering an additional revenue stream for providers.
 :::
 
-The rewards for farms are usually provided in [xMEX](/xmex-and-energy/xmex) tokens, but special farms with dual token rewards called [Dual Farms](/products/dual-farms) also exist.
+The rewards for farms are provided in [xMEX](/xmex-and-energy/xmex) tokens, but special farms with dual token rewards called [Dual Farms](/products/dual-farms) also exist.
 
 Liquidity providers can use the Farms by staking their LP tokens received by providing liquidity in a dedicated pool. After doing this, xMEX rewards will periodically become available for claiming.
 

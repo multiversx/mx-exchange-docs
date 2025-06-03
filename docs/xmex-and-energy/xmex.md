@@ -19,7 +19,7 @@ All xExchange [farm](/products/yield-farming.md) rewards and fees are distribute
 
 ## Timelock
 
-xMEX can be locked from any period ranging between 0 and 4 years, measured in days - more accurately, epochs: 24 hour intervals that begin and end around ~17:00 UTC each day.
+xMEX can be locked from any period ranging between 1 and 4 years, measured in days - more accurately, epochs: 24 hour intervals that begin and end around ~17:00 UTC each day.
 
 xMEX can be unlocked either by waiting for the entire respective period, or at any time but with a penalty ranging from 0 to 80%.
 
