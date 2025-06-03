@@ -33,7 +33,7 @@ const homepage = {
     ],
   },
   features: {
-    title: "Do more with xEchange",
+    title: "Do more with xExchange",
     cards: [
       {
         title: "Trade",
