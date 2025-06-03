@@ -20,7 +20,7 @@ export const SectionCard = ({
         className
       )}
     >
-      <div className="grow shrink basis-0 self-stretch rounded-2xl flex-col justify-end items-start inline-flex gap-2">
+      <div className="grow shrink basis-0 self-stretch rounded-2xl flex-col justify-start items-start inline-flex gap-2">
         <div className="self-stretch flex-col justify-start items-start gap-10 flex">
           {icon && (
             <div className="justify-center items-center inline-flex">
