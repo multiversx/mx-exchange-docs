@@ -494,13 +494,14 @@ html[data-theme="dark"] .DocSearch {
 }
 
 .navbar .DocSearch-Button {
-  display: flex;
+  display: none;
+  /* display: flex;
   width: 200px;
   padding: 0.375rem 0.375rem 0.375rem 0.5rem;
   align-items: center;
   gap: 0.625rem;
   border-radius: 0.375rem;
-  height: 2rem;
+  height: 2rem; */
 }
 @media only screen and (max-width: 768px) {
   .navbar .DocSearch-Button {
