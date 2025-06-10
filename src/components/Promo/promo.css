@@ -1,0 +1,12 @@
+.promo {
+  background: #00272c;
+}
+.promo video {
+  mix-blend-mode: lighten;
+}
+[data-theme="dark"] .promo {
+  /* background: url("/videos/sov-animation-loop-header-poster-00001.jpg"); */
+}
+[data-theme="dark"] .promo video {
+  mix-blend-mode: unset;
+}

@@ -1,6 +1,8 @@
 ---
 sidebar_position: 1
 id: useful-links
+sidebar_label: Useful Links
+title: Useful Links
 ---
 
 [comment]: # (mx-exclude-context)

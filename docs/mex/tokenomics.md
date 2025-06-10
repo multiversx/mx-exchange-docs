@@ -1,0 +1,35 @@
+---
+sidebar_position: 2
+id: mex-tokenomics
+sidebar_label: MEX Tokenomics
+title: MEX Tokenomics
+---
+
+[comment]: # "mx-context-auto"
+
+A locked form of MEX, namely xMEX, is used to incentivize liquidity provision. All xMEX rewards are locked for four years by default. xMEX is un-tradeable and un-sendable. However, a user may shorten the locking period or redeem xMEX for MEX at any time, although with a penalty.
+
+<div style={{ textAlign: 'center' }}>
+    <img src="/docs/tokenomics/tokenomics-chart.png" width="700" alt="Tokenomics Chart" />
+</div>
+
+To fully remove the locking period from 4 years to 0, the penalty is 80%. As the xMEX approach their unlock date, the penalty will become lower and lower.
+
+Following the successful Governance proposal #01, 100% of that penalty will be re-distributed to xMEX holders.
+
+Since xMEX is used for all kinds of rewards, namely farming rewards, boosted rewards and passive rewards for users with energy, there needs to be some inflation to enable the distribution of the tokens. These are the inflation metrics for xMEX:
+
+<div style={{ textAlign: 'center' }}>
+    <img src="/docs/tokenomics/tokenomics-table.png" width="600" alt="Tokenomics Table" />
+</div>
+
+The first year’s emissions followed the old tokenomics (LKMEX). The transition to xExchange and xMEX occurred simultaneously with the start of the second year of emissions.
+
+To battle the inflation, there are various burning measures in place, namely:
+
+- 0.05% of the entire trading volume on xExchange is used to buy back MEX and burn it
+- 0.05% of the entire trading volume on xExchange is distributed to users with energy
+- 100% of the energy removal fee is used to distribute extra rewards to users with energy
+- 100% of the 3% fee, when withdrawing from a farm before the withdrawal timer runs out, is used to buy back MEX and burn it
+
+For all the Tokenomics details, we advise you to read the [xExchange Whitepaper](https://xexchange.com/x-exchange-economics.pdf).
