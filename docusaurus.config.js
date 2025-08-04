@@ -227,7 +227,12 @@ const config = {
     [
       "@docusaurus/plugin-client-redirects",
       {
-        redirects: [],
+        redirects: [
+          {
+            to: "/guides/ui-walkthrough",
+            from: "/how-to-guides",
+          },
+        ],
         createRedirects(existingPath) {
           if (existingPath.includes("/erdjs")) {
             return [
@@ -258,6 +263,7 @@ const config = {
               ),
             ];
           }
+
           return undefined; // Return a falsy value: no redirect created
         },
       },
